@@ -1,0 +1,1343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <!-- bootstrap css  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- slick css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="container-fluid flex-col p-0 p-lg-auto">
+                <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <a class="navbar-brand logo m-auto mx-lg-none me-lg-3" href="#"
+                  ><img
+                    class="img-fluid"
+                    src="assets/images/logo.png"
+                    alt="logo"
+                /></a>
+  
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul
+                    class="navbar-nav me-auto mb-2 mb-lg-0 align-items-lg-center"
+                  >
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="#"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="about.html"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        About Us
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li>
+                          <a class="dropdown-item" href="team.html">Team</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="ambassadors.html"
+                            >Ambassadors</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="partners.html"
+                            >Partners</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="membership.html"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Membership
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="individual-membership.html"
+                            >Individual</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="non-profit-membership.html"
+                            >Not for Profit Organization</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="corporate-membership.html"
+                            >Corporate</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="news.html"
+                        >Event/News</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="quiz.html"
+                        >Quiz</a
+                      >
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="resources.html"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Resources
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li>
+                          <a
+                            class="dropdown-item active"
+                            href="board-room-glossary.html"
+                            >Board Room Glossary</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="leadership-development.html"
+                            >Leadership Development</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="professional-advisors.html"
+                            >Professional Advisors</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="webinars.html"
+                            >Webinars</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="job-board.html"
+                            >Job Board</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="faqs.html"
+                        >FAQ's</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        aria-current="page"
+                        href="contact.html"
+                        >Contact Us</a
+                      >
+                    </li>
+                  </ul>
+                  <div class="switch-button d-none d-lg-flex">
+                    <span class="active-btn-background"></span>
+                    <a
+                      class="switch-button-case left active-case"
+                      >SignUp</a
+                    >
+                    <a class="switch-button-case right"
+                      >SIGNIN</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- hero section  -->
+    <section class="hero py-5">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="d-none d-lg-flex col-lg-1 d-flex align-items-center justify-content-end">
+            <div class="rotated-text">Designation.One</div>
+          </div>
+          <div class="col-lg-5 col-md-6">
+            <div class="hero-content pt-5">
+              <div class="hero-heading">
+                New platform steering diverse talent to inclusive boards
+              </div>
+              <p>
+                and for organisations embracing more diverse & inclusive board
+                practices.
+              </p>
+              <div class="switch-button d-flex d-lg-none">
+                <span class="active-btn-background"></span>
+                <a class="switch-button-case left active-case">SignUp</a>
+                <a class="switch-button-case right" >SIGNIN</a>
+              </div>
+              <div class="d-none d-lg-block button-style my-5">
+                <a href="signUp.html" class="btn btn-sm"> SIGN IN </a>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <img class="img-fluid d-block d-md-none mx-auto" src="assets/images/hero-section-image.png" />
+          </div>
+          <div class="d-none d-lg-flex col-lg-2 d-flex align-items-center justify-content-end">
+            <div class="d-flex flex-column social-icons-div">
+              <a class="add-background" href="#"
+                ><svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="70"
+                  height="69.999"
+                  viewBox="0 0 70 69.999"
+                >
+                  <defs>
+                    <filter
+                      id="Subtraction_10"
+                      x="0"
+                      y="0"
+                      width="70"
+                      height="69.999"
+                      filterUnits="userSpaceOnUse"
+                    >
+                      <feOffset dy="5" input="SourceAlpha" />
+                      <feGaussianBlur stdDeviation="5" result="blur" />
+                      <feFlood flood-opacity="0.161" />
+                      <feComposite operator="in" in2="blur" />
+                      <feComposite in="SourceGraphic" />
+                    </filter>
+                  </defs>
+                  <g
+                    id="Component_16_2"
+                    data-name="Component 16 – 2"
+                    transform="translate(14.998 10)"
+                  >
+                    <circle
+                      id="Ellipse_14288"
+                      data-name="Ellipse 14288"
+                      cx="20"
+                      cy="20"
+                      r="20"
+                      fill="#fff"
+                    />
+                    <g
+                      id="Component_83_1"
+                      data-name="Component 83 – 1"
+                      transform="translate(0.002)"
+                    >
+                      <g
+                        transform="matrix(1, 0, 0, 1, -15, -10)"
+                        filter="url(#Subtraction_10)"
+                      >
+                        <path
+                          id="Subtraction_10-2"
+                          data-name="Subtraction 10"
+                          d="M21379,10745a20,20,0,1,1,14.141-5.856A19.874,19.874,0,0,1,21379,10745Zm3.266-20.032c1.906,0,1.906,1.807,1.906,3.126v5.741h3.652l0-6.477c0-2.915-.531-5.612-4.387-5.612a3.872,3.872,0,0,0-3.465,1.9h-.053v-1.606h-3.512v11.794h3.656v-5.843C21380.07,10726.5,21380.332,10724.967,21382.268,10724.967Zm-11.811-2.927h0v11.794h3.662v-11.794Zm1.832-5.869a2.129,2.129,0,1,0,2.121,2.121A2.123,2.123,0,0,0,21372.289,10716.171Z"
+                          transform="translate(-21344 -10695)"
+                          fill="#004d9f"
+                        />
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+              <a class="move-add-background" href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="69.996"
+                  height="69.996"
+                  viewBox="0 0 69.996 69.996"
+                >
+                  <defs>
+                    <filter
+                      id="Subtraction_9"
+                      x="0"
+                      y="0"
+                      width="69.996"
+                      height="69.996"
+                      filterUnits="userSpaceOnUse"
+                    >
+                      <feOffset dy="5" input="SourceAlpha" />
+                      <feGaussianBlur stdDeviation="5" result="blur" />
+                      <feFlood flood-opacity="0.161" />
+                      <feComposite operator="in" in2="blur" />
+                      <feComposite in="SourceGraphic" />
+                    </filter>
+                  </defs>
+                  <g
+                    id="Component_15_2"
+                    data-name="Component 15 – 2"
+                    transform="translate(14.998 9.999)"
+                  >
+                    <circle
+                      id="Ellipse_14286"
+                      data-name="Ellipse 14286"
+                      cx="19.998"
+                      cy="19.998"
+                      r="19.998"
+                      fill="#fff"
+                    />
+                    <g
+                      transform="matrix(1, 0, 0, 1, -15, -10)"
+                      filter="url(#Subtraction_9)"
+                    >
+                      <path
+                        id="Subtraction_9-2"
+                        data-name="Subtraction 9"
+                        d="M20,40A20,20,0,0,1,5.859,5.857a20,20,0,0,1,28.28,28.284A19.866,19.866,0,0,1,20,40ZM20,8.412a11.612,11.612,0,0,0-9.939,5.722,11.281,11.281,0,0,0,0,11.735A11.577,11.577,0,0,0,31.585,20a11.076,11.076,0,0,0-.205-2.16.665.665,0,0,0-.659-.554H20a.67.67,0,0,0-.679.679v4.075a.668.668,0,0,0,.679.674h5.47a6.1,6.1,0,0,1-9.136,2.166,6.083,6.083,0,0,1,0-9.762,6.091,6.091,0,0,1,7.328-.005.684.684,0,0,0,.405.132.62.62,0,0,0,.238-.042h.007a.025.025,0,0,1,.011-.007l.007,0a.571.571,0,0,0,.214-.149l2.9-2.888a.68.68,0,0,0,.191-.471v-.035a.721.721,0,0,0-.245-.5A11.521,11.521,0,0,0,20,8.412Z"
+                        transform="translate(15 10)"
+                        fill="#004d9f"
+                      />
+                    </g>
+                  </g>
+                </svg>
+              </a>
+              <a class="add-background" href="#">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlns:xlink="http://www.w3.org/1999/xlink"
+                  width="70"
+                  height="70"
+                  viewBox="0 0 70 70"
+                >
+                  <defs>
+                    <filter
+                      id="Subtraction_8"
+                      x="0"
+                      y="0"
+                      width="70"
+                      height="70"
+                      filterUnits="userSpaceOnUse"
+                    >
+                      <feOffset dy="5" input="SourceAlpha" />
+                      <feGaussianBlur stdDeviation="5" result="blur" />
+                      <feFlood flood-opacity="0.161" />
+                      <feComposite operator="in" in2="blur" />
+                      <feComposite in="SourceGraphic" />
+                    </filter>
+                  </defs>
+                  <g
+                    id="Component_14_1"
+                    data-name="Component 14 – 1"
+                    transform="translate(15 10)"
+                  >
+                    <circle
+                      id="Ellipse_59"
+                      data-name="Ellipse 59"
+                      cx="17"
+                      cy="17"
+                      r="17"
+                      transform="translate(3 3)"
+                      fill="#fff"
+                    />
+                    <g id="Component_65_1" data-name="Component 65 – 1">
+                      <g
+                        transform="matrix(1, 0, 0, 1, -15, -10)"
+                        filter="url(#Subtraction_8)"
+                      >
+                        <path
+                          id="Subtraction_8-2"
+                          data-name="Subtraction 8"
+                          d="M20,40A20,20,0,0,1,5.858,5.858,20,20,0,0,1,34.142,34.142,19.868,19.868,0,0,1,20,40ZM17.053,19.438V31.251H22.46V19.438h3.569L26.5,15.29h-4.04V12.847a1.06,1.06,0,0,1,1.146-1.132h2.906V7.685L22.508,7.67a5.359,5.359,0,0,0-4.395,1.744A5.1,5.1,0,0,0,17.053,12.6v2.687H14.481v4.152Z"
+                          transform="translate(15 10)"
+                          fill="#004d9f"
+                        />
+                      </g>
+                    </g>
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+       <!-- about us section  -->
+       <section class="about">
+        <div class="container">
+          <div class="row align-items-center flex-column-reverse flex-lg-row">
+            <div class="col-lg-6">
+              <img class="img-fluid" src="assets/images/about-us-img.png" />
+            </div>
+            <div class="col-lg-6">
+              <div class="p-md-5 mt-4">
+                <div class="heading">
+                  <h2 data-text="ABOUT US">ABOUT US</h2>
+                </div>
+                <hr class="heading-line" />
+                <p class="addReadMore showlesscontent">
+                  After working closely with the philanthropic and non-profit
+                  sectors, we observed, that organisations continue to be set up
+                  from homogenous groups, particularly at the board level. We
+                  believe there is an opportunity to support organisations in
+                  having a more diverse board and inclusive practices. To achieve
+                  our desire for boardrooms to reflect the full diversity of our
+                  society, we have created a platform that assists in the
+                  recruitment and advancement of underrepresented talent on
+                  boards. In addition, the platform serves as a portal to share
+                  inclusive practices and provides guidance on how to achieve
+                  these. Our mission is driven by the belief of a future where
+                  leadership levels reflect our society; to allow talent to
+                  advance and provide opportunities to make positive contributions
+                  and prepare them for service on for-profit boards. We <br />
+                  <span class="blue-text">
+                    hope you will join us in this effort!
+                  </span>
+                </p>
+                <div class="button-style">
+                  <a href="#" class="btn">JOIN NOW</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- team section  -->
+      <section class="team">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="heading">
+                <h2 data-text="Meet Our Team">Meet Our Team</h2>
+              </div>
+              <hr class="heading-line" />
+            </div>
+          </div>
+          <div class="row py-sm-5 py-2">
+            <div class="col-12">
+              <div class="card-slider">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="eye-icon">
+                      <img src="assets/images/eye-image.png" alt="eye icon">
+                    </div>
+                      <div class="image">
+                        <img
+                          src="assets/images/team-1.png"
+                          alt="News 1"
+                        />
+                      </div>
+                    <div class="card-body">
+                      <p class="title">Melanie Whittaker</p>
+                      <p class="subtitle">(Co-Founder)</p>
+                    </div>
+
+                  </div>
+                  <div class="card-hover-content d-none">
+                    <div class="cancel-btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" > 
+                        <g id="cancel" transform="translate(0 -0.001)">
+                          <g id="Group_2081" data-name="Group 2081" transform="translate(0 0.001)">
+                            <path id="Path_15956" data-name="Path 15956" d="M8.884,8l6.933-6.933a.625.625,0,1,0-.884-.884L8,7.117,1.067.184a.625.625,0,0,0-.884.884L7.116,8,.183,14.934a.625.625,0,0,0,.884.884L8,8.885l6.933,6.933a.625.625,0,0,0,.884-.884Z" transform="translate(0 -0.001)" fill="#fff"/>
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                  <div class="title">Melanie Whittaker</div>
+                  <div class="subtitle">(Co-Founder)</div>
+                  <hr>
+                  <div class="description">
+                    Melanie is a senior leader with extensive experience in the private and public sector with a specialization in non-governmental organisations. Her international experience spans both the US and Europe. She has a proven record of introducing, directing, and improving major gift initiatives, individual donor cultivation; foundation and
+                  </div>
+                  <div class="link">
+                    <a href="team.html" class="btn">Load More  <svg xmlns="http://www.w3.org/2000/svg" width="8.112" height="8.111" viewBox="0 0 8.112 8.111">
+                      <g id="fast-forward-double-right-arrows-symbol" transform="translate(0.001 -0.035)">
+                        <g id="_x35__11_" transform="translate(-0.001 0.035)">
+                          <g id="Group_2068" data-name="Group 2068" transform="translate(0 0)">
+                            <path id="Path_15953" data-name="Path 15953" d="M7.911,3.609,4.537.234a.682.682,0,0,0-.964.964L6.465,4.09,3.573,6.982a.682.682,0,0,0,.964.964L7.911,4.572A.681.681,0,0,0,7.911,3.609ZM3.854,3.4,1.175.581A.665.665,0,0,0,.2.581a.754.754,0,0,0,0,1.027l2.192,2.31L.2,6.228a.754.754,0,0,0,0,1.027.665.665,0,0,0,.974,0L3.854,4.431A.754.754,0,0,0,3.854,3.4Z" transform="translate(0.001 -0.035)" fill="#ffffff"/>
+                          </g>
+                        </g>
+                      </g>
+                    </svg></a>
+                  </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-content">
+                    <div class="eye-icon">
+                      <img src="assets/images/eye-image.png" alt="eye icon">
+                    </div>
+                      <div class="image">
+                        <img
+                          src="assets/images/team-2.png"
+                          alt="News 1"
+                        />
+                      </div>
+                    <div class="card-body">
+                      <p class="title">Gudula Goscomb</p>
+                      <p class="subtitle">(Operations Director)</p>
+                    </div>
+
+                  </div>
+                  <div class="card-hover-content d-none">
+                    <div class="cancel-btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" > 
+                        <g id="cancel" transform="translate(0 -0.001)">
+                          <g id="Group_2081" data-name="Group 2081" transform="translate(0 0.001)">
+                            <path id="Path_15956" data-name="Path 15956" d="M8.884,8l6.933-6.933a.625.625,0,1,0-.884-.884L8,7.117,1.067.184a.625.625,0,0,0-.884.884L7.116,8,.183,14.934a.625.625,0,0,0,.884.884L8,8.885l6.933,6.933a.625.625,0,0,0,.884-.884Z" transform="translate(0 -0.001)" fill="#fff"/>
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                  <div class="title">Gudula Goscomb</div>
+                  <div class="subtitle">(Operations Director)</div>
+                  <hr>
+                  <div class="description">
+                    Gudula is an experienced Director of Operations and Finance with a demonstrated history of working in the legal, publishing, consulting and recruiting industry. She has been an integral member of senior management teams and is highly skilled in business operations, contract negotiation, change management, project
+                  </div>
+                  <div class="link">
+                    <a href="team.html" class="btn">Load More  <svg xmlns="http://www.w3.org/2000/svg" width="8.112" height="8.111" viewBox="0 0 8.112 8.111">
+                      <g id="fast-forward-double-right-arrows-symbol" transform="translate(0.001 -0.035)">
+                        <g id="_x35__11_" transform="translate(-0.001 0.035)">
+                          <g id="Group_2068" data-name="Group 2068" transform="translate(0 0)">
+                            <path id="Path_15953" data-name="Path 15953" d="M7.911,3.609,4.537.234a.682.682,0,0,0-.964.964L6.465,4.09,3.573,6.982a.682.682,0,0,0,.964.964L7.911,4.572A.681.681,0,0,0,7.911,3.609ZM3.854,3.4,1.175.581A.665.665,0,0,0,.2.581a.754.754,0,0,0,0,1.027l2.192,2.31L.2,6.228a.754.754,0,0,0,0,1.027.665.665,0,0,0,.974,0L3.854,4.431A.754.754,0,0,0,3.854,3.4Z" transform="translate(0.001 -0.035)" fill="#ffffff"/>
+                          </g>
+                        </g>
+                      </g>
+                    </svg></a>
+                  </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-content">
+                    <div class="eye-icon">
+                      <img src="assets/images/eye-image.png" alt="eye icon">
+                    </div>
+                      <div class="image">
+                        <img
+                          src="assets/images/team-3.png"
+                          alt="News 1"
+                        />
+                      </div>
+                    <div class="card-body">
+                      <p class="title">Wade A. Hinton</p>
+                      <p class="subtitle">(Co-Founder)</p>
+                    </div>
+
+                  </div>
+                  <div class="card-hover-content d-none">
+                    <div class="cancel-btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" > 
+                        <g id="cancel" transform="translate(0 -0.001)">
+                          <g id="Group_2081" data-name="Group 2081" transform="translate(0 0.001)">
+                            <path id="Path_15956" data-name="Path 15956" d="M8.884,8l6.933-6.933a.625.625,0,1,0-.884-.884L8,7.117,1.067.184a.625.625,0,0,0-.884.884L7.116,8,.183,14.934a.625.625,0,0,0,.884.884L8,8.885l6.933,6.933a.625.625,0,0,0,.884-.884Z" transform="translate(0 -0.001)" fill="#fff"/>
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                  <div class="title">Wade A. Hinton</div>
+                  <div class="subtitle">(Co-Founder)</div>
+                  <hr>
+                  <div class="description">
+                    Wade A. Hinton is a senior leader with extensive experience in the private and public sector in law, policy, diversity & inclusion, and external relations. Highly skilled in risk management and governance procedures and policies and a proven track record managing complex litigation and transactions. Previous rolesinclude the office 
+                  </div>
+                  <div class="link">
+                    <a href="team.html" class="btn">Load More  <svg xmlns="http://www.w3.org/2000/svg" width="8.112" height="8.111" viewBox="0 0 8.112 8.111">
+                      <g id="fast-forward-double-right-arrows-symbol" transform="translate(0.001 -0.035)">
+                        <g id="_x35__11_" transform="translate(-0.001 0.035)">
+                          <g id="Group_2068" data-name="Group 2068" transform="translate(0 0)">
+                            <path id="Path_15953" data-name="Path 15953" d="M7.911,3.609,4.537.234a.682.682,0,0,0-.964.964L6.465,4.09,3.573,6.982a.682.682,0,0,0,.964.964L7.911,4.572A.681.681,0,0,0,7.911,3.609ZM3.854,3.4,1.175.581A.665.665,0,0,0,.2.581a.754.754,0,0,0,0,1.027l2.192,2.31L.2,6.228a.754.754,0,0,0,0,1.027.665.665,0,0,0,.974,0L3.854,4.431A.754.754,0,0,0,3.854,3.4Z" transform="translate(0.001 -0.035)" fill="#ffffff"/>
+                          </g>
+                        </g>
+                      </g>
+                    </svg></a>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- Ambassadors section  -->
+      <section class="ambassadors">
+        <div class="container">
+          <div class="row">
+            <div class="col-12">
+              <div class="heading">
+                <h2 data-text="Ambassadors">Ambassadors</h2>
+              </div>
+              <hr class="heading-line" />
+            </div>
+          </div>
+          <div class="row py-sm-5 py-1">
+            <div class="col-12">
+              <div class="card-slider">
+                <div class="card">
+                  <div class="card-content">
+                    <div class="eye-icon">
+                      <img src="assets/images/eye-image.png" alt="eye icon">
+                    </div>
+                      <div class="image">
+                        <img
+                          src="assets/images/ambassador-1.png"
+                          alt="News 1"
+                        />
+                      </div>
+                    <div class="card-body">
+                      <p class="title">Cordell Carter</p>
+                    </div>
+
+                  </div>
+                  <div class="card-hover-content d-none">
+                    <div class="cancel-btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" > 
+                        <g id="cancel" transform="translate(0 -0.001)">
+                          <g id="Group_2081" data-name="Group 2081" transform="translate(0 0.001)">
+                            <path id="Path_15956" data-name="Path 15956" d="M8.884,8l6.933-6.933a.625.625,0,1,0-.884-.884L8,7.117,1.067.184a.625.625,0,0,0-.884.884L7.116,8,.183,14.934a.625.625,0,0,0,.884.884L8,8.885l6.933,6.933a.625.625,0,0,0,.884-.884Z" transform="translate(0 -0.001)" fill="#fff"/>
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                  <div class="title">Cordell Carter</div>
+                  <div class="subtitle">Ambassador</div>
+                  <hr>
+                  <div class="description">
+                    Internationally recognized for cross-sector successes in philanthropy, education, and technology; Cordell is currently managing principal of Expectant Advisory, anequity-focused consulting collaborative, and the executive director of the Aspen Institute Socrates Program, a global education forum. Before 
+                  </div>
+                  <div class="link">
+                    <a href="ambassadors.html" class="btn">Load More  <svg xmlns="http://www.w3.org/2000/svg" width="8.112" height="8.111" viewBox="0 0 8.112 8.111">
+                      <g id="fast-forward-double-right-arrows-symbol" transform="translate(0.001 -0.035)">
+                        <g id="_x35__11_" transform="translate(-0.001 0.035)">
+                          <g id="Group_2068" data-name="Group 2068" transform="translate(0 0)">
+                            <path id="Path_15953" data-name="Path 15953" d="M7.911,3.609,4.537.234a.682.682,0,0,0-.964.964L6.465,4.09,3.573,6.982a.682.682,0,0,0,.964.964L7.911,4.572A.681.681,0,0,0,7.911,3.609ZM3.854,3.4,1.175.581A.665.665,0,0,0,.2.581a.754.754,0,0,0,0,1.027l2.192,2.31L.2,6.228a.754.754,0,0,0,0,1.027.665.665,0,0,0,.974,0L3.854,4.431A.754.754,0,0,0,3.854,3.4Z" transform="translate(0.001 -0.035)" fill="#ffffff"/>
+                          </g>
+                        </g>
+                      </g>
+                    </svg></a>
+                  </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-content">
+                    <div class="eye-icon">
+                      <img src="assets/images/eye-image.png" alt="eye icon">
+                    </div>
+                      <div class="image">
+                        <img
+                          src="assets/images/ambassador-2.png"
+                          alt="News 1"
+                        />
+                      </div>
+                    <div class="card-body">
+                      <p class="title">Emine Bozkurt</p>
+                    </div>
+
+                  </div>
+                  <div class="card-hover-content d-none">
+                    <div class="cancel-btn ">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" > 
+                        <g id="cancel" transform="translate(0 -0.001)">
+                          <g id="Group_2081" data-name="Group 2081" transform="translate(0 0.001)">
+                            <path id="Path_15956" data-name="Path 15956" d="M8.884,8l6.933-6.933a.625.625,0,1,0-.884-.884L8,7.117,1.067.184a.625.625,0,0,0-.884.884L7.116,8,.183,14.934a.625.625,0,0,0,.884.884L8,8.885l6.933,6.933a.625.625,0,0,0,.884-.884Z" transform="translate(0 -0.001)" fill="#fff"/>
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+
+                  <div class="title">Emine Bozkurt</div>
+                  <div class="subtitle">Ambassador</div>
+                  <hr>
+                  <div class="description">
+                    Ms. Bozkurt is the Chair of the EU High Level Group on Gender Equality in Sport. This highlevel group will make proposals for future actions to the Commission, the member states and the sport movement in the field of Gender Equality in sport. Topics related to girls and women’s participation in sport, 
+                  </div>
+                  <div class="link">
+                    <a href="ambassadors.html" class="btn">Load More  <svg xmlns="http://www.w3.org/2000/svg" width="8.112" height="8.111" viewBox="0 0 8.112 8.111">
+                      <g id="fast-forward-double-right-arrows-symbol" transform="translate(0.001 -0.035)">
+                        <g id="_x35__11_" transform="translate(-0.001 0.035)">
+                          <g id="Group_2068" data-name="Group 2068" transform="translate(0 0)">
+                            <path id="Path_15953" data-name="Path 15953" d="M7.911,3.609,4.537.234a.682.682,0,0,0-.964.964L6.465,4.09,3.573,6.982a.682.682,0,0,0,.964.964L7.911,4.572A.681.681,0,0,0,7.911,3.609ZM3.854,3.4,1.175.581A.665.665,0,0,0,.2.581a.754.754,0,0,0,0,1.027l2.192,2.31L.2,6.228a.754.754,0,0,0,0,1.027.665.665,0,0,0,.974,0L3.854,4.431A.754.754,0,0,0,3.854,3.4Z" transform="translate(0.001 -0.035)" fill="#ffffff"/>
+                          </g>
+                        </g>
+                      </g>
+                    </svg></a>
+                  </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-content">
+                    <div class="eye-icon">
+                      <img src="assets/images/eye-image.png" alt="eye icon">
+                    </div>
+                      <div class="image">
+                        <img
+                          src="assets/images/ambassador-3.png"
+                          alt="News 1"
+                        />
+                      </div>
+                    <div class="card-body">
+                      <p class="title">Hollis Meminger</p>
+                    </div>
+
+                  </div>
+                  <div class="card-hover-content d-none">
+                    <div class="cancel-btn">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" > 
+                        <g id="cancel" transform="translate(0 -0.001)">
+                          <g id="Group_2081" data-name="Group 2081" transform="translate(0 0.001)">
+                            <path id="Path_15956" data-name="Path 15956" d="M8.884,8l6.933-6.933a.625.625,0,1,0-.884-.884L8,7.117,1.067.184a.625.625,0,0,0-.884.884L7.116,8,.183,14.934a.625.625,0,0,0,.884.884L8,8.885l6.933,6.933a.625.625,0,0,0,.884-.884Z" transform="translate(0 -0.001)" fill="#fff"/>
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+                  <div class="title">Hollis Meminger</div>
+                  <div class="subtitle">Ambassador</div>
+                  <hr>
+                  <div class="description">
+                    Hollis Meminger is a renowned cinematographer with numerous film and television credits such as: The Blacklist (NBC), Narcos (Netflix) and Younger (TV Land), for which he was Emmy nominated. He is currently working on a sequel to the Academy Award Nominated
+                  </div>
+                  <div class="link">
+                    <a href="ambassadors.html" class="btn">Load More  <svg xmlns="http://www.w3.org/2000/svg" width="8.112" height="8.111" viewBox="0 0 8.112 8.111">
+                      <g id="fast-forward-double-right-arrows-symbol" transform="translate(0.001 -0.035)">
+                        <g id="_x35__11_" transform="translate(-0.001 0.035)">
+                          <g id="Group_2068" data-name="Group 2068" transform="translate(0 0)">
+                            <path id="Path_15953" data-name="Path 15953" d="M7.911,3.609,4.537.234a.682.682,0,0,0-.964.964L6.465,4.09,3.573,6.982a.682.682,0,0,0,.964.964L7.911,4.572A.681.681,0,0,0,7.911,3.609ZM3.854,3.4,1.175.581A.665.665,0,0,0,.2.581a.754.754,0,0,0,0,1.027l2.192,2.31L.2,6.228a.754.754,0,0,0,0,1.027.665.665,0,0,0,.974,0L3.854,4.431A.754.754,0,0,0,3.854,3.4Z" transform="translate(0.001 -0.035)" fill="#ffffff"/>
+                          </g>
+                        </g>
+                      </g>
+                    </svg></a>
+                  </div>
+                  </div>
+                </div>
+                <div class="card">
+                  <div class="card-content">
+                    <div class="eye-icon">
+                      <img src="assets/images/eye-image.png" alt="eye icon">
+                    </div>
+                      <div class="image">
+                        <img
+                          src="assets/images/ambassador-2.png"
+                          alt="News 1"
+                        />
+                      </div>
+                    <div class="card-body">
+                      <p class="title">Emine Bozkurt</p>
+                    </div>
+
+                  </div>
+                  <div class="card-hover-content d-none">
+                    <div class="cancel-btn ">
+                      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" > 
+                        <g id="cancel" transform="translate(0 -0.001)">
+                          <g id="Group_2081" data-name="Group 2081" transform="translate(0 0.001)">
+                            <path id="Path_15956" data-name="Path 15956" d="M8.884,8l6.933-6.933a.625.625,0,1,0-.884-.884L8,7.117,1.067.184a.625.625,0,0,0-.884.884L7.116,8,.183,14.934a.625.625,0,0,0,.884.884L8,8.885l6.933,6.933a.625.625,0,0,0,.884-.884Z" transform="translate(0 -0.001)" fill="#fff"/>
+                          </g>
+                        </g>
+                      </svg>
+                    </div>
+
+                  <div class="title">Emine Bozkurt</div>
+                  <div class="subtitle">Ambassador</div>
+                  <hr>
+                  <div class="description">
+                    Ms. Bozkurt is the Chair of the EU High Level Group on Gender Equality in Sport. This highlevel group will make proposals for future actions to the Commission, the member states and the sport movement in the field of Gender Equality in sport. Topics related to girls and women’s participation in sport, 
+                  </div>
+                  <div class="link">
+                    <a href="ambassadors.html" class="btn">Load More  <svg xmlns="http://www.w3.org/2000/svg" width="8.112" height="8.111" viewBox="0 0 8.112 8.111">
+                      <g id="fast-forward-double-right-arrows-symbol" transform="translate(0.001 -0.035)">
+                        <g id="_x35__11_" transform="translate(-0.001 0.035)">
+                          <g id="Group_2068" data-name="Group 2068" transform="translate(0 0)">
+                            <path id="Path_15953" data-name="Path 15953" d="M7.911,3.609,4.537.234a.682.682,0,0,0-.964.964L6.465,4.09,3.573,6.982a.682.682,0,0,0,.964.964L7.911,4.572A.681.681,0,0,0,7.911,3.609ZM3.854,3.4,1.175.581A.665.665,0,0,0,.2.581a.754.754,0,0,0,0,1.027l2.192,2.31L.2,6.228a.754.754,0,0,0,0,1.027.665.665,0,0,0,.974,0L3.854,4.431A.754.754,0,0,0,3.854,3.4Z" transform="translate(0.001 -0.035)" fill="#ffffff"/>
+                          </g>
+                        </g>
+                      </g>
+                    </svg></a>
+                  </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    <!-- partners section  -->
+    <section class="partners pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="heading">
+              <h2 data-text="Partners">Partners</h2>
+            </div>
+            <hr class="heading-line" />
+          </div>
+        </div>
+        <div class="row py-5 position-relative">
+          <div class="col-4 position-relative">
+            <div class="card bottom-left">
+              <div class="card-body">
+                <h5 class="card-title">Interested in partnering with us?</h5>
+                <p class="card-text">If you are interested in partnering with us, there are several opportunities to do so from using our dashboard to working with us directly to identify and training board talent to a financial partnership.</p>
+                <a href="#" class="card-link">VIEW MORE <svg xmlns="http://www.w3.org/2000/svg" width="15.79" height="13.158" viewBox="0 0 15.79 13.158">
+                  <g id="Group_15136" data-name="Group 15136" transform="translate(103.635 -2.842)">
+                    <path id="right-arrow_4_" data-name="right-arrow (4)" d="M17.664,12.182a.658.658,0,0,0-.907.953L21.8,17.922H8.658a.658.658,0,1,0,0,1.316H21.783l-5.026,4.787a.658.658,0,1,0,.907.953L23.4,19.51a1.315,1.315,0,0,0-.012-1.872Z" transform="translate(-111.635 -9.158)" fill="#004d9f"></path>
+                  </g>
+                </svg></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-4">
+            <div class="connector d-flex justify-content-center align-items-center">
+              <svg class="d-none d-lg-block" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="216.314" height="169.434" viewBox="0 0 216.314 169.434">
+                <defs>
+                  <linearGradient id="linear-gradient" x1="0.943" y1="-0.177" x2="-0.354" y2="1.805" gradientUnits="objectBoundingBox">
+                    <stop offset="0" stop-color="#004d9f"/>
+                    <stop offset="1" stop-color="#ea814c"/>
+                  </linearGradient>
+                </defs>
+                <g id="Group_162610" data-name="Group 162610" transform="translate(-845.957 -4208.489)">
+                  <path id="Rectangle_16_copy" data-name="Rectangle 16 copy" d="M784.543,2813.3,769,2796.653,784.543,2780" transform="translate(267.27 1428.828)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+                  <g id="Group_162609" data-name="Group 162609">
+                    <g id="Group_15150" data-name="Group 15150" transform="translate(0 -152.742)">
+                      <line id="Shape_1" data-name="Shape 1" y2="148.216" transform="translate(959.664 4381.026)" fill="none" stroke="#004d9f" stroke-width="3"/>
+                      <circle id="Ellipse_2" data-name="Ellipse 2" cx="14.988" cy="14.988" r="14.988" transform="translate(943.012 4363.792)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+                      <path id="Rectangle_16" data-name="Rectangle 16" d="M712,2782l15.542,16.1L712,2814.195" transform="translate(260.988 1581.791)" fill="#004d9f" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+                      <line id="Shape_2" data-name="Shape 2" x2="81.513" transform="translate(980.758 4380.547)" fill="none" stroke="#004d9f" stroke-width="1" stroke-dasharray="4 2"/>
+                      <path id="Ellipse_2_copy" data-name="Ellipse 2 copy" d="M14.988,0A14.988,14.988,0,1,1,0,14.988,14.988,14.988,0,0,1,14.988,0Z" transform="translate(943.012 4499.239)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+                      <path id="Rectangle_16_copy_2" data-name="Rectangle 16 copy 2" d="M686.543,2934.195,671,2918.1l15.542-16.1" transform="translate(256.469 1595.02)" fill="#004d9f" stroke="rgba(0,0,0,0)" stroke-width="1"/>
+                      <line id="Shape_2_copy" data-name="Shape 2 copy" x1="81.513" transform="translate(845.957 4514.061)" fill="none" stroke="#004d9f" stroke-width="1" stroke-dasharray="4 2"/>
+                    </g>
+                    <path id="Rectangle_16_copy_2-2" data-name="Rectangle 16 copy 2" d="M614,2902l15.541,16.651L614,2935.3" transform="translate(250.188 1442.277)" stroke="rgba(0,0,0,0)" stroke-width="1" fill="url(#linear-gradient)"/>
+                  </g>
+                </g>
+              </svg>
+              <!-- mobile svg connector  -->
+          <img src="assets/images/mobile-connector.png" alt="" srcset="" class="d-block d-lg-none mobile-connector ">
+            </div>
+          </div>
+          <div class="col-4 position-relative">
+            <div class="card top-right">
+              <div class="card-body">
+                <h5 class="card-title">Inclusive boards lead</h5>
+                <p class="card-text">Designation One is pleased to partner with like-minded organisations that share our vision of board rooms leaders reflecting the societies they operate in. Research proves again and again that more inclusive boards lead to greater innovation and decision making leading towards sustainable growth.</p>
+                <a href="#" class="card-link">VIEW MORE <svg xmlns="http://www.w3.org/2000/svg" width="15.79" height="13.158" viewBox="0 0 15.79 13.158">
+                  <g id="Group_15136" data-name="Group 15136" transform="translate(103.635 -2.842)">
+                    <path id="right-arrow_4_" data-name="right-arrow (4)" d="M17.664,12.182a.658.658,0,0,0-.907.953L21.8,17.922H8.658a.658.658,0,1,0,0,1.316H21.783l-5.026,4.787a.658.658,0,1,0,.907.953L23.4,19.51a1.315,1.315,0,0,0-.012-1.872Z" transform="translate(-111.635 -9.158)" fill="#004d9f"></path>
+                  </g>
+                </svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- news and events section  -->
+    <section class="news-slider">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="center-heading">
+              <h2 data-text="Event/ News">Event/ News</h2>
+            </div>
+            <hr class="center-heading-line" />
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div class="events-slider">
+              <div class="card">
+                <a href="/" target="_blank" class="main-link">
+                  <div class="image">
+                    <img
+                      src="assets/images/news-1.png"
+                      alt="News 1"
+                    />
+                  </div>
+                </a>
+                <div class="card-body">
+                  <p class="title">GLOBAL EQUITIES</p>
+                  <p class="description">
+                    Three Questions: Leading and Living Inclusively.....
+                  </p>
+  
+                  <div class="read-more-btn">
+                    <a href="/">Read More <svg xmlns="http://www.w3.org/2000/svg" width="18.142" height="18.142" viewBox="0 0 18.142 18.142">
+                      <g id="arrow-down-left" transform="translate(9.071 26.042) rotate(-135)">
+                        <line id="Line_151" data-name="Line 151" x1="10" y2="10" transform="translate(7 7)" fill="none" stroke="#171616" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                        <path id="Path_83077" data-name="Path 83077" d="M17,17H7V7" fill="none" stroke="#171616" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                      </g>
+                    </svg></a>
+                </div>
+                </div>
+              </div>
+              <div class="card">
+                <a href="#" target="_blank" class="main-link">
+                  <div class="image">
+                    <img
+                    src="assets/images/news-2.png"
+                    alt="News 2"
+                  />
+                  </div>
+                </a>
+                <div class="card-body">
+                  <p class="title">GLOBAL EQUITIES</p>
+                  <p class="description">
+                    full interview with our ambassador Cordell Carter
+                  </p>
+  
+                  <div class="read-more-btn">
+                    <a href="news.html">Read More <svg xmlns="http://www.w3.org/2000/svg" width="18.142" height="18.142" viewBox="0 0 18.142 18.142">
+                      <g id="arrow-down-left" transform="translate(9.071 26.042) rotate(-135)">
+                        <line id="Line_151" data-name="Line 151" x1="10" y2="10" transform="translate(7 7)" fill="none" stroke="#171616" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                        <path id="Path_83077" data-name="Path 83077" d="M17,17H7V7" fill="none" stroke="#171616" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                      </g>
+                    </svg></a>
+                </div>
+                </div>
+              </div>
+              <div class="card">
+                <a href="news.html" target="_blank" class="main-link">
+                  <div class="image">
+                    <img
+                    src="assets/images/news-3.png"
+                    alt="News 3"
+                  />
+                  </div>
+                </a>
+                <div class="card-body">
+                  <p class="title">GLOBAL EQUITIES</p>
+                  <p class="description">
+                    Read the insightful tips of an experienced Board....
+                  </p>
+  
+                  <div class="read-more-btn">
+                    <a href="news.html">Read More <svg xmlns="http://www.w3.org/2000/svg" width="18.142" height="18.142" viewBox="0 0 18.142 18.142">
+                      <g id="arrow-down-left" transform="translate(9.071 26.042) rotate(-135)">
+                        <line id="Line_151" data-name="Line 151" x1="10" y2="10" transform="translate(7 7)" fill="none" stroke="#171616" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                        <path id="Path_83077" data-name="Path 83077" d="M17,17H7V7" fill="none" stroke="#171616" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                      </g>
+                    </svg></a>
+                </div>
+                </div>
+              </div>
+              <div class="card">
+                <a href="news.html" target="_blank" class="main-link">
+                  <div class="image">
+                    <img
+                      src="assets/images/news-1.png"
+                      alt="News 1"
+                    />
+                  </div>
+                </a>
+                <div class="card-body">
+                  <p class="title">GLOBAL EQUITIES</p>
+                  <p class="description">
+                    Three Questions: Leading and Living Inclusively.....
+                  </p>
+  
+                  <div class="read-more-btn">
+                    <a href="news.html">Read More <svg xmlns="http://www.w3.org/2000/svg" width="18.142" height="18.142" viewBox="0 0 18.142 18.142">
+                      <g id="arrow-down-left" transform="translate(9.071 26.042) rotate(-135)">
+                        <line id="Line_151" data-name="Line 151" x1="10" y2="10" transform="translate(7 7)" fill="none" stroke="#171616" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                        <path id="Path_83077" data-name="Path 83077" d="M17,17H7V7" fill="none" stroke="#171616" stroke-linecap="round" stroke-linejoin="round" stroke-width="2"/>
+                      </g>
+                    </svg></a>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-center ">
+          <div class="col-md-9 col-12 text-center">
+            <hr>
+            <a class="load-more-btn" href="news.html">VIEW MORE <svg xmlns="http://www.w3.org/2000/svg" width="15.79" height="13.158" viewBox="0 0 15.79 13.158">
+              <g id="Group_15136" data-name="Group 15136" transform="translate(103.635 -2.842)">
+                <path id="right-arrow_4_" data-name="right-arrow (4)" d="M17.664,12.182a.658.658,0,0,0-.907.953L21.8,17.922H8.658a.658.658,0,1,0,0,1.316H21.783l-5.026,4.787a.658.658,0,1,0,.907.953L23.4,19.51a1.315,1.315,0,0,0-.012-1.872Z" transform="translate(-111.635 -9.158)" fill="#004d9f" />
+              </g>
+            </svg>
+          </a>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Philosophy section  -->
+    <section class="philosophy">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6 d-none d-lg-block">
+            <div class="philosophy-card-container position-relative">
+              <div class="top-left philosophy-card">
+                <span class="count">
+                  1
+                </span>
+                Matching diverse talent to board opportunities: We aim to break down the exclusivity and barriers to board service. To achieve this, we are building apipeline of potential and current diverse and inclusive board members, trustees, and governors through the development of an open web-based matching tool.
+              </div>
+               <div class="mid-right philosophy-card">
+                <span class="count">
+                  2
+                </span>
+               Accelerate diverse and inclusive talents to the board level: We assist diverse talent in making connections and career choices to include board service with increasing responsibility. We further create pathways from entrance into board service with foundations and non-profits to service on for-profit boards.
+             </div>
+             <div class="bottom-left philosophy-card">
+              <span class="count">
+                3
+              </span>
+             D&I for board design: We provide guidance to introduce diversity and inclusion practices into board statutes, and in the development of open, skills-based recruitment.
+            </div>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <div class="p-md-5 mt-4">
+              <div class="heading">
+                <h2 data-text="Philosophy">Philosophy</h2>
+              </div>
+              <hr class="heading-line" />
+              <p class="title">
+                Steering Diverse Talents to Inclusive Boards
+              </p>
+              <p>
+                Designation One’s aim is to steer diverse talent from underrepresented groups to accelerate their leadership potentials. After working closely with the philanthropic and non-profit sectors, we observed, that organisations continue to be set up from homogenous groups, particularly at the board level. We believe there is an opportunity to support organisations in embracing more diverse board and inclusive practices. To achieve our desire for boardrooms to reflect the full diversity of our societies, we have created a platform that assists in the recruitment and advancement of underrepresented talent on boards. In addition, the platform serves as a portal to share inclusive practices and provides guidance on achieving inclusion. We hope you will join us in this effort!
+              </p>
+              <div class="read-more-btn">
+                <a href="#" class="btn">Read More  <svg xmlns="http://www.w3.org/2000/svg" width="8.112" height="8.111" viewBox="0 0 8.112 8.111">
+                  <g id="fast-forward-double-right-arrows-symbol" transform="translate(0.001 -0.035)">
+                    <g id="_x35__11_" transform="translate(-0.001 0.035)">
+                      <g id="Group_2068" data-name="Group 2068" transform="translate(0 0)">
+                        <path id="Path_15953" data-name="Path 15953" d="M7.911,3.609,4.537.234a.682.682,0,0,0-.964.964L6.465,4.09,3.573,6.982a.682.682,0,0,0,.964.964L7.911,4.572A.681.681,0,0,0,7.911,3.609ZM3.854,3.4,1.175.581A.665.665,0,0,0,.2.581a.754.754,0,0,0,0,1.027l2.192,2.31L.2,6.228a.754.754,0,0,0,0,1.027.665.665,0,0,0,.974,0L3.854,4.431A.754.754,0,0,0,3.854,3.4Z" transform="translate(0.001 -0.035)" fill="#004d9f"/>
+                      </g>
+                    </g>
+                  </g>
+                </svg></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- CSR section  -->
+    <section class="csr">
+      <div class="container">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <div class="p-md-5 mt-4">
+              <div class="heading">
+                <h2 data-text="CSR">Corporate Social Responsibility</h2>
+              </div>
+              <hr class="heading-line" />
+              <p>
+                Designation One is proud to partner with Southall Black Sisters,
+                a London-based charity providing information, advice, advocacy,
+                practical help, counselling, and support to women and children
+                experiencing domestic and sexual violence, including sex
+                trafficking, dowry abuse, and forced marriage. Southall Black
+                Sisters also supports friends and relatives attempting to assist
+                a woman or child experiencing violence and abuse. Southall Black
+                Sisters focuses on Black, Asian, and Minority Ethnics. A
+                percentage of every membership will go directly to Southall
+                Black Sisters to support their work with the most vulnerable of
+                our societies. <br />
+                <span class="blue-text">
+                  <a href="https: //southallblacksisters.org.uk"
+                    >Find Out More https: //southallblacksisters.org.uk</a
+                  >
+                </span>
+              </p>
+            </div>
+          </div>
+          <div class="col-lg-6">
+            <img class="img-fluid" src="assets/images/CSR-img.png" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- quiz section  -->
+    <section class="quiz pb-5">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <div class="heading">
+              <h2 data-text="QUIZ">QUIZ</h2>
+            </div>
+            <hr class="heading-line" />
+            <p>
+              Designation.one focus is to help organisations succeed in
+              diversifying theirboards and embrace reflective & inclusive
+              leadership at board level.
+            </p>
+          </div>
+        </div>
+        <div class="card-container my-5">
+          <div class="row justify-content-around">
+            <div class="col-md-4 w-40 col-sm-6">
+              <div class="card my-2">
+                <img
+                  class="card-img-top p-3"
+                  src="assets/images/quiz-img-1.png"
+                  alt="Bologna"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Individual</h4>
+                  <p class="card-text">
+                    No matter what stage in your career you are at, we believe
+                    in your potential to bring your individual skills to shine
+                    on an inclusive board.
+                  </p>
+                  <div class="card-btn text-center mt-5">
+                    <a href="#" class="card-link">Take the Quiz</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-4 w-40 col-sm-6">
+              <div class="card my-2">
+                <img
+                  class="card-img-top p-3"
+                  src="assets/images/quiz-img-2.png"
+                  alt="Bologna"
+                />
+                <div class="card-body">
+                  <h4 class="card-title">Organisation</h4>
+                  <p class="card-text">
+                   
+                    No matter the stage of your board, we believe there is
+                    always an opportunity to make your board more diverse and
+                    inclusive.
+                  
+                  </p>
+                  <div class="card-btn text-center mt-5">
+                    <a href="#" class="card-link">Take the Quiz</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- faqs section  -->
+    <section class="faqs py-3">
+      <div class="container">
+        <div class="row max-width-1075">
+          <div class="col-12">
+            <div class="heading">
+              <h2 data-text="FAQ's">FAQ's</h2>
+            </div>
+            <hr class="heading-line" />
+            <div class="accordion my-5">
+              <div class="accordion-item my-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingOne">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseOne"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseOne"
+                  >
+                    What is Designation.One
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseOne"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingOne"
+                >
+                  <div class="accordion-body">
+                    Designation One is a platform connecting charities and
+                    foundations embracing inclusivity with talent from
+                    underrepresented groups wanting to serve on the board of
+                    directors/trustees, or governors.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item my-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseTwo"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    Does Designation One offer any training?
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseTwo"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingTwo"
+                >
+                  <div class="accordion-body">
+                    We off er a trove of information and self-directed learning
+                    to prepare individuals for a board position in the resourced
+                    section. In the future, we are planning online and in-person
+                    pieces of training, networking opportunities, and coaching
+                    for organizations. We also work with hand-selected executive
+                    coaches that can provide additional training if so desired.
+                  </div>
+                </div>
+              </div>
+              <div class="accordion-item my-3">
+                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
+                  <button
+                    class="accordion-button collapsed"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#panelsStayOpen-collapseThree"
+                    aria-expanded="false"
+                    aria-controls="panelsStayOpen-collapseThree"
+                  >
+                    Does Designation One offer any training?
+                  </button>
+                </h2>
+                <div
+                  id="panelsStayOpen-collapseThree"
+                  class="accordion-collapse collapse"
+                  aria-labelledby="panelsStayOpen-headingThree"
+                >
+                  <div class="accordion-body">
+                    We off er a trove of information and self-directed learning
+                    to prepare individuals for a board position in the resourced
+                    section. In the future, we are planning online and in-person
+                    pieces of training, networking opportunities, and coaching
+                    for organizations. We also work with hand-selected executive
+                    coaches that can provide additional training if so desired.
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="read-more-btn">
+              <a href="faqs.html" class="btn">Load More  <svg xmlns="http://www.w3.org/2000/svg" width="8.112" height="8.111" viewBox="0 0 8.112 8.111">
+                <g id="fast-forward-double-right-arrows-symbol" transform="translate(0.001 -0.035)">
+                  <g id="_x35__11_" transform="translate(-0.001 0.035)">
+                    <g id="Group_2068" data-name="Group 2068" transform="translate(0 0)">
+                      <path id="Path_15953" data-name="Path 15953" d="M7.911,3.609,4.537.234a.682.682,0,0,0-.964.964L6.465,4.09,3.573,6.982a.682.682,0,0,0,.964.964L7.911,4.572A.681.681,0,0,0,7.911,3.609ZM3.854,3.4,1.175.581A.665.665,0,0,0,.2.581a.754.754,0,0,0,0,1.027l2.192,2.31L.2,6.228a.754.754,0,0,0,0,1.027.665.665,0,0,0,.974,0L3.854,4.431A.754.754,0,0,0,3.854,3.4Z" transform="translate(0.001 -0.035)" fill="#004d9f"/>
+                    </g>
+                  </g>
+                </g>
+              </svg></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section  -->
+    <footer class="pt-5 px-2">
+      <div class="footer-container max-width-1075">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="footer-image-container">
+              <img src="assets/images/footer-logo.png" alt="logo" class="img-fluid" />
+            </div>
+            <div class="Footer-email">Email: infor@designationone.com</div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer-menu pt-3 pt-md-0">
+              <div class="footer-menu-heading">
+                <h3>Links</h3>
+              </div>
+              <ul class="menu-links">
+                <li><a href="privacy.html">Privacy & Cookies</a></li>
+                <li><a href="accessibility.html">Accessibility</a></li>
+                <li><a href="contact.html">Connect Boards & needs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="news.html">Event/News</a></li>
+                <li><a href="about.html">About us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div
+              class="d-flex justify-content-center align-items center Copyright py-3 py-md-5"
+            >
+              © Copyright 2022 Designation.One
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- slick slider  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- bootstrap  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/script.js"></script>
+    <script src="assets/js/global.js"></script>
+  </body>
+</html>
