@@ -100,7 +100,7 @@ $(document).ready(function () {
       $(this).closest(".addReadMore").toggleClass("showlesscontent showmorecontent");
     });
   }
-  // add read more button on mobile 
+  // show read more button on mobile 
   if ($("body").width() <= 576) {
     AddReadMore();
   }

@@ -294,7 +294,7 @@
 }
 .partners .card .card-link {
   text-align: left;
-  font: normal normal bold 18px/24px Nunito Sans;
+  font: normal normal bold 16px/24px Nunito Sans;
   letter-spacing: 0.75px;
   color: #30455d;
   padding: 20px;
@@ -418,6 +418,9 @@
 }
 .news-slider .slick-next:before {
   content: url("../images/next-arrow.png");
+}
+.news-slider .slick-dots li {
+  margin: 0 !important;
 }
 /* philosophy section  */
 .philosophy {
@@ -739,7 +742,7 @@
     height: 750px;
   }
   .partners .card.top-right {
-    right: 110%;
+    right: 150%;
   }
   /* news  */
   .news-slider .card .title {
@@ -804,7 +807,17 @@
     line-height: 25px;
   }
 }
-
+@media screen and (max-width: 700px) {
+  .partners .card.bottom-left {
+    left: 59.5%;
+  }
+  .mobile-connector {
+    left: 14%;
+  }
+  .partners .card.top-right {
+    right: 65%;
+  }
+}
 @media screen and (max-width: 576px) {
   /* hero  */
   .hero {
@@ -838,7 +851,10 @@
     padding: 5px 10px;
   }
   .mobile-connector {
-    left: 100px;
+    left: 18%;
+  }
+  .partners .card.top-right {
+    right: 100%;
   }
   /* news  */
   .news-slider .events-slider .slick-dots {
@@ -871,8 +887,33 @@
   /* faqs  */
   .faqs .read-more-btn {
     text-align: left;
+    font-size: 14px;
+  }
+  .faqs .accordion-button,
+  .accordion-button:focus {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  .accordion-button::after {
+    width: 18px;
+    height: 19px;
+    background-size: contain;
+  }
+  .faqs .show .accordion-body,
+  .faqs .accordion-body {
+    font-size: 12px;
+    line-height: 20px;
   }
 }
+@media screen and (max-width: 550px) {
+  .mobile-connector {
+    left: 20%;
+  }
+  .partners .card.bottom-left {
+    left: 76.5%;
+  }
+}
+
 @media screen and (max-width: 500px) and (min-width: 450px) {
   /* partner  */
   .partners .card.bottom-left {
@@ -882,7 +923,7 @@
 @media screen and (max-width: 451px) and (min-width: 400px) {
   /* .partner */
   .mobile-connector {
-    left: 70px;
+    left: 16%;
   }
   .partners .card.bottom-left {
     left: 68%;
@@ -894,12 +935,23 @@
 @media screen and (max-width: 400px) {
   /* partner  */
   .mobile-connector {
-    left: 70px;
+    left: 16%;
   }
   .partners .card.bottom-left {
     left: 74%;
   }
   .partners .card.top-right {
     right: 72%;
+  }
+}
+@media screen and (max-width: 350px) {
+  .mobile-connector {
+    left: 10%;
+  }
+  .partners .card.top-right {
+    right: 47%;
+  }
+  .partners .card.bottom-left {
+    left: 57%;
   }
 }
