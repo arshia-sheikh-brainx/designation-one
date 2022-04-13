@@ -29,7 +29,7 @@ $(document).ready(function () {
         $('.right.switch-button-case').removeClass('active-case');
         $('.left.switch-button-case').addClass('active-case');
         setTimeout(function () {
-            window.location.href = '/signIn.html'
+            window.location.href = '/signUp.html'
         }, 300);
 
     });
