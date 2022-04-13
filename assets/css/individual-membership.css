@@ -1,0 +1,168 @@
+/* Membership page */
+#individual-membership {
+  background-image: url(../images/section-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#individual-membership p {
+  text-align: center;
+  font: normal normal normal 36px/50px Nunito Sans;
+  color: #595959;
+}
+#individual-membership .card {
+  border: none;
+  border-radius: 40px;
+  height: 100%;
+}
+#individual-membership .card-body {
+  border-top: 1px solid #564539;
+  min-height: 300px;
+}
+#individual-membership .card-subtitle {
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 32px;
+  font-family: Nunito Sans;
+  color: #564539;
+}
+#individual-membership .astrik {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 63px;
+  font-family: Nunito Sans;
+  color: #6e7d9b;
+}
+#individual-membership .price {
+  font-weight: bold;
+  font-size: 40px;
+  line-height: 63px;
+  font-family: Nunito Sans;
+  color: #3b3b3b;
+}
+#individual-membership .currency {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 63px;
+  font-family: Nunito Sans;
+  color: #3b3b3b;
+}
+#individual-membership .card-btn {
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#individual-membership .card:hover {
+  box-shadow: 0px 40px 60px #00000029;
+}
+#individual-membership .card-btn a {
+  text-align: center;
+  font: normal normal 600 15px/27px Nunito Sans;
+  color: var(--color-black);
+  background-color: #34495e14;
+  cursor: pointer;
+  box-shadow: 0px 10px 20px var(--box-shadow-color);
+  padding: 12px 90px;
+  border-radius: 2.25rem;
+}
+#individual-membership .card:hover .card-btn a {
+  color: var(--color-white);
+  background: var(--menu-hover-color) 0% 0% no-repeat padding-box;
+}
+.back-btn {
+  display: inline-block;
+  position: relative;
+  left: 50px;
+  margin-top: 50px;
+  cursor: pointer;
+  font: normal normal bold 18px/26px BrownStd;
+  color: #000000;
+}
+.bottom-txt {
+  font: normal normal bold 18px/63px Nunito Sans;
+  color: #6e7d9b;
+}
+.advantages-list ul {
+  padding: 0;
+}
+.advantages-list li {
+  list-style-type: none;
+  font: normal normal bold 24px/36px Nunito Sans;
+  padding-top: 15px;
+  color: #595959;
+}
+.advantages-list li:before {
+  content: url(../images/tick.svg);
+  margin-right: 10px;
+  margin-left: -29px;
+}
+@media screen and (max-width: 991px) {
+  #individual-membership p {
+    font-size: 26px;
+    line-height: 40px;
+  }
+  .advantages-list li {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #individual-membership .card {
+    height: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  #individual-membership p {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+  #individual-membership .card-btn {
+    margin-top: 10px !important;
+  }
+  #individual-membership .card-btn a {
+    font-size: 14px;
+    padding: 13px 57px;
+  }
+  /* back button  */
+  .back-btn {
+    left: 10px;
+    margin-top: 16px;
+    font-size: 15px;
+  }
+  .back-btn svg {
+    width: 20px;
+  }
+  #individual-membership .card-subtitle {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .advantages-list li {
+    font-size: 16px;
+    line-height: 35px;
+    padding-top: 5px;
+  }
+  #individual-membership .currency {
+    font-size: 12px;
+    line-height: 25px;
+  }
+  #individual-membership .price {
+    font-size: 24px;
+    line-height: 30px;
+  }
+  #individual-membership .astrik {
+    font-size: 20px;
+    line-height: 30px;
+  }
+  #individual-membership .card-subtitle {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  .bottom-txt {
+    font: normal normal bold 14px/45px Nunito Sans;
+  }
+  #individual-membership .card-body {
+    min-height: 200px;
+  }
+}

@@ -1,0 +1,89 @@
+/* Membership page */
+/* back button  */
+.back-btn {
+  display: inline-block;
+  position: relative;
+  left: 50px;
+  margin-top: 50px;
+  cursor: pointer;
+  font: normal normal bold 18px/26px BrownStd;
+  color: #000000;
+}
+#corporate-membership {
+  background-image: url(../images/section-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#corporate-membership .social-icons-div {
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+#corporate-membership p {
+  text-align: center;
+  font: normal normal normal 36px/50px Nunito Sans;
+
+  color: #595959;
+}
+#corporate-membership .card {
+  border: none;
+  border-radius: 40px;
+  padding: 3rem;
+}
+
+#corporate-membership .card-body p,
+#corporate-membership .card-body {
+  font-size: 24px;
+  line-height: 36px;
+  font-family: Nunito Sans;
+  color: #333333;
+  text-align: center;
+}
+#corporate-membership .contact-heading {
+  font-weight: bold;
+  color: #333333;
+}
+#corporate-membership .contact-url {
+  font-weight: bold;
+  color: var(--menu-hover-color);
+}
+@media screen and (max-width: 991px) {
+  #corporate-membership p {
+    font-size: 26px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #corporate-membership .card {
+    padding: 1rem;
+  }
+  #corporate-membership .card-body p,
+  #corporate-membership .card-body {
+    font-size: 18px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 576px) {
+  #corporate-membership p {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+  #corporate-membership .card {
+    padding: 0.5rem;
+  }
+  #corporate-membership .card-body p,
+  #corporate-membership .card-body {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  /* back button  */
+  .back-btn {
+    left: 10px;
+    margin-top: 16px;
+    font-size: 15px;
+  }
+  .back-btn svg {
+    width: 20px;
+  }
+}

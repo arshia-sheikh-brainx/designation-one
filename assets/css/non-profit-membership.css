@@ -1,0 +1,144 @@
+/* Membership page */
+#non-profit-membership {
+  background-image: url(../images/section-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+#non-profit-membership p {
+  text-align: center;
+  font: normal normal normal 36px/50px Nunito Sans;
+  color: #595959;
+}
+#non-profit-membership .card {
+  border: none;
+  border-radius: 40px;
+  height: 100%;
+}
+#non-profit-membership .card-body {
+  border-top: 1px solid #564539;
+  min-height: 300px;
+}
+#non-profit-membership .card-title {
+  font: normal normal bold 22px/24px Nunito Sans;
+  color: #333333;
+}
+#non-profit-membership .card-subtitle {
+  font-weight: 700;
+  font-size: 29px;
+  line-height: 55px;
+  font-family: Nunito Sans;
+  color: #8e929a;
+}
+#non-profit-membership .card-btn {
+  position: absolute;
+  bottom: 8%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+#non-profit-membership .card:hover {
+  box-shadow: 0px 40px 60px #00000029;
+}
+#non-profit-membership .card-btn a {
+  text-align: center;
+  font: normal normal 600 15px/27px Nunito Sans;
+  color: var(--color-black);
+  background-color: #34495e14;
+  cursor: pointer;
+  box-shadow: 0px 10px 20px var(--box-shadow-color);
+  padding: 12px 90px;
+  border-radius: 2.25rem;
+}
+#non-profit-membership .card:hover .card-btn a {
+  color: var(--color-white);
+  background: var(--menu-hover-color) 0% 0% no-repeat padding-box;
+}
+.back-btn {
+  display: inline-block;
+  position: relative;
+  left: 50px;
+  margin-top: 50px;
+  cursor: pointer;
+  font: normal normal bold 18px/26px BrownStd;
+  color: #000000;
+}
+.advantages-list ul {
+  padding: 0;
+}
+.advantages-list li {
+  list-style-type: none;
+  font: normal normal bold 24px/36px Nunito Sans;
+  padding-top: 16px;
+
+  color: #595959;
+}
+.advantages-list li:before {
+  content: url(../images/tick.svg);
+  margin-right: 10px;
+  margin-left: -29px;
+}
+@media screen and (max-width: 991px) {
+  #non-profit-membership p {
+    font-size: 26px;
+    line-height: 40px;
+  }
+  #non-profit-membership .card-title {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  #non-profit-membership .card-subtitle {
+    font-size: 25px;
+    line-height: 45px;
+  }
+  .advantages-list li {
+    font-size: 22px;
+    line-height: 30px;
+  }
+}
+@media screen and (max-width: 767px) {
+  #non-profit-membership .card {
+    height: auto;
+  }
+}
+@media screen and (max-width: 576px) {
+  #non-profit-membership p {
+    font-size: 14px;
+    line-height: 25px;
+    font-weight: 700;
+  }
+  #non-profit-membership .card-btn {
+    margin-top: 10px !important;
+  }
+  #non-profit-membership .card-btn a {
+    font-size: 14px;
+    padding: 13px 57px;
+  }
+  /* back button  */
+  .back-btn {
+    left: 10px;
+    margin-top: 16px;
+    font-size: 15px;
+  }
+  .back-btn svg {
+    width: 20px;
+  }
+  #non-profit-membership .card-subtitle {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .advantages-list li {
+    font-size: 16px;
+    line-height: 35px;
+  }
+  #non-profit-membership .card-subtitle {
+    font-size: 15px;
+    line-height: 25px;
+  }
+  #non-profit-membership .card-title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  #non-profit-membership .card-body {
+    min-height: 180px;
+  }
+}
