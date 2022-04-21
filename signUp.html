@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home Page</title>
+    <!-- bootstrap css  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <!-- slick css  -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+      integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+      integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+  <!-- jquery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!-- stylesheet -->
+    <link rel="stylesheet" href="assets/css/global.css" />
+    <link rel="stylesheet" href="assets/css/signup.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header class="header">
+      <div class="container">
+        <div class="row">
+          <div class="col-12">
+            <nav class="navbar navbar-expand-lg navbar-light">
+              <div class="container-fluid flex-col p-0 p-lg-auto">
+                <button
+                class="navbar-toggler"
+                type="button"
+                data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent"
+                aria-controls="navbarSupportedContent"
+                aria-expanded="false"
+                aria-label="Toggle navigation"
+              >
+                <span class="navbar-toggler-icon"></span>
+              </button>
+                <a class="navbar-brand logo m-auto mx-lg-none me-lg-3" href="#"
+                  ><img
+                    class="img-fluid"
+                    src="assets/images/logo.png"
+                    alt="logo"
+                /></a>
+  
+                <div
+                  class="collapse navbar-collapse"
+                  id="navbarSupportedContent"
+                >
+                  <ul
+                    class="navbar-nav me-auto mb-2 mb-lg-0 align-items-lg-center"
+                  >
+                    <li class="nav-item">
+                      <a class="nav-link active" aria-current="page" href="/"
+                        >Home</a
+                      >
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="about.html"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        About Us
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li>
+                          <a class="dropdown-item" href="team.html">Team</a>
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="ambassadors.html"
+                            >Ambassadors</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="partners.html"
+                            >Partners</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="membership.html"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Membership
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="individual-membership.html"
+                            >Individual</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="non-profit-membership.html"
+                            >Not for Profit Organization</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="corporate-membership.html"
+                            >Corporate</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="news.html"
+                        >Event/News</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="quiz.html"
+                        >Quiz</a
+                      >
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a
+                        class="nav-link dropdown-toggle"
+                        href="resources.html"
+                        id="navbarDropdown"
+                        role="button"
+                        data-bs-toggle="dropdown"
+                        aria-expanded="false"
+                      >
+                        Resources
+                      </a>
+                      <ul
+                        class="dropdown-menu"
+                        aria-labelledby="navbarDropdown"
+                      >
+                        <li>
+                          <a
+                            class="dropdown-item active"
+                            href="board-room-glossary.html"
+                            >Board Room Glossary</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="leadership-development.html"
+                            >Leadership Development</a
+                          >
+                        </li>
+                        <li>
+                          <a
+                            class="dropdown-item"
+                            href="professional-advisors.html"
+                            >Professional Advisors</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="webinars.html"
+                            >Webinars</a
+                          >
+                        </li>
+                        <li>
+                          <a class="dropdown-item" href="job-board.html"
+                            >Job Board</a
+                          >
+                        </li>
+                      </ul>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" aria-current="page" href="faqs.html"
+                        >FAQ's</a
+                      >
+                    </li>
+                    <li class="nav-item">
+                      <a
+                        class="nav-link"
+                        aria-current="page"
+                        href="contact.html"
+                        >Contact Us</a
+                      >
+                    </li>
+                  </ul>
+                  <div class="switch-button d-none d-lg-flex">
+                    <span class="active-btn-background"></span>
+                    <a
+                      class="switch-button-case left active-case"
+                      >SignUp</a
+                    >
+                    <a class="switch-button-case right"
+                      >SIGNIN</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+  
+    <section class="py-5 signup" >
+      <div class="container-fluid login custom-padding">
+        <div class="row justify-content-center">
+            <div class="col-12">
+              <div class="center-heading">
+                <h2 data-text="SIGN UP">SIGN UP</h2>
+              </div>
+              <hr class="center-heading-line" />
+            </div>
+            <div class="row">
+                <div class="col-12 col-md-10 mx-auto">
+                   <p>New platform steering diverse talent to inclusive boards, for organisations embracing more diverse and inclusive board practices.</p> 
+                </div>
+            </div>
+          </div>
+        <div class="row mt-md-3">
+          <div class="d-none d-lg-flex col-lg-2 d-flex align-items-center justify-content-start">
+            <div class="rotated-text">Designation.One</div>
+          </div>
+          <div class="col-lg-8 col-md-12">
+           <form action="">
+            <div class="row">
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="name" class="cols-sm-2 control-label">Full Name</label>
+                        <div class="cols-sm-10">
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="name" id="name"  placeholder="Full Name" required>
+                                <svg xmlns="http://www.w3.org/2000/svg" id="noun_User_28817" width="21.607" height="23.146" viewBox="0 0 21.607 23.146">
+                                  <path id="Path_15971" data-name="Path 15971" d="M23.688,19.727c-.579-1.287-4.119-2.4-4.119-2.4-1.321-.465-1.724-.93-1.847-1.168-.014-.029-.024-.055-.034-.077v-.01L17.667,16h0a6.037,6.037,0,0,1-.177-.767s-.007.038-.022.1a2.656,2.656,0,0,1,0-.365L17.432,15a6.842,6.842,0,0,0,1.032-1.859,3.471,3.471,0,0,0,.609-1.381c.267-.749.189-1.132.066-1.325a4.881,4.881,0,0,0-.227-3.63,3.193,3.193,0,0,0-2.027-2.092,5.974,5.974,0,0,0-3.926-.386c-2.864.483-3.477,3.851-3.477,3.851a5.3,5.3,0,0,0,.259,2.54,3.161,3.161,0,0,0,.119,1.316.985.985,0,0,0,.459.8,6.607,6.607,0,0,0,.977,2.036l-.009-.009a1.89,1.89,0,0,1,0,.567c-.006-.034-.01-.054-.01-.054a4.375,4.375,0,0,1-.185.692l0,.01c-.133.177-.266.339-.4.486a15.327,15.327,0,0,1-3.631,1.6,3.679,3.679,0,0,0-1.588,1.072,11.259,11.259,0,0,0-1.845,4.889c.021,1.244.558,1.373.558,1.373,3.8,1.695,9.84,1.794,9.84,1.794A30.374,30.374,0,0,0,24.5,25.754c.646-.408.665-.729.665-.729C25.618,21.12,23.688,19.727,23.688,19.727Z" transform="translate(-3.629 -4.152)" fill="#004d9f"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        <label for="password" class="cols-sm-2 control-label">Password</label>
+                        <div class="cols-sm-10">
+                            <div class="input-group">
+                                <input type="password" class="form-control" name="password" id="password"  placeholder="Password"/>
+                                <svg xmlns="http://www.w3.org/2000/svg" id="noun_Lock_629417" width="13.851" height="19.867" viewBox="0 0 13.851 19.867">
+                                  <path id="Path_15972" data-name="Path 15972" d="M36.1,20.794h-.571V17.322a4.573,4.573,0,1,0-9.146,0v3.472h-.571a1.781,1.781,0,0,0-1.781,1.781v8.261a1.781,1.781,0,0,0,1.781,1.781H36.1a1.781,1.781,0,0,0,1.781-1.781V22.575A1.781,1.781,0,0,0,36.1,20.794Zm-8.117-3.472a2.973,2.973,0,1,1,5.946,0v3.472H27.982Zm3.884,9.293v2.223a.911.911,0,0,1-1.822,0V26.615a1.617,1.617,0,1,1,1.822,0Z" transform="translate(-24.03 -12.749)" fill="#004d9f"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12 col-md-6">
+                    <div class="form-group">
+                        <label for="password" class="cols-sm-2 control-label">Confirm Password</label>
+                        <div class="cols-sm-10">
+                            <div class="input-group">
+                                <input type="password" class="form-control" name="password" id="password"  placeholder="Confirm Password"/>
+                                <svg xmlns="http://www.w3.org/2000/svg" id="noun_Lock_629417" width="13.851" height="19.867" viewBox="0 0 13.851 19.867">
+                                  <path id="Path_15972" data-name="Path 15972" d="M36.1,20.794h-.571V17.322a4.573,4.573,0,1,0-9.146,0v3.472h-.571a1.781,1.781,0,0,0-1.781,1.781v8.261a1.781,1.781,0,0,0,1.781,1.781H36.1a1.781,1.781,0,0,0,1.781-1.781V22.575A1.781,1.781,0,0,0,36.1,20.794Zm-8.117-3.472a2.973,2.973,0,1,1,5.946,0v3.472H27.982Zm3.884,9.293v2.223a.911.911,0,0,1-1.822,0V26.615a1.617,1.617,0,1,1,1.822,0Z" transform="translate(-24.03 -12.749)" fill="#004d9f"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="email" class="cols-sm-2 control-label">Email Address</label>
+                        <div class="cols-sm-10">
+                            <div class="input-group">
+                                <input type="email" class="form-control" name="email" id="email"  placeholder="Email Address"/>
+                                <svg xmlns="http://www.w3.org/2000/svg" id="noun_Email_429221" width="22.74" height="16.423" viewBox="0 0 22.74 16.423">
+                                  <path id="Path_15967" data-name="Path 15967" d="M75.93,26.051,69.523,32.1l6.407,6.052a2.5,2.5,0,0,0,.03-.367V26.417A2.5,2.5,0,0,0,75.93,26.051Z" transform="translate(-53.22 -23.89)" fill="#004d9f"/>
+                                  <path id="Path_15968" data-name="Path 15968" d="M19.461,27.307l9.4-8.874A2.524,2.524,0,0,0,26.9,17.5H9.214a2.525,2.525,0,0,0-1.956.933l9.4,8.875A2.1,2.1,0,0,0,19.461,27.307Z" transform="translate(-6.687 -17.5)" fill="#004d9f"/>
+                                  <path id="Path_15969" data-name="Path 15969" d="M5.03,26.049a2.539,2.539,0,0,0-.03.367v11.37a2.539,2.539,0,0,0,.03.367L11.437,32.1Z" transform="translate(-5 -23.889)" fill="#004d9f"/>
+                                  <path id="Path_15970" data-name="Path 15970" d="M20.329,55.083a3.348,3.348,0,0,1-4.541,0l-1.742-1.646L7.259,59.848a2.524,2.524,0,0,0,1.956.933H26.9a2.524,2.524,0,0,0,1.956-.933l-6.786-6.41Z" transform="translate(-6.688 -44.357)" fill="#004d9f"/>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <div class="form-group">
+                        <label for="race" class="cols-sm-2 control-label">Ethnicity/ Race</label>
+                        <div class="cols-sm-10">
+                            <div class="input-group">
+                                <input type="text" class="form-control" name="race" id="race"  placeholder="Ethnicity/ Race"/>
+                                <svg xmlns="http://www.w3.org/2000/svg" width="20.103" height="19.567" viewBox="0 0 20.103 19.567">
+                                  <g id="noun_ethnicity_94199" transform="translate(-6.795 -8)">
+                                    <g id="Group_9906" data-name="Group 9906" transform="translate(6.795 8)">
+                                      <g id="Group_9899" data-name="Group 9899" transform="translate(2.267)">
+                                        <g id="Group_9898" data-name="Group 9898">
+                                          <g id="Group_9897" data-name="Group 9897">
+                                            <g id="Group_9896" data-name="Group 9896">
+                                              <g id="Group_9888" data-name="Group 9888">
+                                                <path id="Path_16070" data-name="Path 16070" d="M22,12.793a1.651,1.651,0,0,0,.233.326,2.648,2.648,0,0,0,.442.442.487.487,0,0,0,.14.093l.023-.023,3.653-3.653a2.877,2.877,0,0,0-.861-.814C24.532,10.234,22.136,12.653,22,12.793Zm5.281-3.048a3.261,3.261,0,0,1,1.745-.651h.116a2.945,2.945,0,0,1,1.605,5.374,2.936,2.936,0,0,1-3.42-.093,3.171,3.171,0,0,1-.558-.558,3.382,3.382,0,0,1-2.327,1.047,3.6,3.6,0,0,1-2.629-1.047,2.89,2.89,0,0,1-.675.628,2.936,2.936,0,0,1-3.42-.093,2.974,2.974,0,0,1-1.024-3.28,3.072,3.072,0,0,1,2.722-2h.116A3.2,3.2,0,0,1,21.3,9.7,3.694,3.694,0,0,1,24.23,8h.093a3.422,3.422,0,0,1,2.862,1.629C27.231,9.675,27.254,9.722,27.278,9.745Zm-3.769,4.234a2.633,2.633,0,0,0,2.3-.372,2.675,2.675,0,0,0,.535-.489l.279-.419a2.852,2.852,0,0,0,.3-.954,2.663,2.663,0,0,0-.047-.954.331.331,0,0,0-.047-.14Zm1.373-5.118a2.536,2.536,0,0,0-.6-.07,2.75,2.75,0,0,0-2.4,1.536c-.023.07-.047.116-.07.186a1.5,1.5,0,0,0-.093.3,2.757,2.757,0,0,0,0,1.233C21.81,11.932,24.044,9.7,24.881,8.861ZM21.3,13.188a3.479,3.479,0,0,1-.326-2.676,2.152,2.152,0,0,0-1.489-.6.954.954,0,0,0-.256.023,2.213,2.213,0,0,0-1.885,2.35,2.157,2.157,0,0,0,2.28,1.931A2.257,2.257,0,0,0,21.3,13.188Z" transform="translate(-16.537 -8)" fill="#004d9f"/>
+                                              </g>
+                                              <g id="Group_9889" data-name="Group 9889" transform="translate(12.555 1.093)">
+                                                <path id="Path_16071" data-name="Path 16071" d="M70.547,12.7h0Z" transform="translate(-70.5 -12.7)" fill="#004d9f"/>
+                                              </g>
+                                              <g id="Group_9890" data-name="Group 9890" transform="translate(12.462 1.093)">
+                                                <path id="Path_16072" data-name="Path 16072" d="M70.147,12.7h0Z" transform="translate(-70.1 -12.7)" fill="#004d9f"/>
+                                              </g>
+                                              <g id="Group_9891" data-name="Group 9891" transform="translate(7.785)">
+                                                <path id="Path_16073" data-name="Path 16073" d="M50.023,8h0Z" transform="translate(-50 -8)" fill="#004d9f"/>
+                                              </g>
+                                              <g id="Group_9892" data-name="Group 9892" transform="translate(7.762)">
+                                                <path id="Path_16074" data-name="Path 16074" d="M49.923,8h0Z" transform="translate(-49.9 -8)" fill="#004d9f"/>
+                                              </g>
+                                              <g id="Group_9893" data-name="Group 9893" transform="translate(7.692)">
+                                                <path id="Path_16075" data-name="Path 16075" d="M49.647,8h0Z" transform="translate(-49.6 -8)" fill="#004d9f"/>
+                                              </g>
+                                              <g id="Group_9894" data-name="Group 9894" transform="translate(2.946 1.093)">
+                                                <path id="Path_16076" data-name="Path 16076" d="M29.247,12.7h0Z" transform="translate(-29.2 -12.7)" fill="#004d9f"/>
+                                              </g>
+                                              <g id="Group_9895" data-name="Group 9895" transform="translate(2.876 1.093)">
+                                                <path id="Path_16077" data-name="Path 16077" d="M28.947,12.7h0Z" transform="translate(-28.9 -12.7)" fill="#004d9f"/>
+                                              </g>
+                                            </g>
+                                          </g>
+                                        </g>
+                                      </g>
+                                      <g id="Group_9905" data-name="Group 9905" transform="translate(0 7.56)">
+                                        <g id="Group_9904" data-name="Group 9904">
+                                          <g id="Group_9903" data-name="Group 9903">
+                                            <g id="Group_9902" data-name="Group 9902">
+                                              <g id="Group_9901" data-name="Group 9901">
+                                                <g id="Group_9900" data-name="Group 9900">
+                                                  <path id="Path_16078" data-name="Path 16078" d="M15.032,51.594l6.352-6.352.047-.047a9.705,9.705,0,0,0-.6-1.07l-7.212,7.212C14.078,51.454,14.567,51.524,15.032,51.594Zm.093.791c-.535-.07-1.093-.163-1.605-.279a3.924,3.924,0,0,1-2.582-1.629,14.344,14.344,0,0,1-1.442-.209c-1.256-.279-2.652-.931-2.7-2.4A8.831,8.831,0,0,1,7.7,43.8a6.717,6.717,0,0,1,2.164-2.536,3.775,3.775,0,0,1,2.094-.768,3.679,3.679,0,0,1,2.187.721c.093.07.209.163.3.233a4.79,4.79,0,0,1,2.14-.791,3.775,3.775,0,0,1,1.349.163,5.363,5.363,0,0,1,1.28.6c.07-.047.163-.116.233-.163a3.775,3.775,0,0,1,2.094-.768,3.679,3.679,0,0,1,2.187.721,7.391,7.391,0,0,1,2.234,2.559,8.7,8.7,0,0,1,.931,3.978v.093a2.057,2.057,0,0,1-.163.768,2.006,2.006,0,0,1-.465.768A6.255,6.255,0,0,1,22.826,50.5h-.07a2.181,2.181,0,0,1-.535.745,4.507,4.507,0,0,1-1.605.791,12.891,12.891,0,0,1-2.838.442c-.186,0-.372.023-.558.023C16.521,52.478,15.823,52.454,15.125,52.385Zm-3.4-5.63.279-.279L17.079,41.4a3.833,3.833,0,0,0-1.233.163,4.344,4.344,0,0,0-.745.349c-.116.07-.233.14-.326.209-.116.07-.209.163-.326.233A8.137,8.137,0,0,0,11.728,46.754Zm4.281,4.909c.558.023,1.093.047,1.652.023L22.1,47.243a11.908,11.908,0,0,0-.349-1.3l-.745.745C20.127,47.522,16.614,51.058,16.009,51.663Zm4.4-8.143a6.739,6.739,0,0,0-.791-.838.023.023,0,0,1-.023-.023L12.147,50.1l-.279.279c.023.047.07.07.116.116a2.193,2.193,0,0,0,.582.419c.093.047.209.093.326.14C13.054,50.849,19.336,44.567,20.406,43.52Zm1.885,5.723a9,9,0,0,0-.07-1.117c-.512.535-3.048,3.048-3.42,3.443l.838-.14a5.8,5.8,0,0,0,1.559-.489,3.442,3.442,0,0,0,.489-.3l.14-.14a.961.961,0,0,0,.163-.256l.07-.14a2.013,2.013,0,0,0,.163-.4A1.5,1.5,0,0,0,22.291,49.244Zm-3.3-7.026-.047-.047-.349-.209a4.7,4.7,0,0,0-.7-.326c-.279.279-5.049,5.049-6.4,6.421a6.162,6.162,0,0,0-.047,1.3,1.054,1.054,0,0,0,.07.372h0C12.31,48.895,18.754,42.45,18.987,42.218Zm-5.793.233c.186-.186.4-.372.6-.558a3.214,3.214,0,0,0-1.419-.6,2.735,2.735,0,0,0-1.745.4A5.953,5.953,0,0,0,8.657,43.66a7.807,7.807,0,0,0-1.093,3.816A1.737,1.737,0,0,0,7.773,48.5a1.8,1.8,0,0,0,.721.6,6.094,6.094,0,0,0,1.605.465c.186.023.372.07.582.093a6.726,6.726,0,0,1,.07-1.931c.023-.093.023-.163.047-.256a11.765,11.765,0,0,1,.512-1.978A8.6,8.6,0,0,1,13.194,42.45Z" transform="translate(-6.795 -40.495)" fill="#004d9f"/>
+                                                </g>
+                                              </g>
+                                            </g>
+                                          </g>
+                                        </g>
+                                      </g>
+                                    </g>
+                                  </g>
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                    <select name="gender"  id="" class="form-select form-control">
+                        <option>Gender</option>
+                        <option>Male</option>
+                        <option>Female</option>
+                        <option>Other</option>                        
+                      </select>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25.763" height="18.567" viewBox="0 0 25.763 18.567">
+                        <g id="noun_gender_1156715" transform="translate(-11 -21.886)">
+                          <g id="Group_9907" data-name="Group 9907" transform="translate(11 21.886)">
+                            <path id="Path_16079" data-name="Path 16079" d="M27.349,40.42H11.429A.437.437,0,0,1,11,39.99V37.976c0-1.09.991-1.982,3.039-2.741,2.246-.826,2.642-1.453,2.642-2.774a.862.862,0,0,0-.2-.595,3.848,3.848,0,0,1-.661-1.684c0-.066-.033-.066-.033-.066a.115.115,0,0,0-.066-.033c-.462-.231-.727-.528-.793-1.552a1.59,1.59,0,0,1,.3-.991c-.033-.2-.066-.462-.132-.793-.165-.925-.561-3.4,1.982-4.426,1.85-.76,3.4-.4,3.963.132a2.584,2.584,0,0,1,1.817.826c.958,1.09.694,3.468.561,4.228a1.3,1.3,0,0,1,.33.958c-.066,1.057-.363,1.387-.793,1.585a.115.115,0,0,0-.066.033.1.1,0,0,1-.033.066,4.055,4.055,0,0,1-.661,1.684.862.862,0,0,0-.2.595c0,1.321.4,1.949,2.642,2.774,2.048.76,3.039,1.651,3.039,2.741v2.015A.346.346,0,0,1,27.349,40.42Z" transform="translate(-11 -21.886)" fill="#004d9f"/>
+                            <path id="Path_16080" data-name="Path 16080" d="M56.988,44.564v.76a.437.437,0,0,1-.429.429H41.629a.437.437,0,0,1-.429-.429v-.76c0-1.057.925-1.883,2.874-2.609,1.354-.5,1.949-.892,2.213-1.354a3.7,3.7,0,0,1-2.841-2.279v-.033h0v-.1a.43.43,0,0,1,.165-.429,3.454,3.454,0,0,0,1.255-2.973c0-2.477.5-4.987,4.129-4.987h.2c3.633,0,4.129,2.51,4.129,4.987a3.454,3.454,0,0,0,1.255,2.973.43.43,0,0,1,.165.429v.1h0v.033A3.7,3.7,0,0,1,51.9,40.6a4.149,4.149,0,0,0,2.213,1.354C56.063,42.648,56.988,43.507,56.988,44.564Z" transform="translate(-31.225 -27.186)" fill="#004d9f"/>
+                          </g>
+                        </g>
+                      </svg>
+                 </div>     
+                </div>
+                <div class="col-12">
+                  <div class="form-group">
+                    <select name="organization " class="form-select" id="">
+                        <option>Organisation</option>
+                        <option>option 2</option>
+                        <option>option 3</option>                   
+                      </select>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25.38" height="22.12" viewBox="0 0 25.38 22.12">
+                        <g id="Group_162586" data-name="Group 162586" transform="translate(14174.777 19988)">
+                          <path id="Path_83310" data-name="Path 83310" d="M123.6,49.766H102.779a1.545,1.545,0,0,0-1.545,1.545v17h23.911V51.316a1.551,1.551,0,0,0-1.545-1.55ZM122.49,65.655h-18.6V52.42h18.6Z" transform="translate(-14275.272 -20037.766)" fill="#004d9f"/>
+                          <path id="Path_83311" data-name="Path 83311" d="M85.848,457.86a3.009,3.009,0,0,0,2.968,2.516h19.451a2.98,2.98,0,0,0,2.961-2.516Z" transform="translate(-14260.625 -20426.256)" fill="#004d9f"/>
+                          <path id="Path_83312" data-name="Path 83312" d="M365.657,275.158v3.822a.283.283,0,0,1-.287.287h-2.449a.283.283,0,0,1-.287-.287v-3.822a.283.283,0,0,1,.287-.287h2.449A.283.283,0,0,1,365.657,275.158Z" transform="translate(-14524.115 -20252.057)" fill="#004d9f"/>
+                          <path id="Path_83313" data-name="Path 83313" d="M189.567,294.434v2.9a.283.283,0,0,1-.287.287h-2.45a.284.284,0,0,1-.287-.275v-2.91a.283.283,0,0,1,.287-.287h2.462A.285.285,0,0,1,189.567,294.434Z" transform="translate(-14356.484 -20270.406)" fill="#004d9f"/>
+                          <path id="Path_83314" data-name="Path 83314" d="M277.617,241.728v5.428a.283.283,0,0,1-.287.287h-2.449a.283.283,0,0,1-.287-.287v-5.428a.283.283,0,0,1,.287-.287h2.449A.283.283,0,0,1,277.617,241.728Z" transform="translate(-14440.304 -20220.232)" fill="#004d9f"/>
+                          <path id="Path_83315" data-name="Path 83315" d="M453.707,244.658v5.287a.283.283,0,0,1-.287.287h-2.449a.283.283,0,0,1-.287-.287v-5.287a.283.283,0,0,1,.287-.287h2.449A.283.283,0,0,1,453.707,244.658Z" transform="translate(-14607.935 -20223.023)" fill="#004d9f"/>
+                          <path id="Path_83316" data-name="Path 83316" d="M193.835,137.027a.4.4,0,0,1,.057-.56l3.958-3.228a2.093,2.093,0,0,1,2.122-.315l3.011,1.236a1.306,1.306,0,0,0,1.17-.092l4.008-2.436a.4.4,0,1,1,.414.681l-4.008,2.435a2.106,2.106,0,0,1-1.886.148l-3.011-1.236a1.3,1.3,0,0,0-1.317.2l-3.958,3.228a.4.4,0,0,1-.56-.057Z" transform="translate(-14363.34 -20115.645)" fill="#004d9f"/>
+                        </g>
+                      </svg>
+                      </div>
+                </div>
+            </div>		
+           <div class="form-group d-flex justify-content-center">
+             <button type="button" class="btn  signup-button text-center">Sign Up</button>
+            </div>
+    
+           </form>
+           <div class="back-to-login d-sm-none text-center">
+            <a href="signIn.html" > Back to LogIn </a>
+           </div>
+          </div>
+          <!-- social icons  -->
+          <div class="d-none d-lg-flex col-lg-2 d-flex align-items-center justify-content-end">
+            <div class="d-flex flex-column social-icons-div">
+              <a class="add-background" href="#"
+                >
+                <svg xmlns="http://www.w3.org/2000/svg" id="Component_16_2" data-name="Component 16 – 2" width="40.002" height="40" viewBox="0 0 40.002 40">
+                  <circle id="Ellipse_14288" data-name="Ellipse 14288" cx="20" cy="20" r="20" fill="#fff"/>
+                  <g id="Component_83_1" data-name="Component 83 – 1" transform="translate(0.002)">
+                    <path id="Subtraction_10" data-name="Subtraction 10" d="M21379,10745a20,20,0,1,1,14.141-5.856A19.874,19.874,0,0,1,21379,10745Zm3.266-20.032c1.906,0,1.906,1.807,1.906,3.126v5.741h3.652l0-6.477c0-2.915-.531-5.612-4.387-5.612a3.872,3.872,0,0,0-3.465,1.9h-.053v-1.606h-3.512v11.794h3.656v-5.843C21380.07,10726.5,21380.332,10724.967,21382.268,10724.967Zm-11.811-2.927h0v11.794h3.662v-11.794Zm1.832-5.869a2.129,2.129,0,1,0,2.121,2.121A2.123,2.123,0,0,0,21372.289,10716.171Z" transform="translate(-21359.002 -10705)" fill="#004d9f"/>
+                  </g>
+                </svg>
+              </a>
+              <a class="move-add-background" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" id="Component_15_2" data-name="Component 15 – 2" width="39.996" height="40" viewBox="0 0 39.996 40">
+                  <circle id="Ellipse_14286" data-name="Ellipse 14286" cx="19.998" cy="19.998" r="19.998" transform="translate(0 0.001)" fill="#fff"/>
+                  <path id="Subtraction_9" data-name="Subtraction 9" d="M20,40A20,20,0,0,1,5.857,5.856,20,20,0,0,1,34.137,34.14,19.865,19.865,0,0,1,20,40ZM20,8.411a11.628,11.628,0,0,0-9.94,5.721,11.27,11.27,0,0,0,0,11.732A11.576,11.576,0,0,0,31.584,20a11.457,11.457,0,0,0-.2-2.159.668.668,0,0,0-.665-.556H20a.672.672,0,0,0-.68.679v4.074a.672.672,0,0,0,.68.679h5.471a6.1,6.1,0,0,1-9.136,2.166,6.222,6.222,0,0,1-2.188-3.1,6.275,6.275,0,0,1,0-3.558,6.222,6.222,0,0,1,2.188-3.1,6.094,6.094,0,0,1,7.33-.007.67.67,0,0,0,.143.082c.022.009.043.017.066.024a.665.665,0,0,0,.2.03H24.1a.647.647,0,0,0,.418-.179l.024-.024,2.906-2.893a.7.7,0,0,0,.192-.467c0-.006,0-.012,0-.018s0-.012,0-.018a.711.711,0,0,0-.244-.5A11.521,11.521,0,0,0,20,8.411Z" transform="translate(0.002 0.002)" fill="#004d9f"/>
+                </svg>
+              </a>
+              <a class="add-background" href="#">
+                <svg xmlns="http://www.w3.org/2000/svg" id="Component_14_1" data-name="Component 14 – 1" width="40" height="40" viewBox="0 0 40 40">
+                  <circle id="Ellipse_59" data-name="Ellipse 59" cx="17" cy="17" r="17" transform="translate(3 3)" fill="#fff"/>
+                  <g id="Component_65_1" data-name="Component 65 – 1">
+                    <path id="Subtraction_8" data-name="Subtraction 8" d="M20,40A20,20,0,0,1,5.858,5.858,20,20,0,0,1,34.142,34.142,19.868,19.868,0,0,1,20,40ZM17.053,19.438V31.251H22.46V19.438h3.569L26.5,15.29h-4.04V12.847a1.06,1.06,0,0,1,1.146-1.132h2.906V7.685L22.508,7.67a5.359,5.359,0,0,0-4.395,1.744A5.1,5.1,0,0,0,17.053,12.6v2.687H14.481v4.152Z" fill="#004d9f"/>
+                  </g>
+                </svg>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- footer section  -->
+    <footer class="pt-5">
+      <div
+        class="d-none d-lg-flex flex-column social-icons-div position-absolute"
+      >
+      <a class="add-background" href="#"
+      >
+      <svg xmlns="http://www.w3.org/2000/svg" id="Component_16_2" data-name="Component 16 – 2" width="40.002" height="40" viewBox="0 0 40.002 40">
+        <circle id="Ellipse_14288" data-name="Ellipse 14288" cx="20" cy="20" r="20" fill="#fff"/>
+        <g id="Component_83_1" data-name="Component 83 – 1" transform="translate(0.002)">
+          <path id="Subtraction_10" data-name="Subtraction 10" d="M21379,10745a20,20,0,1,1,14.141-5.856A19.874,19.874,0,0,1,21379,10745Zm3.266-20.032c1.906,0,1.906,1.807,1.906,3.126v5.741h3.652l0-6.477c0-2.915-.531-5.612-4.387-5.612a3.872,3.872,0,0,0-3.465,1.9h-.053v-1.606h-3.512v11.794h3.656v-5.843C21380.07,10726.5,21380.332,10724.967,21382.268,10724.967Zm-11.811-2.927h0v11.794h3.662v-11.794Zm1.832-5.869a2.129,2.129,0,1,0,2.121,2.121A2.123,2.123,0,0,0,21372.289,10716.171Z" transform="translate(-21359.002 -10705)" fill="#004d9f"/>
+        </g>
+      </svg>
+    </a>
+    <a class="move-add-background" href="#">
+      <svg xmlns="http://www.w3.org/2000/svg" id="Component_15_2" data-name="Component 15 – 2" width="39.996" height="40" viewBox="0 0 39.996 40">
+        <circle id="Ellipse_14286" data-name="Ellipse 14286" cx="19.998" cy="19.998" r="19.998" transform="translate(0 0.001)" fill="#fff"/>
+        <path id="Subtraction_9" data-name="Subtraction 9" d="M20,40A20,20,0,0,1,5.857,5.856,20,20,0,0,1,34.137,34.14,19.865,19.865,0,0,1,20,40ZM20,8.411a11.628,11.628,0,0,0-9.94,5.721,11.27,11.27,0,0,0,0,11.732A11.576,11.576,0,0,0,31.584,20a11.457,11.457,0,0,0-.2-2.159.668.668,0,0,0-.665-.556H20a.672.672,0,0,0-.68.679v4.074a.672.672,0,0,0,.68.679h5.471a6.1,6.1,0,0,1-9.136,2.166,6.222,6.222,0,0,1-2.188-3.1,6.275,6.275,0,0,1,0-3.558,6.222,6.222,0,0,1,2.188-3.1,6.094,6.094,0,0,1,7.33-.007.67.67,0,0,0,.143.082c.022.009.043.017.066.024a.665.665,0,0,0,.2.03H24.1a.647.647,0,0,0,.418-.179l.024-.024,2.906-2.893a.7.7,0,0,0,.192-.467c0-.006,0-.012,0-.018s0-.012,0-.018a.711.711,0,0,0-.244-.5A11.521,11.521,0,0,0,20,8.411Z" transform="translate(0.002 0.002)" fill="#004d9f"/>
+      </svg>
+    </a>
+    <a class="add-background" href="#">
+      <svg xmlns="http://www.w3.org/2000/svg" id="Component_14_1" data-name="Component 14 – 1" width="40" height="40" viewBox="0 0 40 40">
+        <circle id="Ellipse_59" data-name="Ellipse 59" cx="17" cy="17" r="17" transform="translate(3 3)" fill="#fff"/>
+        <g id="Component_65_1" data-name="Component 65 – 1">
+          <path id="Subtraction_8" data-name="Subtraction 8" d="M20,40A20,20,0,0,1,5.858,5.858,20,20,0,0,1,34.142,34.142,19.868,19.868,0,0,1,20,40ZM17.053,19.438V31.251H22.46V19.438h3.569L26.5,15.29h-4.04V12.847a1.06,1.06,0,0,1,1.146-1.132h2.906V7.685L22.508,7.67a5.359,5.359,0,0,0-4.395,1.744A5.1,5.1,0,0,0,17.053,12.6v2.687H14.481v4.152Z" fill="#004d9f"/>
+        </g>
+      </svg>
+    </a>
+      </div>
+      <div class="footer-container max-width-1075">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="footer-image-container">
+              <img
+                src="assets/images/footer-logo.png"
+                alt="logo"
+                class="img-fluid"
+              />
+            </div>
+            <div class="footer-email">Email: infor@designationone.com</div>
+          </div>
+          <div class="col-md-6">
+            <div class="footer-menu pt-3 pt-md-0">
+              <div class="footer-menu-heading">
+                <h3>Links</h3>
+              </div>
+              <ul class="menu-links">
+                <li><a href="privacy.html">Privacy & Cookies</a></li>
+                <li><a href="accessibility.html">Accessibility</a></li>
+                <li><a href="contact.html">Connect Boards & needs</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="news.html">Event/News</a></li>
+                <li><a href="about.html">About us</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col-12">
+            <div
+              class="d-flex justify-content-center align-items center copyright py-3 py-md-5"
+            >
+              © Copyright 2022 Designation.One
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- slick slider  -->
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+      integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    ></script>
+    <!-- bootstrap  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"
+    ></script>
+    <script src="assets/js/global.js"></script>
+  </body>
+</html>

@@ -123,7 +123,7 @@ header .nav-item {
 }
 header .nav-item .nav-link {
   font: normal normal 600 15px/20px Open Sans;
-  color: var(--color-black);
+  color: var(--color-black) !important;
   padding-left: 0 !important;
   padding-right: 0 !important;
 }
@@ -344,7 +344,7 @@ footer .social-icons-div {
   .heading h2,
   .center-heading h2 {
     align-items: center;
-    font: normal normal bold 18px/50px Nunito Sans;
+    font: normal normal bold 18px/24px Nunito Sans;
     text-align: left;
     justify-content: flex-start;
   }

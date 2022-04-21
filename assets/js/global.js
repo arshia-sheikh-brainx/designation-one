@@ -39,7 +39,7 @@ $(document).ready(function () {
         $('.left.switch-button-case').removeClass('active-case');
         $('.right.switch-button-case').addClass('active-case');
         setTimeout(function () {
-            window.location.href = '/signUp.html'
+            window.location.href = '/signIn.html'
         }, 300);
     });
 });
