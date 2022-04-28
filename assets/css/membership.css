@@ -14,6 +14,9 @@
   border: none;
   border-radius: 40px;
 }
+#membership .card-img-top {
+  border-radius: 40px;
+}
 #membership .card-btn a {
   text-align: center;
   font: normal normal 600 15px/27px Nunito Sans;
@@ -31,19 +34,36 @@
     line-height:40px;
   } 
 }
-
+@media screen and (max-width:768px) {
+  #membership .card-img-top {
+    border-radius: 40px 40px 0 0;
+    padding: 0!important;
+  }
+}
 @media screen and (max-width:576px) {
+  #membership .card {
+    border-radius: 15px;
+    box-shadow: 0px 40px 60px #00000012;
+}
+  #membership .card-img-top {
+    border-radius: 15px 15px 0 0;
+}
  #membership  p {
     font-size: 14px;
     line-height: 25px;
     font-weight: 700;
+    text-align: left;
   }
   #membership .card-btn {
-    margin-top: 10px !important;
+    margin:0 !important;
   }
   #membership .card-btn a {
     font-size: 12px;
-    padding: 10px 24px;
+    color: var(--menu-hover-color);
+    background: transparent;
+    box-shadow: none;
+    padding: 0;
+    font-weight: 700;
   }
   #membership .card-btn a {
     width: 200px;

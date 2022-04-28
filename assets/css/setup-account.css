@@ -1,0 +1,27 @@
+.wizard-content .wizard > .actions > ul{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+
+}
+.wizard-content .wizard > .actions {
+    padding: 29px 0px 20px 0;
+}
+ .skip-btn {
+    font: normal normal 600 14px/24px Poppins;
+    letter-spacing: 0.5px;
+    color: #000000;
+    padding: 7px 50px;
+    background: #004d9f3d 0% 0% no-repeat padding-box;
+    border-radius: 22px;
+    width: fit-content;
+    margin-right: auto;
+    margin-top: -10px;
+    border: none;
+}
+@media screen and (max-width:768px) {
+    .skip-btn {
+        margin-top: -6px;
+    }
+    
+}

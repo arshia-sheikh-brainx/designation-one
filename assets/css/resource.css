@@ -1,0 +1,148 @@
+
+
+.resources {
+  background-image: url(../images/section-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.resources .social-icons-div {
+  position: absolute;
+  right: 10px;
+  top: 30%;
+  transform: translateY(-30%);
+}
+.resources .social-icons-div a,
+.resources .social-icons-div svg {
+  z-index: 3;
+}
+.bookmarks {
+  list-style-type: none;
+  padding: 0;
+}
+.bookmarks li {
+  padding: 5px 0;
+}
+.bookmarks a {
+  font-size: 16px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  color: #8e929a;
+}
+.resource-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+.resource-heading {
+  font-size: 36px;
+  font-family: Nunito Sans;
+  font-weight: bold;
+  color: #595959;
+  line-height: 70px;
+}
+.resource-paragraph {
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-weight: bold;
+  color: #000000;
+  line-height: 30px;
+}
+.resource-list {
+  list-style-type: none;
+}
+.resource-paragraph li::before {
+  content: "\2022";
+  color: #004d9f;
+  font-weight: bold;
+  display: inline-block;
+  width: 1em;
+  margin-left: -1em;
+  font-size: 24px;
+}
+.resource-list-heading {
+  font-size: 20px;
+  font-family: Nunito Sans;
+  font-weight: bold;
+  line-height: 30px;
+  color: #005ead;
+}
+.resource-list-content {
+  font-size: 18px;
+  font-family: Nunito Sans;
+  font-weight: 600;
+  line-height: 30px;
+  color: #000000;
+}
+.resource-link a{
+text-decoration: underline;
+font-size: 22px;
+font-family: Nunito Sans;
+font-weight: 600;
+line-height: 30px;
+color: #004D9F !important;
+
+}
+.resource-sub-contnet{
+font: normal normal bold 24px/40px Nunito Sans;
+color: #000000;
+padding: 10px 0;
+}
+@media screen and (max-width: 992px) {
+  .resource-heading {
+    font-size: 30px;
+  }
+  .resource-paragraph , .resource-link a{
+    font-size: 16px;
+  }
+  .resource-list-heading {
+    font-size: 18px;
+  }
+  .resource-list-content {
+    font-size: 16px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    line-height: 30px;
+    color: #000000;
+  }
+}
+@media screen and (max-width: 768px) {
+
+  .resource-heading {
+    font-size: 16px;
+    font-family: BrownStd;
+    font-weight: normal;
+    line-height: 22px;
+    color: #000000;
+  }
+  .resource-paragraph , .resource-link a{
+    font-size: 12px;
+    line-height: 20px;
+    font-weight: normal;
+  }
+  .resource-list-heading {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .resource-list-content {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .resource-sub-contnet {
+    font-size: 18px;
+    line-height: 25px;
+    padding: 0;
+    padding-bottom:20px;
+    color: #595959;
+}
+}
+@media screen and (max-width:576px) {
+  .resources {
+  background: #E9EEF4 ;
+  }
+  /* headings  */
+  .heading 
+    {
+      height: 43px;
+      margin: 20px 0 0;
+  }
+}

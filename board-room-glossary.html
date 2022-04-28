@@ -1,0 +1,685 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+      <title>Home Page</title>
+      <!-- bootstrap css  -->
+      <link
+         href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+         rel="stylesheet"
+         />
+      <!-- slick css  -->
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css"
+         integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+         />
+      <link
+         rel="stylesheet"
+         href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css"
+         integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+         />
+      <!-- jquery -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+      <!-- stylesheet -->
+      <link rel="stylesheet" href="assets/css/global.css" />
+      <link rel="stylesheet" href="assets/css/resource.css" />
+   </head>
+   <body>
+      <!-- header -->
+      <header class="header">
+         <div class="container">
+            <div class="row">
+               <div class="col-12">
+                  <nav class="navbar navbar-expand-lg navbar-light">
+                     <div class="container-fluid flex-col p-0 p-lg-auto">
+                        <button
+                           class="navbar-toggler"
+                           type="button"
+                           data-bs-toggle="collapse"
+                           data-bs-target="#navbarSupportedContent"
+                           aria-controls="navbarSupportedContent"
+                           aria-expanded="false"
+                           aria-label="Toggle navigation"
+                           >
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <a class="navbar-brand logo m-auto mx-lg-none me-lg-3" href="#"
+                           ><img
+                           class="img-fluid"
+                           src="assets/images/logo.png"
+                           alt="logo"
+                           /></a>
+                        <div
+                           class="collapse navbar-collapse"
+                           id="navbarSupportedContent"
+                           >
+                           <ul
+                              class="navbar-nav me-auto mb-2 mb-lg-0 align-items-lg-center"
+                              >
+                              <li class="nav-item">
+                                 <a class="nav-link active" aria-current="page" href="/"
+                                    >Home</a
+                                    >
+                              </li>
+                              <li class="nav-item dropdown">
+                                 <a
+                                    class="nav-link dropdown-toggle"
+                                    href="about.html"
+                                    id="navbarDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                    >
+                                 About Us
+                                 </a>
+                                 <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdown"
+                                    >
+                                    <li>
+                                       <a class="dropdown-item" href="team.html">Team</a>
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="ambassadors.html"
+                                          >Ambassadors</a
+                                          >
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="partners.html"
+                                          >Partners</a
+                                          >
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li class="nav-item dropdown">
+                                 <a
+                                    class="nav-link dropdown-toggle"
+                                    href="membership.html"
+                                    id="navbarDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                    >
+                                 Membership
+                                 </a>
+                                 <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdown"
+                                    >
+                                    <li>
+                                       <a
+                                          class="dropdown-item"
+                                          href="individual-membership.html"
+                                          >Individual</a
+                                          >
+                                    </li>
+                                    <li>
+                                       <a
+                                          class="dropdown-item"
+                                          href="non-profit-membership.html"
+                                          >Not for Profit Organization</a
+                                          >
+                                    </li>
+                                    <li>
+                                       <a
+                                          class="dropdown-item"
+                                          href="corporate-membership.html"
+                                          >Corporate</a
+                                          >
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" aria-current="page" href="news.html"
+                                    >Event/News</a
+                                    >
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" aria-current="page" href="quiz.html"
+                                    >Quiz</a
+                                    >
+                              </li>
+                              <li class="nav-item dropdown">
+                                 <a
+                                    class="nav-link dropdown-toggle"
+                                    href="resources.html"
+                                    id="navbarDropdown"
+                                    role="button"
+                                    data-bs-toggle="dropdown"
+                                    aria-expanded="false"
+                                    >
+                                 Resources
+                                 </a>
+                                 <ul
+                                    class="dropdown-menu"
+                                    aria-labelledby="navbarDropdown"
+                                    >
+                                    <li>
+                                       <a
+                                          class="dropdown-item active"
+                                          href="board-room-glossary.html"
+                                          >Board Room Glossary</a
+                                          >
+                                    </li>
+                                    <li>
+                                       <a
+                                          class="dropdown-item"
+                                          href="leadership-development.html"
+                                          >Leadership Development</a
+                                          >
+                                    </li>
+                                    <li>
+                                       <a
+                                          class="dropdown-item"
+                                          href="professional-advisors.html"
+                                          >Professional Advisors</a
+                                          >
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="webinars.html"
+                                          >Webinars</a
+                                          >
+                                    </li>
+                                    <li>
+                                       <a class="dropdown-item" href="job-board.html"
+                                          >Job Board</a
+                                          >
+                                    </li>
+                                 </ul>
+                              </li>
+                              <li class="nav-item">
+                                 <a class="nav-link" aria-current="page" href="faqs.html"
+                                    >FAQ's</a
+                                    >
+                              </li>
+                              <li class="nav-item">
+                                 <a
+                                    class="nav-link"
+                                    aria-current="page"
+                                    href="contact.html"
+                                    >Contact Us</a
+                                    >
+                              </li>
+                           </ul>
+                           <div class="switch-button d-none d-lg-flex">
+                              <span class="active-btn-background"></span>
+                              <a class="switch-button-case left active-case">SignUp</a>
+                              <a class="switch-button-case right">SIGNIN</a>
+                           </div>
+                        </div>
+                     </div>
+                  </nav>
+               </div>
+            </div>
+         </div>
+      </header>
+      <!-- resouce section  -->
+      <section class="resources">
+        <div class="d-none d-md-flex flex-column social-icons-div ">
+            <a class="add-background" href="#"
+            >
+            <svg xmlns="http://www.w3.org/2000/svg" id="Component_16_2" data-name="Component 16 – 2" width="40.002" height="40" viewBox="0 0 40.002 40">
+              <circle id="Ellipse_14288" data-name="Ellipse 14288" cx="20" cy="20" r="20" fill="#fff"/>
+              <g id="Component_83_1" data-name="Component 83 – 1" transform="translate(0.002)">
+                <path id="Subtraction_10" data-name="Subtraction 10" d="M21379,10745a20,20,0,1,1,14.141-5.856A19.874,19.874,0,0,1,21379,10745Zm3.266-20.032c1.906,0,1.906,1.807,1.906,3.126v5.741h3.652l0-6.477c0-2.915-.531-5.612-4.387-5.612a3.872,3.872,0,0,0-3.465,1.9h-.053v-1.606h-3.512v11.794h3.656v-5.843C21380.07,10726.5,21380.332,10724.967,21382.268,10724.967Zm-11.811-2.927h0v11.794h3.662v-11.794Zm1.832-5.869a2.129,2.129,0,1,0,2.121,2.121A2.123,2.123,0,0,0,21372.289,10716.171Z" transform="translate(-21359.002 -10705)" fill="#004d9f"/>
+              </g>
+            </svg>
+            </a>
+            <a class="move-add-background" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" id="Component_15_2" data-name="Component 15 – 2" width="39.996" height="40" viewBox="0 0 39.996 40">
+              <circle id="Ellipse_14286" data-name="Ellipse 14286" cx="19.998" cy="19.998" r="19.998" transform="translate(0 0.001)" fill="#fff"/>
+              <path id="Subtraction_9" data-name="Subtraction 9" d="M20,40A20,20,0,0,1,5.857,5.856,20,20,0,0,1,34.137,34.14,19.865,19.865,0,0,1,20,40ZM20,8.411a11.628,11.628,0,0,0-9.94,5.721,11.27,11.27,0,0,0,0,11.732A11.576,11.576,0,0,0,31.584,20a11.457,11.457,0,0,0-.2-2.159.668.668,0,0,0-.665-.556H20a.672.672,0,0,0-.68.679v4.074a.672.672,0,0,0,.68.679h5.471a6.1,6.1,0,0,1-9.136,2.166,6.222,6.222,0,0,1-2.188-3.1,6.275,6.275,0,0,1,0-3.558,6.222,6.222,0,0,1,2.188-3.1,6.094,6.094,0,0,1,7.33-.007.67.67,0,0,0,.143.082c.022.009.043.017.066.024a.665.665,0,0,0,.2.03H24.1a.647.647,0,0,0,.418-.179l.024-.024,2.906-2.893a.7.7,0,0,0,.192-.467c0-.006,0-.012,0-.018s0-.012,0-.018a.711.711,0,0,0-.244-.5A11.521,11.521,0,0,0,20,8.411Z" transform="translate(0.002 0.002)" fill="#004d9f"/>
+            </svg>
+            </a>
+            <a class="add-background" href="#">
+            <svg xmlns="http://www.w3.org/2000/svg" id="Component_14_1" data-name="Component 14 – 1" width="40" height="40" viewBox="0 0 40 40">
+              <circle id="Ellipse_59" data-name="Ellipse 59" cx="17" cy="17" r="17" transform="translate(3 3)" fill="#fff"/>
+              <g id="Component_65_1" data-name="Component 65 – 1">
+                <path id="Subtraction_8" data-name="Subtraction 8" d="M20,40A20,20,0,0,1,5.858,5.858,20,20,0,0,1,34.142,34.142,19.868,19.868,0,0,1,20,40ZM17.053,19.438V31.251H22.46V19.438h3.569L26.5,15.29h-4.04V12.847a1.06,1.06,0,0,1,1.146-1.132h2.906V7.685L22.508,7.67a5.359,5.359,0,0,0-4.395,1.744A5.1,5.1,0,0,0,17.053,12.6v2.687H14.481v4.152Z" fill="#004d9f"/>
+              </g>
+            </svg>
+            </a>
+         </div>
+         <div class="container custom-padding  pb-3 pb-md-5">
+            <div class="row">
+               <div class="col-12 col-lg-8 mx-auto">
+                  <div class="heading">
+                     <h2 data-text="Resources">Board Room Glossary</h2>
+                  </div>
+                  <hr class="heading-line" />
+               </div>
+            </div>
+            <div class="row">
+                <div class="col-2 d-none d-lg-block">
+                    <ul class="bookmarks">
+                        <li>
+                            <a href="#assets"> Assets </a>
+                        </li>
+                        <li>
+                            <a href="#board-chair"> Board Chair </a>
+                        </li>
+                        <li>
+                            <a href="#board-development"> Board Development </a>
+                        </li>
+                        <li>
+                            <a href="#board-member-matrix"> Board Member Matrix </a>
+                        </li>
+                        <li>
+                            <a href="#bylaws"> Bylaws </a>
+                        </li>
+                        <li>
+                            <a href="#charity"> Charity (USA)</a>
+                        </li>
+                        <li>
+                            <a href="#charter"> Charter </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col-12 col-lg-9 bookmark-content">
+                    <div id="assets" class="resource-container">
+                        <div class="resource-heading" >
+                            Assets:
+                        </div>
+                        <div class="resource-paragraph">
+                            Assets Cash, stocks, bonds, endowment, real estate or other holdings of a non-profit. Generally, assets are invested, and the income is used to make grants or are distributed otherwise to beneficiaries.
+                        </div>
+       
+                    </div>
+                    <div id="board-chair:" class="resource-container">
+                        <div class="resource-heading" >
+                            Board Chair:
+                        </div>
+                        <div class="resource-paragraph">
+                            The Chair in a non-profit organization it often the chief volunteer position, the elected leader of the board..
+                        </div>
+       
+                    </div>
+                    <div id="board-development:" class="resource-container">
+                        <div class="resource-heading" >
+                            Board Development:
+                        </div>
+                        <div class="resource-paragraph">
+                            A process of building effective boards; from recruiting and orienting to engaging and educating board members, it can also include rotations of board members to ensure a good fit with the organization’s governance needs.
+                        </div>
+       
+                    </div>
+                    <div id="board-member-matrix:" class="resource-container">
+                        <div class="resource-heading" >
+                            Board Member Matrix:
+                        </div>
+                        <div class="resource-paragraph">
+                            This is a tool to help identify desired characteristics and gaps on a board, and to help recruit adequate board members.
+                        </div>
+       
+                    </div>
+                    <div id="bylaws" class="resource-container">
+                        <div class="resource-heading" >
+                            Bylaws:
+                        </div>
+                        <div class="resource-paragraph">
+                            Bylaws are the rules governing the operation of a non-profit organization. Bylaws often provide the methods for the selection of board of directors, the creation of committees and the conduct of meetings.
+                        </div>
+       
+                    </div>
+                    <div id="charity" class="resource-container">
+                        <div class="resource-heading" >
+                            Charity (USA):
+                        </div>
+                        <div class="resource-paragraph">
+                            In its traditional legal meaning, the word “charity” encompasses religion, education, assistance to the government, promotion of health, relief of poverty or distress and other purposes that benefit the community. Non-profit organizations that are organized and operated to further one of these purposes generally will be recognized as exempt from federal income tax under Section 501(c)(3) of the Internal Revenue Code (see 501(c)(3)) and will be eligible to receive tax deductible charitable gifts.
+                        </div>
+       
+                    </div>
+                    <div id="charter" class="resource-container">
+                        <div class="resource-heading" >
+                            Charter:
+                        </div>
+                        <div class="resource-paragraph">
+                            The legal organizational document for a non-profit; also known as the articles of incorporation or articles of organization; they may also refer to a formal description of responsibilities assigned to a committee, a chapter, or an affiliate.
+                        </div>
+       
+                    </div>
+                    <div id="" class="resource-container">
+                        <div class="resource-heading" >
+                            Community Foundation (USA):
+                        </div>
+                        <div class="resource-paragraph">
+                            Community Foundation (USA):
+                        </div>
+       
+                    </div>
+                    <div id="" class="resource-container">
+                        <div class="resource-heading" >
+                            Corporate Foundation (USA):
+                        </div>
+                        <div class="resource-paragraph">
+                            A corporate (company-sponsored) foundation is a private foundation that derives its grant making funds primarily from the contributions of a profit-making business. The company-sponsored foundation often maintains close ties with the donor company, but it is a separate, legal organization, sometimes with its own endowment, and is subject to the same rules and regulations as other private foundations. There are more than 2,000 corporate foundations in the United States holding some $11 billion in assets.
+                        </div>
+       
+                    </div>
+                    <div id="" class="resource-container">
+                        <div class="resource-heading" >
+                            Committee:
+                        </div>
+                        <div class="resource-paragraph">
+                            <p>
+                                Committees allow a subset of board members with the necessary skills to spend additional time focusing attention on a special subject matter. These committees, however, do not relieve the full board of its responsibility for these matters, they merely allow for specialization and help streamline the operations (and the meetings) of the full board. The committee chairs typically present a report to the full board with the committees’ recommendations to the board to adhere to its responsibilities.
+                            </p>
+                            <p>
+                                Good practice dictates a majority of independent directors on the most important committees to ensure that executive management does not hold undue influence 
+                            </p>
+                            <p>
+                                over handling of matters which require decision making at the board level. Also, best practice requires that the board’s chairperson does not chair any of the committees.
+                            </p>
+                            <p>
+                                The most common board committees are:
+                            </p>
+                            <p>
+                                <ul class="resource-list">
+                                    <li>
+                                        <span class="resource-list-heading">
+                                            Audit Committee 
+                                        </span>
+                                        <span class="resource-list-content">
+                                            – The audit committee is primarily concerned with ensuring that the organization’ financial statements are timely, relevant and reliable; that financial controls are adequate; that the organization complies with relevant regulation, that and external auditors are fulfilling their proper roles. They are commonly responsible for recommending the selection and compensation of the external auditors.
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="resource-list-heading">
+                                            Governance and Nominations Committee 
+                                        </span>
+                                        <span class="resource-list-content">
+                                     – This committee is responsible for assessing the performance and staffing needs of the board and supplying the full board with recommendations on candidates. and others
+                                        </span>
+                                    </li>
+                                    <li>
+                                        <span class="resource-list-heading">
+                                            Other Committees
+                                        </span>
+                                        <span class="resource-list-content">
+                                            – An organization can add additional standing committees or use ad hoc committees to address additional matters such as risk management, ethics, crisis management, environmental policies, labor issues, technology, and others
+                                        </span>
+                                    </li>
+                                </ul>
+                            </p>
+  
+                        </div>
+       
+                    </div>
+                    <div id="" class="resource-container">
+                        <div class="resource-heading" >
+                            Diversity:
+                        </div>
+                        <div class="resource-paragraph">
+                            A collective mixture of participants from different backgrounds and with different skill sets, aiming for inclusiveness and have different voices speak at the board meeting, rather than the mere presence of people from different backgrounds.
+                        </div>
+       
+                    </div>
+                    <div id="" class="resource-container">
+                        <div class="resource-heading" >
+                            Due diligence::
+                        </div>
+                        <div class="resource-paragraph">
+                            The expectation that a board member exercises reasonable care and follows the business judgment rule when making decisions
+                        </div>
+       
+                    </div>
+                    <div id="" class="resource-container">
+                        <div class="resource-heading" >
+                            Duty of care:
+                        </div>
+                        <div class="resource-paragraph">
+                            The requirement that board members are reasonably informed about the organization’s activities, participate in decisions, and do so in good faith and with the care of an ordinarily prudent person in similar circumstances
+                        </div>
+       
+                    </div>
+                    <div id="" class="resource-container">
+                        <div class="resource-heading" >
+                            Duty of loyalty:
+                        </div>
+                        <div class="resource-paragraph">
+                            The requirement that a board member remains faithful and loyal to the organization and avoids conflicts of interest.v
+                        </div>
+       
+                    </div>
+                    <div id="" class="resource-container">
+                        <div class="resource-heading" >
+                            Duty of obedience:
+                        </div>
+                        <div class="resource-paragraph">
+                            The requirement that a board member remains obedient to the central purposes of the organization and respects all laws and legal regulations.
+                        </div>
+       
+                    </div>
+                    <div id="" class="resource-container">
+                        <div class="resource-heading" >
+                            Endowment:
+                        </div>
+                        <div class="resource-paragraph">
+                            The principal amount of gifts and bequests that are accepted subject to a requirement that the principal be maintained intact and invested to create a source of income for a non-profit organization. Donors may require that the principal remain intact in perpetuity, or for a defined period of time, or until sufficient assets have been accumulated to achieve a designated purpose. 
+                        </div>
+       
+                    </div>
+                    <div id="" class="resource-container">
+                        <div class="resource-heading" >
+                            Executive committee:
+                        </div>
+                        <div class="resource-paragraph">
+                            A committee that has specific powers, outlined in the bylaws, which allow it to acton the board’s behalf when a full board meeting is not possible or necessary.
+                        </div>
+       
+                    </div>
+                    <div id="" class="resource-container">
+                        <div class="resource-heading" >
+                            Fiduciary duties:
+                        </div>
+                        <div class="resource-paragraph">
+                            A legal obligation to act in the best interest of another entity or person. In the non-profit sector, members of the board of directors have a fiduciary duty to act in the best interest of the organization including in activities related to the funds and other assets owned by the non-profit.
+                        </div>
+       
+                    </div>
+                    <div id="" class="resource-container">
+                        <div class="resource-heading" >
+                            Orientation:
+                        </div>
+                        <div class="resource-paragraph">
+                            An allotted time window to allow new board members to be educated on their roles, responsibilities, the organization, and how the board works.
+                        </div>
+       
+                    </div>
+                    <div id="" class="resource-container">
+                        <div class="resource-heading" >
+                            Duty of loyalty:
+                        </div>
+                        <div class="resource-paragraph">
+                            The requirement that a board member remains faithful and loyal to the organization and avoids conflicts of interest.v
+                        </div>
+       
+                    </div>
+                    <div id="" class="resource-container">
+                        <div class="resource-heading" >
+                            Retreat:
+                        </div>
+                        <div class="resource-paragraph">
+                            An event where the board or staff meet to learn about or explore specific issues; examples include strategic planning, orientation, or self-assessment. It is usually longer than a regular meeting, often off-site and informal in nature.
+                        </div>
+       
+                    </div>
+                    <div id="" class="resource-container">
+                        <div class="resource-heading" >
+                            Term limits:
+                        </div>
+                        <div class="resource-paragraph">
+                            A restriction on the number of consecutive terms that a person can serve as a board member.
+                        </div>
+       
+                    </div>
+                    <div id="" class="resource-container">
+                        <div class="resource-heading" >
+                            Vice chair:
+                        </div>
+                        <div class="resource-paragraph">
+                            A board officer whose main duty is to replace the chair when the chair is not able to carry out his or her duties; may or may not imply position as chair-elect.
+                        </div>
+       
+                    </div>
+
+                </div>
+            </div>
+         </div>
+      </section>
+      <!-- footer section  -->
+      <footer class="pt-5">
+         <div
+            class="d-none d-lg-flex flex-column social-icons-div position-absolute"
+            >
+            <a class="add-background" href="#">
+               <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="Component_16_2"
+                  data-name="Component 16 – 2"
+                  width="40.002"
+                  height="40"
+                  viewBox="0 0 40.002 40"
+                  >
+                  <circle
+                     id="Ellipse_14288"
+                     data-name="Ellipse 14288"
+                     cx="20"
+                     cy="20"
+                     r="20"
+                     fill="#fff"
+                     />
+                  <g
+                     id="Component_83_1"
+                     data-name="Component 83 – 1"
+                     transform="translate(0.002)"
+                     >
+                     <path
+                        id="Subtraction_10"
+                        data-name="Subtraction 10"
+                        d="M21379,10745a20,20,0,1,1,14.141-5.856A19.874,19.874,0,0,1,21379,10745Zm3.266-20.032c1.906,0,1.906,1.807,1.906,3.126v5.741h3.652l0-6.477c0-2.915-.531-5.612-4.387-5.612a3.872,3.872,0,0,0-3.465,1.9h-.053v-1.606h-3.512v11.794h3.656v-5.843C21380.07,10726.5,21380.332,10724.967,21382.268,10724.967Zm-11.811-2.927h0v11.794h3.662v-11.794Zm1.832-5.869a2.129,2.129,0,1,0,2.121,2.121A2.123,2.123,0,0,0,21372.289,10716.171Z"
+                        transform="translate(-21359.002 -10705)"
+                        fill="#004d9f"
+                        />
+                  </g>
+               </svg>
+            </a>
+            <a class="move-add-background" href="#">
+               <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="Component_15_2"
+                  data-name="Component 15 – 2"
+                  width="39.996"
+                  height="40"
+                  viewBox="0 0 39.996 40"
+                  >
+                  <circle
+                     id="Ellipse_14286"
+                     data-name="Ellipse 14286"
+                     cx="19.998"
+                     cy="19.998"
+                     r="19.998"
+                     transform="translate(0 0.001)"
+                     fill="#fff"
+                     />
+                  <path
+                     id="Subtraction_9"
+                     data-name="Subtraction 9"
+                     d="M20,40A20,20,0,0,1,5.857,5.856,20,20,0,0,1,34.137,34.14,19.865,19.865,0,0,1,20,40ZM20,8.411a11.628,11.628,0,0,0-9.94,5.721,11.27,11.27,0,0,0,0,11.732A11.576,11.576,0,0,0,31.584,20a11.457,11.457,0,0,0-.2-2.159.668.668,0,0,0-.665-.556H20a.672.672,0,0,0-.68.679v4.074a.672.672,0,0,0,.68.679h5.471a6.1,6.1,0,0,1-9.136,2.166,6.222,6.222,0,0,1-2.188-3.1,6.275,6.275,0,0,1,0-3.558,6.222,6.222,0,0,1,2.188-3.1,6.094,6.094,0,0,1,7.33-.007.67.67,0,0,0,.143.082c.022.009.043.017.066.024a.665.665,0,0,0,.2.03H24.1a.647.647,0,0,0,.418-.179l.024-.024,2.906-2.893a.7.7,0,0,0,.192-.467c0-.006,0-.012,0-.018s0-.012,0-.018a.711.711,0,0,0-.244-.5A11.521,11.521,0,0,0,20,8.411Z"
+                     transform="translate(0.002 0.002)"
+                     fill="#004d9f"
+                     />
+               </svg>
+            </a>
+            <a class="add-background" href="#">
+               <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  id="Component_14_1"
+                  data-name="Component 14 – 1"
+                  width="40"
+                  height="40"
+                  viewBox="0 0 40 40"
+                  >
+                  <circle
+                     id="Ellipse_59"
+                     data-name="Ellipse 59"
+                     cx="17"
+                     cy="17"
+                     r="17"
+                     transform="translate(3 3)"
+                     fill="#fff"
+                     />
+                  <g id="Component_65_1" data-name="Component 65 – 1">
+                     <path
+                        id="Subtraction_8"
+                        data-name="Subtraction 8"
+                        d="M20,40A20,20,0,0,1,5.858,5.858,20,20,0,0,1,34.142,34.142,19.868,19.868,0,0,1,20,40ZM17.053,19.438V31.251H22.46V19.438h3.569L26.5,15.29h-4.04V12.847a1.06,1.06,0,0,1,1.146-1.132h2.906V7.685L22.508,7.67a5.359,5.359,0,0,0-4.395,1.744A5.1,5.1,0,0,0,17.053,12.6v2.687H14.481v4.152Z"
+                        fill="#004d9f"
+                        />
+                  </g>
+               </svg>
+            </a>
+         </div>
+         <div class="footer-container max-width-1075">
+            <div class="row">
+               <div class="col-md-6">
+                  <div class="footer-image-container">
+                     <img
+                        src="assets/images/footer-logo.png"
+                        alt="logo"
+                        class="img-fluid"
+                        />
+                  </div>
+                  <div class="footer-email">Email: infor@designationone.com</div>
+               </div>
+               <div class="col-md-6">
+                  <div class="footer-menu pt-3 pt-md-0">
+                     <div class="footer-menu-heading">
+                        <h3>Links</h3>
+                     </div>
+                     <ul class="menu-links">
+                        <li><a href="privacy.html">Privacy & Cookies</a></li>
+                        <li><a href="accessibility.html">Accessibility</a></li>
+                        <li><a href="contact.html">Connect Boards & needs</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                        <li><a href="news.html">Event/News</a></li>
+                        <li><a href="about.html">About us</a></li>
+                     </ul>
+                  </div>
+               </div>
+            </div>
+            <div class="row">
+               <div class="col-12">
+                  <div
+                     class="d-flex justify-content-center align-items center copyright py-3 py-md-5"
+                     >
+                     © Copyright 2022 Designation.One
+                  </div>
+               </div>
+            </div>
+         </div>
+      </footer>
+      <!-- slick slider  -->
+      <script
+         src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js"
+         integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg=="
+         crossorigin="anonymous"
+         referrerpolicy="no-referrer"
+         ></script>
+      <!-- bootstrap  -->
+      <script
+         src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+         integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+         crossorigin="anonymous"
+         ></script>
+      <script src="assets/js/global.js"></script>
+   </body>
+</html>
