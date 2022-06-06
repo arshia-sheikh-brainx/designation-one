@@ -1,6 +1,6 @@
 $(document).ready(function () {
     // step form 
-    const form = $("#individual-membership-form");
+    const form = $("#account-setup-form");
     form.steps({
       headerTag: "h6",
       bodyTag: "section",
@@ -13,7 +13,7 @@ $(document).ready(function () {
     });
     let input = $('<button class="skip-btn"> Skip </button>');
 
-      input.appendTo($('ul[aria-label=Pagination]'));
+      input.appendTo($('#account-setup-form ul[aria-label=Pagination]'));
   
     // profile image upload 
     function readURL(input) {
@@ -37,5 +37,6 @@ $(document).ready(function () {
       allowClear: false,
       tags: false
     });
+
 });
   

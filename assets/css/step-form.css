@@ -41,17 +41,33 @@
 label.profile-image-label {
   font: normal normal 600 18px/30px Nunito Sans;
 }
+/* add button  */
+.prev-role-row{
+  background-color:#ffffff ;
+}
+form tr input {
+  font: normal normal normal 12px/20px Poppins;
+  color: #343434 !important;
+  border: none !important;
+}
+form tr .blue-text{
+  color: var(--menu-hover-color) !important;
+}
+.overflowX-auto{
+  overflow-x: auto;
+}
+
 /* style class  */
-.blue-text {
+.membership-form .blue-text {
   color: var(--menu-hover-color);
 }
-.underline-link {
+.membership-form .underline-link {
   text-decoration: underline;
   font: normal normal normal 14px/21px Poppins;
   color: var(--menu-hover-color);
 }
 /* add row button  */
-.add-row-btn {
+.membership-form .add-row-btn {
   background: #005ead26 0% 0% no-repeat padding-box;
   box-shadow: 0px 3px 2px #e9ecef0d;
   border-radius: 4px;
@@ -61,6 +77,10 @@ label.profile-image-label {
   width: fit-content;
   padding: 8px 50px;
   cursor: pointer;
+}
+.membership-form .subtitle{
+font: normal normal normal 15px/20px Poppins;
+color: #595959;
 }
 /* multi select  */
 /* dropdown icon  */
@@ -449,7 +469,30 @@ ul.select2-selection__rendered::after {
 }
 
 @media screen and (max-width: 576px) {
-  .form-heading {
+
+  .wizard-content .wizard > .steps > ul > li.last  > a .step{
+    margin-left: -5px;
+  }
+  .wizard-content .wizard > .steps > ul > li.first  > a .step{
+    margin-left: -22px;
+  }
+  .wizard-content .wizard > .steps > ul > li  > a .step{
+    margin-left: -15px;
+  }
+
+  .wizard-content .wizard.wizard-circle > .steps > ul > li:after, .wizard-content .wizard.wizard-circle > .steps > ul > li:before {
+    width: 60%;
+}
+
+/*top bar */
+.wizard-content .wizard > .steps > ul > li:before {
+  left: -12px;
+}
+.wizard-content .wizard > .steps > ul > li:after {
+    left: 45px;
+} 
+
+  .membership-form .form-heading {
     font: normal normal bold 14px/31px BrownStd;
   }
   #profile-image1 {
@@ -458,9 +501,9 @@ ul.select2-selection__rendered::after {
     height: 115px;
     width: 115px;
   }
-  .subtitle {
+  .membership-form .subtitle {
     font-size: 9px;
-    line-height: 20px;
+    line-height: 12px;
   }
   .profile-upload-btn::before {
     padding: 5px 12px;
@@ -469,10 +512,10 @@ ul.select2-selection__rendered::after {
   input#profile-image-upload {
     padding: 9px;
   }
-  .underline-link {
+  .membership-form .underline-link {
     font: normal normal normal 12px/18px Poppins;
   }
-  .add-row-btn {
+  .membership-form .add-row-btn {
     font: normal normal normal 14px/17px BrownStd;
     padding: 8px 26px;
   }
@@ -490,6 +533,7 @@ ul.select2-selection__rendered::after {
     .select2-selection__choice__remove {
     padding: 5px 7px !important;
   }
+  
   .wizard-content .wizard > .content > .body {
     padding: 0;
   }
@@ -547,5 +591,23 @@ ul.select2-selection__rendered::after {
   }
 .wizard-content .wizard > .actions > ul > li + li {
   margin-left:0;
+}
+}
+@media screen and (max-width:475px) {
+  .wizard-content .wizard > .steps > ul > li:after {
+    left: 41px;
+}
+}
+@media screen and (max-width:375px) {
+  .wizard-content .wizard > .steps > ul > li:after {
+    left: 28px;
+}
+}
+@media screen and (max-width:350px) {
+  .wizard-content .wizard > .steps > ul > li:after {
+    left: 31px;
+}
+.wizard-content .wizard > .steps > ul > li:before {
+  left: -7px;
 }
 }

@@ -1,0 +1,212 @@
+.membership-portal {
+  background-image: url(../images/section-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* heading  */
+.membership-portal .heading h2:after {
+  top: -8px;
+}
+.membership-portal .heading-line {
+  margin-top: 5px;
+  width: 25%;
+  margin-left: -15px;
+}
+.membership-portal .membership-portal-container {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border-radius: 40px;
+  padding: 45px;
+}
+.membership-portal .user-details {
+  margin-bottom: 30px;
+}
+.membership-portal .user-content {
+  padding-left: 16px;
+}
+.membership-portal .user-name {
+  font: normal normal 800 24px/32px Nunito Sans;
+  color: #0c2533;
+}
+.membership-portal .user-profession {
+  font: normal normal normal 14px/19px BrownStd;
+  color: #32325d;
+}
+.membership-portal .user-company {
+  font: normal normal normal 12px/19px Nunito Sans;
+  color: #32325d;
+}
+.membership-portal .portal-paragraph {
+  font: normal normal normal 20px/35px Nunito Sans;
+  color: #000000;
+}
+.membership-portal .plan-detail-container {
+  border-radius: 28px;
+  background-color: #f8fafc;
+  padding: 32px 40px;
+}
+.membership-portal .plan-name {
+  font: normal normal 800 24px/32px Nunito Sans;
+  color: #0c2533;
+}
+.membership-portal .plan-type {
+  font: normal normal bold 16px/22px Nunito Sans;
+  color: #0c2533;
+  margin: 15px 0;
+}
+.membership-portal .plan-price-container {
+  font: normal normal bold 18px/63px Nunito Sans;
+  color: #6e7d9b;
+}
+.membership-portal .plan-price , .membership-portal .plan-price-currency {
+  font: normal normal bold 24px/63px Nunito Sans;
+  color: #3b3b3b;
+}
+.membership-portal .plan-renew-date-container {
+  font: normal normal normal 14px/19px Nunito Sans;
+  color: #0c2533;
+}
+.membership-portal .plan-renew-date {
+  font: normal normal bold 16px/22px Nunito Sans;
+}
+.plan-advantages-list {
+  border-top: 1px solid #999a9c33;
+}
+.plan-advantages-list ul {
+  padding: 0;
+  margin-left: 30px;
+}
+.plan-advantages-list li {
+  list-style-type: none;
+  font: normal normal bold 16px/22px Nunito Sans;
+  color: #0c2533;
+  padding-top: 15px;
+}
+.plan-advantages-list li:before {
+  content: url(../images/portal-tick.svg);
+  margin-right: 10px;
+  margin-left: -29px;
+}
+.membership-portal .resource-item {
+  background: #f8fafc;
+  padding: 32px;
+  border-radius: 28px;
+  margin: 15px 0;
+}
+.membership-portal .resource-item-name {
+  font: normal normal 600 24px/32px Nunito Sans;
+  color: #004d9f;
+  width: 90%;
+}
+.portal-side-text {
+  text-align: center;
+  font: normal normal normal 20px/28px BrownStd;
+  letter-spacing: 0px;
+  color: #999A9C;
+  transform: rotate(-90deg);
+  position: absolute;
+  left: -48%;
+  top: 50vh;
+}
+header .user-avatar-name {
+  font: normal normal 600 15px/20px Open Sans;
+  color: var(--color-black) !important;
+  width: max-content;
+  padding-left: 10px !important;
+  padding-right: 10px !important;
+}
+.avatar-image,
+.avatar-image-top {
+  height: 53px;
+  width: 53px;
+}
+.avatar-dropdown-menu{
+    right: 0;
+    left: auto;
+    margin-top: 0.125rem !important;
+}
+
+@media screen and (max-width: 992px) {
+  .membership-portal .heading-line {
+    width: 40%;
+  }
+}
+@media screen and (max-width: 768px) {
+  /* heading */
+  .membership-portal .heading {
+    margin-bottom: 2px;
+  }
+  .membership-portal .heading h2:after {
+    top: -13px;
+  }
+  .membership-portal .heading-line {
+    margin-top: 0px;
+  }
+  .membership-portal .membership-portal-container {
+    padding: 15px;
+    box-shadow: 0px 1px 2px #0000000f;
+    border: 1px solid #e5e5e5;
+    border-radius: 10px;
+  }
+  .membership-portal .plan-detail-container {
+    border-radius: 28px;
+    background-color: #f8fafc;
+    padding: 32px 40px;
+  }
+  .membership-portal .portal-paragraph {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .membership-portal .resource-item {
+    padding: 20px 32px;
+    border-radius: 8px;
+  }
+  .membership-portal .resource-item-name {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .membership-portal .user-name {
+    font-size: 16px;
+    line-height: 24px;
+  }
+  .membership-portal .user-profession {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .membership-portal .plan-name {
+    font: normal normal 800 16px/22px Nunito Sans;
+  }
+  .membership-portal .plan-type {
+    font: normal normal bold 14px/24px Nunito Sans;
+    margin: 5px 0;
+  }
+  .membership-portal .plan-price ,   .membership-portal .plan-price-currency{
+    font: normal normal bold 14px/24px Nunito Sans;
+  }
+  .membership-portal .plan-price-container {
+    font: normal normal bold 16px/24px Nunito Sans;
+  }
+  .membership-portal .plan-detail-container {
+    border-radius: 15px;
+    padding: 32px 10px;
+  }
+  .plan-advantages-list li {
+    font-size: 12px;
+    line-height: 22px;
+  }
+  .membership-portal .plan-renew-date-container {
+    font-size: 10px;
+  }
+  .membership-portal .plan-renew-date {
+    font-size: 12px;
+  }
+  .membership-portal .resource-items-arrow img{
+    height: 15px;
+  }
+}
+@media screen and (max-width: 576px) {
+  .avatar-image-top {
+    height: 35px;
+    width: 35px;
+  }
+}

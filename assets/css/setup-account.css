@@ -1,13 +1,13 @@
-.wizard-content .wizard > .actions > ul{
+.account-setup .wizard-content .wizard > .actions > ul{
     display: flex;
     flex-direction: row-reverse;
     width: 100%;
 
 }
-.wizard-content .wizard > .actions {
+.account-setup .wizard-content .wizard > .actions {
     padding: 29px 0px 20px 0;
 }
- .skip-btn {
+.account-setup .skip-btn {
     font: normal normal 600 14px/24px Poppins;
     letter-spacing: 0.5px;
     color: #000000;
@@ -19,8 +19,9 @@
     margin-top: -10px;
     border: none;
 }
+
 @media screen and (max-width:768px) {
-    .skip-btn {
+  .account-setup  .skip-btn {
         margin-top: -6px;
     }
     

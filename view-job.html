@@ -225,7 +225,7 @@
             </div>
          </div>
       </header>
-      <section class="pb-5" id="post-vacancy">
+      <section class="pb-5 vacancy">
          <div class="back-btn">
             <svg xmlns="http://www.w3.org/2000/svg" width="34.54" height="16.73" viewBox="0 0 34.54 16.73">
                <g id="left-arrow_1_" data-name="left-arrow (1)" transform="translate(0 -132)">
@@ -267,14 +267,14 @@
             <div class="row">
                <div class="col-12">
                   <div class="heading">
-                     <h2 data-text="Membership">Post a Vacancy</h2>
+                     <h2 data-text="Job Board">Job Board</h2>
                   </div>
                   <hr class="heading-line" />
                </div>
             </div>
             <form action="" method="post">
                <div class="form-container ">
-             
+   
                   <div class="row">
                      <div class="col-12">
                         <h3 class="mb-0 form-heading">Membership</h3>
@@ -282,258 +282,163 @@
                   </div>
                   <div class="row mt-md-4">
                      <div class="col-12 pb-md-3">
-                        <label for="organization-name">Name of Company/Organisation</label> 
-                        <input class="form-control" id="organization-name" placeholder="Type...." type="text">
+                        <label for="organization-name">Name of Company/Organisation</label>
+                        <input class="form-control" id="organization-name" placeholder="Type...." type="text" readonly>
                         <div class="invalid-feedback">
-                           Error Message 
-                           </div>
+                           Error Message
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row">
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <label for="organisation-type">Organisation Type</label>
+                        <input class="form-control" id="organisation-type" placeholder="Team Based"  type="text" value="Team Based" readonly>
+                        <div class="invalid-feedback">
+                           Error Message
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <label for="industry">Industry / Sector</label>
+                        <input class="form-control" id="industry" placeholder="IT Industry" type="text" value="IT Industry" readonly>
+                        <div class="invalid-feedback">
+                           Error Message
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <label for="state">State/Region</label>
+                        <input class="form-control" id="state" placeholder="London" value="London" type="text" readonly>
+                        <div class="invalid-feedback">
+                           Error Message
+                        </div>
+   
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <label for="country">Country</label>
+                        <input class="form-control" id="country" placeholder="England" type="text" value="England" readonly>
+                        <div class="invalid-feedback">
+                           Error Message
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row mt-md-4">
+                     <div class="col-12 pb-md-3">
+                        <label for="about-organization">About the organisation:</label>
+                        <textarea class="form-control  mb-3" rows="3" id="about-organization" placeholder="Duis Pretium Gravida Enim, Vel Maximus Ligula Fermentum A. Sed Rhoncus Eget Ex Id Egestas. Nam Nec Nisl Placerat, Tempus Erat A, Condimentum Metus. Curabitur Nulla Nisi, Lacinia At Lobortis At, Suscipit At Nibh. Proin Quis Lectus Finibus, Mollis Purus Vitae, Rutrum Neque. Pellentesque Habitant Morbi Tristique Senectus Et Netus Et Malesuada Fames Ac Turpis Egestas. Etiam Sed Cursus Metus, Vel Viverra Mi. Mauris Aliquet Egestas Eros Ac Placerat. Proin Condimentum Ligula At Diam Euismod Fringilla Et Quis Lacus." readonly>Duis Pretium Gravida Enim, Vel Maximus Ligula Fermentum A. Sed Rhoncus Eget Ex Id Egestas. Nam Nec Nisl Placerat, Tempus Erat A, Condimentum Metus. Curabitur Nulla Nisi, Lacinia At Lobortis At, Suscipit At Nibh. Proin Quis Lectus Finibus, Mollis Purus Vitae, Rutrum Neque. Pellentesque Habitant Morbi Tristique Senectus Et Netus Et Malesuada Fames Ac Turpis Egestas. Etiam Sed Cursus Metus, Vel Viverra Mi. Mauris Aliquet Egestas Eros Ac Placerat. Proin Condimentum Ligula At Diam Euismod Fringilla Et Quis Lacus.</textarea>
                      </div>
                   </div>
                   <div class="row ">
                      <div class="col-lg-3 col-md-6 col-12">
-                        <label for="organisation-type">Organisation Type</label>
-                        <select class="form-control custom-select" id="organisation-type">
-                           <option>
-                              Select
-                           </option>
-                           <option value="">Not-For-Profit</option>
-                           <option value="">Privately Held</option>
-                           <option value="">Publicly Traded</option>
-                        </select>
+                        <label for="website-url">Website URL upload</label>
+                        <input class="form-control" id="organization-name" placeholder="Https://Www.Brainxtech.Com" type="text" value="Https://Www.Brainxtech.Com" readonly>
+                        <div class="invalid-feedback">
+                           Error Message
+                        </div>
                      </div>
                      <div class="col-lg-3 col-md-6 col-12">
-                        <label for="industry">Industry / Sector</label>
-                        <select class="form-control custom-select" id="industry">
-                           <option>
-                              Select
-                           </option>
-                           <option value="">Education</option>
-                           <option value="">Financial Services</option>
-                           <option value="">Government & Regulatory</option>
-                           <option value="">Healthcare & Disability</option>
-                           <option value="">International Relations</option>
-                           <option value="">Media</option>
-                           <option value="">Technology/Telecommunications</option>
-                           <option value="">Welfare & Youth</option>
-                           <option value="">Manufacturing / Automotive</option>
-                           <option value="">Professional Services</option>
-                           <option value="">Skilled Professional/Labor</option>
-                        </select>
+                        <label for="position">Position Title</label>
+                        <input class="form-control" id="position" placeholder="Senior UX Designer" type="text" value="Senior UX Designer" readonly>
+                        <div class="invalid-feedback">
+                           Error Message
+                        </div>
                      </div>
                      <div class="col-lg-3 col-md-6 col-12">
-                        <label for="state">State/Region</label>
-                        <select class="form-control custom-select" id="state">
-                           <option>
-                              Select
-                           </option>
-                           <option value="">California</option>
-                           <option value="">Texas</option>
-                           <option value="">Washigton</option>
-                        </select>
+                        <label for="skills">Skills Sought</label>
+                        <input class="form-control" id="skills" placeholder="UX Research" type="text" value="UX Research" readonly>
+                        <div class="invalid-feedback">
+                           Error Message
+                        </div>
                      </div>
                      <div class="col-lg-3 col-md-6 col-12">
-                        <label for="country">Country</label>
-                        <select class="form-control custom-select" id="country">
-                           <option>
-                              Select
-                           </option>
-                           <option value="">Germany</option>
-                           <option value="">United Kingdom</option>
-                           <option value="">United States of America</option>
-                        </select>
+                        <label for="remuneration">Remuneration</label>
+                        <input class="form-control" id="remuneration" placeholder="$54000 - $70000" type="text" value="$54000 - $70000" readonly>
+                        <div class="invalid-feedback">
+                           Error Message
+                        </div>
                      </div>
                   </div>
                   <div class="row mt-md-4">
-                   <div class="col-12 ">
-                      <label for="about-organization">About the organisation:</label> 
-                      <textarea class="form-control  mb-3" rows="3"  id="about-organization" placeholder="Type Something....."></textarea>
-                   </div>
-                </div>
-                <div class="row ">
-                 <div class="col-lg-3 col-md-6 col-12">
-                    <label for="website-url">Website URL upload</label>
-                    <input class="form-control" id="website-url" placeholder="Type...." type="text">
-                    <div class="invalid-feedback">
-                     Error Message 
+                     <div class="col-12 ">
+                        <label for="position-description">Position Description</label>
+                        <textarea class="form-control  mb-3" rows="3" id="position-description" placeholder="We Are Looking For An Experience UX Designer To Turn Our Software Into Easy-To-Use Products For Our Clients." value="We Are Looking For An Experience UX Designer To Turn Our Software Into Easy-To-Use Products For Our Clients." readonly ></textarea>
                      </div>
-                 </div>
-                 <div class="col-lg-3 col-md-6 col-12">
-                    <label for="position">Position Title</label>
-                    <select class="form-control custom-select" id="position">
-                       <option>
-                          Select
-                       </option>
-                       <option value="">Board Chair</option>
-                       <option value="">Board Member/Trustee/Governor</option>
-                       <option value="">Committee Chair</option>
-                       <option value="">Advisory Board</option>
-                    </select>
-                 </div>
-                 <div class="col-lg-3 col-md-6 col-12">
-                    <label for="skills">Skills Sought</label>
-                    <select class="form-control custom-select" id="skills">
-                       <option>
-                          Select
-                       </option>
-                       <option value="">CSR</option>
-                       <option value="">Digital/Technology</option>
-                       <option value="">Development/Fundraising</option>
-                       <option value="">Finance/Audit/Investment</option>
-                       <option value="">Legal/Governance/Compliance</option>
-                       <option value="">Media/Government Relations</option>
-                       <option value="">Human Resources</option>
-                       <option value="">Succession Planning</option>
-                    </select>
-                 </div>
-                 <div class="col-lg-3 col-md-6 col-12">
-                    <label for="remuneration">Remuneration</label>
-                    <select class="form-control custom-select" id="remuneration">
-                       <option>
-                          Select
-                       </option>
-                       <option value="">Paid</option>
-                       <option value="">Pro Bono</option>
-                    </select>
-                 </div>
-              </div>
-              <div class="row mt-md-4">
-               <div class="col-12 ">
-                  <label for="position-description">Position Description</label> 
-                  <textarea class="form-control  mb-3" rows="3"  id="position-description" placeholder="Type Something....."></textarea>
-               </div>
-            </div>
-            <div class="row ">
-             <div class="col-lg-3 col-md-6 col-12">
-                <label for="appointment-duration">Duration of Appointment</label>
-                <input class="form-control" id="appointment-duration" placeholder="Lorem Ipsum" type="text">
-                <div class="invalid-feedback">
-                  Error Message 
                   </div>
-             </div>
-             <div class="col-lg-3 col-md-6 col-12">
-               <label for="no-of-positions">Number of positions available</label>
-               <input class="form-control" id="no-of-positions" placeholder="Lorem Ipsum" type="text">
-               <div class="invalid-feedback">
-                  Error Message 
+                  <div class="row">
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <label for="appointment-duration">Duration of Appointment</label>
+                        <input class="form-control" id="appointment-duration" placeholder="2 Months" type="text" value="2 Months" readonly>
+                        <div class="invalid-feedback">
+                           Error Message
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <label for="no-of-positions">Number of positions available</label>
+                        <input class="form-control" id="no-of-positions" placeholder="10" value="10" type="text" readonly>
+                        <div class="invalid-feedback">
+                           Error Message
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <label for="language">Language Skills sought:</label>
+                        <input class="form-control" id="language" placeholder="English Professional" type="text" value="English Professional" readonly>
+                        <div class="invalid-feedback">
+                           Error Message
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <label for="contact-person">Contact Person</label>
+                        <input class="form-control" id="contact-person" placeholder="John Doe" type="text" value="John Doe" readonly>
+                        <div class="invalid-feedback">
+                           Error Message
+                        </div>
+                     </div>
                   </div>
-            </div>
-            <div class="col-lg-3 col-md-6 col-12">
-             <label for="language">Language Skills sought:</label>
-             <input class="form-control" id="language" placeholder="Lorem Ipsum" type="text">
-             <div class="invalid-feedback">
-               Error Message 
-               </div>
-          </div>
-          <div class="col-lg-3 col-md-6 col-12">
-           <label for="contact-person">Contact Person</label>
-           <input class="form-control" id="contact-person" placeholder="Lorem Ipsum" type="text">
-           <div class="invalid-feedback">
-            Error Message 
-            </div>
-        </div>
-          </div>
-          <div class="row mt-md-4">
-           <div class="col-lg-3 col-md-6 col-12">
-              <label for="contact-number">Contact Number</label>
-              <input class="form-control" id="contact-number" placeholder="Lorem Ipsum" type="text">
-              <div class="invalid-feedback">
-               Error Message 
-               </div>
-           </div>
-           <div class="col-lg-3 col-md-6 col-12">
-             <label for="contact-email">Contact Email</label>
-             <input class="form-control" id="contact-email" placeholder="Lorem Ipsum" type="email">
-             <div class="invalid-feedback">
-               Error Message 
-               </div>
-          </div>
-          <div class="col-lg-6 col-12">
-           <label for="financial-contribution">Financial Contribution</label>
-           <div class="d-flex justify-content-around">
-             <div class=" form-radio-container">
-               <label class="radio-btn-group">Yes
-                 <input type="radio"   name="financial-contribution">
-                 <span class="checkmark"></span>
-               </label>
-               
-             </div>
-             <div class="form-radio-container">
-               <label class="radio-btn-group">No
-                 <input type="radio"   name="financial-contribution">
-                 <span class="checkmark"></span>
-               </label>
-             </div>
-           </div>
-        </div>
-        </div>
-        <div class="row mt-md-4">
-        <div class="col-12">
-         <label for="geographic-expertise">Geographic Expertise :</label>
-         <div class="d-flex  flex-wrap multi-radio-btn-group">
-           <div class=" form-radio-container">
-             <label class="radio-btn-group">Select All
-               <input type="radio"   name="geographic-expertise">
-               <span class="checkmark"></span>
-             </label>
-           </div>
-           <div class="form-radio-container">
-             <label class="radio-btn-group">North America
-               <input type="radio"   name="geographic-expertise">
-               <span class="checkmark"></span>
-             </label>
-           </div>
-           <div class="form-radio-container">
-             <label class="radio-btn-group">Australasia
-               <input type="radio"   name="geographic-expertise">
-               <span class="checkmark"></span>
-             </label>
-           </div>
-           <div class="form-radio-container">
-             <label class="radio-btn-group">Europe
-               <input type="radio"   name="geographic-expertise">
-               <span class="checkmark"></span>
-             </label>
-           </div>
-           <div class="form-radio-container">
-             <label class="radio-btn-group">Middle East
-               <input type="radio"   name="geographic-expertise">
-               <span class="checkmark"></span>
-             </label>
-           </div>
-           <div class="form-radio-container">
-             <label class="radio-btn-group">North America
-               <input type="radio"   name="geographic-expertise">
-               <span class="checkmark"></span>
-             </label>
-           </div>
-           <div class="form-radio-container">
-             <label class="radio-btn-group">Asia
-               <input type="radio"   name="geographic-expertise">
-               <span class="checkmark"></span>
-             </label>
-           </div>
-           <div class="form-radio-container">
-             <label class="radio-btn-group">Africa
-               <input type="radio"   name="geographic-expertise">
-               <span class="checkmark"></span>
-             </label>
-           </div>
-         </div>
-      </div>
-      </div>
-      <div class="row mt-md-4">
-       <div class="col-12 pb-md-3">
-          <label for="criteria">How to apply & criteria</label> 
-          <textarea class="form-control  mb-3" rows="3"  id="criteria" placeholder="Type Something....."></textarea>
-       </div>
-    </div>  
-     </div>
+                  <div class="row mt-md-4">
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <label for="contact-number">Contact Number</label>
+                        <input class="form-control" id="contact-number" placeholder="(554) 772-6592" type="text" value="(554) 772-6592" readonly>
+                        <div class="invalid-feedback">
+                           Error Message
+                        </div>
+                     </div>
+                     <div class="col-lg-3 col-md-6 col-12">
+                        <label for="contact-email">Contact Email</label>
+                        <input class="form-control" id="contact-email" placeholder="john_doe@gmail.com" type="email" value="john_doe@gmail.com" readonly>
+                     </div>
+                     <div class="col-lg-6 col-12">
+                        <label for="financial-contribution">Financial Contribution</label>
+                        <div class="d-flex justify-content-left w-lg-50">
+                           <div class=" form-radio-container radio-styles">
+                              <label class="radio-btn-group">Yes
+                                 <input type="radio" name="financial-contribution" checked>
+                                 <span class="checkmark"></span>
+                              </label>
    
-     <div class="row mt-4 ps-2 justify-content-end justify-content-sm-start">
-        <!-- onsubmit goto job-board-login page  -->
-       <input type="submit" value="Done" class="submit-btn">
-     </div>
-              </form>   
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row mt-md-4">
+                     <div class="col-12">
+                        <label for="geographic-expertise">Geographic Expertise :</label>
+                        <div class="d-flex  flex-wrap multi-radio-btn-group">
+                           <div class=" form-radio-container radio-styles">
+                              <label class="radio-btn-group">Select All
+                                 <input type="radio" name="geographic-expertise" checked>
+                                 <span class="checkmark"></span>
+                              </label>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
+                  <div class="row mt-md-4">
+                     <div class="col-12 pb-md-3">
+                        <label for="criteria">How to apply & criteria</label>
+                        <textarea class="form-control  mb-3" rows="3" id="criteria" readonly placeholder="Duis Pretium Gravida Enim, Vel Maximus Ligula Fermentum A. Sed Rhoncus Eget Ex Id Egestas. Nam Nec Nisl Placerat, Tempus Erat A, Condimentum Metus. Curabitur Nulla Nisi, Lacinia At Lobortis At, Suscipit At Nibh. Proin Quis Lectus Finibus, Mollis Purus Vitae, Rutrum Neque. Pellentesque Habitant Morbi Tristique Senectus Et Netus Et Malesuada Fames Ac Turpis Egestas. Etiam Sed Cursus Metus, Vel Viverra Mi. Mauris Aliquet Egestas Eros Ac Placerat. Proin Condimentum Ligula At Diam Euismod Fringilla Et Quis Lacus." readonly >Duis Pretium Gravida Enim, Vel Maximus Ligula Fermentum A. Sed Rhoncus Eget Ex Id Egestas. Nam Nec Nisl Placerat, Tempus Erat A, Condimentum Metus. Curabitur Nulla Nisi, Lacinia At Lobortis At, Suscipit At Nibh. Proin Quis Lectus Finibus, Mollis Purus Vitae, Rutrum Neque. Pellentesque Habitant Morbi Tristique Senectus Et Netus Et Malesuada Fames Ac Turpis Egestas. Etiam Sed Cursus Metus, Vel Viverra Mi. Mauris Aliquet Egestas Eros Ac Placerat. Proin Condimentum Ligula At Diam Euismod Fringilla Et Quis Lacus.</textarea>
+                     </div>
+                  </div>
+               </div>
+   
+            </form> 
       </div>
       </section>
       <!-- footer section  -->

@@ -225,7 +225,7 @@
             </div>
          </div>
       </header>
-      <section class="pb-5" id="post-vacancy">
+      <section class="pb-5 vacancy edit-vacancy">
          <div class="back-btn">
             <svg xmlns="http://www.w3.org/2000/svg" width="34.54" height="16.73" viewBox="0 0 34.54 16.73">
                <g id="left-arrow_1_" data-name="left-arrow (1)" transform="translate(0 -132)">
@@ -283,13 +283,13 @@
                   <div class="row mt-md-4">
                      <div class="col-12 pb-md-3">
                         <label for="organization-name">Name of Company/Organisation</label> 
-                        <input class="form-control" id="organization-name" placeholder="Type...." type="text">
+                        <input class="form-control" id="organization-name" placeholder="Type...." type="text" value="Type....">
                         <div class="invalid-feedback">
                            Error Message 
                            </div>
                      </div>
                   </div>
-                  <div class="row ">
+                  <div class="row">
                      <div class="col-lg-3 col-md-6 col-12">
                         <label for="organisation-type">Organisation Type</label>
                         <select class="form-control custom-select" id="organisation-type">
@@ -346,13 +346,13 @@
                   <div class="row mt-md-4">
                    <div class="col-12 ">
                       <label for="about-organization">About the organisation:</label> 
-                      <textarea class="form-control  mb-3" rows="3"  id="about-organization" placeholder="Type Something....."></textarea>
+                      <textarea class="form-control  mb-3" rows="3"  id="about-organization" placeholder="Type Something.....">Type Something.....</textarea>
                    </div>
                 </div>
-                <div class="row ">
+                <div class="row">
                  <div class="col-lg-3 col-md-6 col-12">
                     <label for="website-url">Website URL upload</label>
-                    <input class="form-control" id="website-url" placeholder="Type...." type="text">
+                    <input class="form-control" id="website-url" placeholder="Type...." type="text" value="Type....">
                     <div class="invalid-feedback">
                      Error Message 
                      </div>
@@ -399,34 +399,34 @@
               <div class="row mt-md-4">
                <div class="col-12 ">
                   <label for="position-description">Position Description</label> 
-                  <textarea class="form-control  mb-3" rows="3"  id="position-description" placeholder="Type Something....."></textarea>
+                  <textarea class="form-control  mb-3" rows="3"  id="position-description" placeholder="Type Something.....">Type Something.....</textarea>
                </div>
             </div>
-            <div class="row ">
+            <div class="row">
              <div class="col-lg-3 col-md-6 col-12">
                 <label for="appointment-duration">Duration of Appointment</label>
-                <input class="form-control" id="appointment-duration" placeholder="Lorem Ipsum" type="text">
+                <input class="form-control" id="appointment-duration" placeholder="Lorem Ipsum" type="text"  value="Lorem Ipsum">
                 <div class="invalid-feedback">
                   Error Message 
                   </div>
              </div>
              <div class="col-lg-3 col-md-6 col-12">
                <label for="no-of-positions">Number of positions available</label>
-               <input class="form-control" id="no-of-positions" placeholder="Lorem Ipsum" type="text">
+               <input class="form-control" id="no-of-positions" placeholder="Lorem Ipsum" type="text"  value="Lorem Ipsum">
                <div class="invalid-feedback">
                   Error Message 
                   </div>
             </div>
             <div class="col-lg-3 col-md-6 col-12">
              <label for="language">Language Skills sought:</label>
-             <input class="form-control" id="language" placeholder="Lorem Ipsum" type="text">
+             <input class="form-control" id="language" placeholder="Lorem Ipsum" type="text"  value="Lorem Ipsum">
              <div class="invalid-feedback">
                Error Message 
                </div>
           </div>
           <div class="col-lg-3 col-md-6 col-12">
            <label for="contact-person">Contact Person</label>
-           <input class="form-control" id="contact-person" placeholder="Lorem Ipsum" type="text">
+           <input class="form-control" id="contact-person" placeholder="Lorem Ipsum" type="text"  value="Lorem Ipsum">
            <div class="invalid-feedback">
             Error Message 
             </div>
@@ -435,14 +435,14 @@
           <div class="row mt-md-4">
            <div class="col-lg-3 col-md-6 col-12">
               <label for="contact-number">Contact Number</label>
-              <input class="form-control" id="contact-number" placeholder="Lorem Ipsum" type="text">
+              <input class="form-control" id="contact-number" placeholder="Lorem Ipsum" type="text" value="Lorem Ipsum">
               <div class="invalid-feedback">
                Error Message 
                </div>
            </div>
            <div class="col-lg-3 col-md-6 col-12">
              <label for="contact-email">Contact Email</label>
-             <input class="form-control" id="contact-email" placeholder="Lorem Ipsum" type="email">
+             <input class="form-control" id="contact-email" placeholder="Lorem Ipsum" type="email"  value="Lorem Ipsum">
              <div class="invalid-feedback">
                Error Message 
                </div>
@@ -457,9 +457,9 @@
                </label>
                
              </div>
-             <div class="form-radio-container">
+             <div class="form-radio-container radio-styles" >
                <label class="radio-btn-group">No
-                 <input type="radio"   name="financial-contribution">
+                 <input type="radio"   name="financial-contribution" checked>
                  <span class="checkmark"></span>
                </label>
              </div>
@@ -482,9 +482,9 @@
                <span class="checkmark"></span>
              </label>
            </div>
-           <div class="form-radio-container">
+           <div class="form-radio-container radio-styles">
              <label class="radio-btn-group">Australasia
-               <input type="radio"   name="geographic-expertise">
+               <input type="radio"   name="geographic-expertise" checked>
                <span class="checkmark"></span>
              </label>
            </div>
@@ -524,13 +524,13 @@
       <div class="row mt-md-4">
        <div class="col-12 pb-md-3">
           <label for="criteria">How to apply & criteria</label> 
-          <textarea class="form-control  mb-3" rows="3"  id="criteria" placeholder="Type Something....."></textarea>
+          <textarea class="form-control  mb-3" rows="3"  id="criteria" placeholder="Type Something.....">Type Something.....
+          </textarea>
        </div>
     </div>  
      </div>
    
      <div class="row mt-4 ps-2 justify-content-end justify-content-sm-start">
-        <!-- onsubmit goto job-board-login page  -->
        <input type="submit" value="Done" class="submit-btn">
      </div>
               </form>   
