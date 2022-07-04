@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page</title>
+  <!-- bootstrap css  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- slick css  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="assets/css/global.css" />
+  <link rel="stylesheet" href="assets/css/about.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid flex-col p-0 p-lg-auto">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand logo m-auto mx-lg-none me-lg-3" href="#"><img class="img-fluid" src="assets/images/logo.png" alt="logo" /></a>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-lg-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="#">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      About Us
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                        <a class="dropdown-item" href="team.html">Team</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="ambassadors.html">Ambassadors</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="partners.html">Partners</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="membership.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Membership
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                        <a class="dropdown-item" href="individual-membership.html">Individual</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="non-profit-membership.html">Not for Profit Organization</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="corporate-membership.html">Corporate</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="news.html">Event/News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="quiz.html">Quiz</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="resources.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Resources
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                        <a class="dropdown-item active" href="board-room-glossary.html">Board Room Glossary</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="leadership-development.html">Leadership Development</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="professional-advisors.html">Professional Advisors</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="webinars.html">Webinars</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="job-board.html">Job Board</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="faqs.html">FAQ's</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+                <div class="switch-button d-none d-lg-flex">
+                  <span class="active-btn-background"></span>
+                  <a class="switch-button-case left active-case">SignUp</a>
+                  <a class="switch-button-case right">SIGNIN</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- about us section  -->
+  <section id="about">
+    <div class="container">
+      <div class="row align-items-center flex-column flex-lg-row">
+        <div class="col-lg-6 d-none d-lg-block">
+          <img class="img-fluid" src="assets/images/about-us-img.png" />
+        </div>
+        <div class="col-lg-6">
+          <div class="p-md-5 mt-4">
+            <div class="heading">
+              <h2 data-text="ABOUT US">ABOUT US</h2>
+            </div>
+            <hr class="heading-line" />
+            <img class="img-fluid d-lg-none p-20" src="assets/images/about-us-img.png" />
+            <p>
+              After working closely with the philanthropic and non-profit
+              sectors, we observed, that organisations continue to be set up
+              from homogenous groups, particularly at the board level. We
+              believe there is an opportunity to support organisations in
+              having a more diverse board and inclusive practices. To achieve
+              our desire for boardrooms to reflect the full diversity of our
+              society, we have created a platform that assists in the
+              recruitment and advancement of underrepresented talent on
+              boards. In addition, the platform serves as a portal to share
+              inclusive practices and provides guidance on how to achieve
+              these.
+            </p>
+            <p> Our mission is driven by the belief of a future where
+              leadership levels reflect our society; to allow talent to
+              advance and provide opportunities to make positive contributions
+              and prepare them for service on for-profit boards.
+              <span class="blue-text">
+                We hope you will join us in this effort!
+              </span>
+            </p>
+            <div class="button-style">
+              <a href="#" class="btn">JOIN NOW</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- footer section  -->
+  <footer class="pt-5">
+    <div class="footer-container max-width-1075">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="footer-image-container">
+            <img src="assets/images/footer-logo.png" alt="logo" class="img-fluid" />
+          </div>
+          <div class="footer-email">Email: infor@designationone.com</div>
+        </div>
+        <div class="col-md-6">
+          <div class="footer-menu pt-3 pt-md-0">
+            <div class="footer-menu-heading">
+              <h3>Links</h3>
+            </div>
+            <ul class="menu-links">
+              <li><a href="privacy.html">Privacy & Cookies</a></li>
+              <li><a href="accessibility.html">Accessibility</a></li>
+              <li><a href="contact.html">Connect Boards & needs</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="news.html">Event/News</a></li>
+              <li><a href="about.html">About us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex justify-content-center align-items center copyright py-3 py-md-5">
+            © Copyright 2022 Designation.One
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- slick slider  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- bootstrap  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="assets/js/global.js"></script>
+</body>
+
+</html>

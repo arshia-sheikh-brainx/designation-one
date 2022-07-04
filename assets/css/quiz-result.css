@@ -1,0 +1,123 @@
+/* back button  */
+#quiz-result .back-btn {
+  display: inline-block;
+  position: relative;
+  left: 50px;
+  margin-top: 50px;
+  cursor: pointer;
+  font: normal normal bold 18px/26px BrownStd;
+  color: #000000;
+}
+#quiz-result .center-heading-line{
+    transform: translateX(76%);
+}
+#quiz-result .center-heading h2:after{
+    top: -30px;
+    font: normal normal bold 121px/259px Nunito Sans;
+  }
+#quiz-result {
+  background-image: url(../images/section-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#quiz-result .social-icons-div {
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+#quiz-result p {
+  text-align: center;
+  font: normal normal normal 36px/50px Nunito Sans;
+  color: #595959;
+}
+#quiz-result .card {
+  border: none;
+  border-radius: 40px;
+  padding: 0 31px;
+  width: fit-content;
+  margin: auto;
+}
+#quiz-result .card-body {
+  font-size: 24px;
+  line-height: 36px;
+  font-family: Nunito Sans;
+  color: #333333;
+  text-align: center;
+}
+#quiz-result .contact-heading {
+  font-weight: normal;
+  color: #333333;
+}
+#quiz-result .contact-url {
+  font-weight: bold;
+  color: var(--menu-hover-color);
+}
+@media screen and (max-width: 991px) {
+  #quiz-result p {
+    font-size: 26px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+    #quiz-result .center-heading h2:after{
+        top: -15px;
+        font: normal normal bold 30px/56px Nunito Sans;
+      }
+  #quiz-result .card {
+    padding: 1rem;
+  }
+  #quiz-result p {
+    font-size: 21px;
+    line-height: 32px;
+  }
+  #quiz-result .card-body {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0;
+  }
+  #quiz-result .center-heading-line {
+    transform: translateY(-27px);
+    width: 153px;
+}
+}
+@media screen and (max-width: 576px) {
+  #quiz-result .center-heading h2 {
+    text-align: center;
+    justify-content: center;
+  }
+  #quiz-result .center-heading h2:after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #quiz-result .center-heading-line {
+    transform: translate(-50%, -23px);
+    left: 50%;
+    position: relative;
+  }
+  #quiz-result p {
+    text-align: center;
+    font: normal normal bold 14px/25px Nunito Sans;
+    color: #595959;
+  }
+
+  #quiz-result .card {
+    padding: 1rem 2rem;
+  }
+  #quiz-result .card-body {
+    font: normal normal normal 12px/18px Poppins;
+    color: #343434;
+  }
+  #quiz-result .contact-heading,
+  #quiz-result .contact-url {
+    display: block;
+  }
+  /* back button  */
+  #quiz-result .back-btn {
+    left: 10px;
+    margin-top: 16px;
+    font-size: 15px;
+  }
+  #quiz-result .back-btn svg {
+    width: 20px;
+  }
+}

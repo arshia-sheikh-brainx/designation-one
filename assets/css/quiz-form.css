@@ -1,0 +1,95 @@
+.quiz-form {
+  background-image: url(../images/section-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.quiz-form .heading h2:after {
+  top: -30px;
+  left:-7px;
+  font: normal normal bold 121px/259px Nunito Sans;
+}
+.organizational-quiz-from .heading-line{
+width:455px; 
+}
+.individual-quiz-form .heading-line{
+  width:405px; 
+  }
+.quiz-form  .social-icons-div {
+  position: absolute;
+  right: 10px;
+  top: 30%;
+  transform: translateY(-30%);
+}
+.quiz-form  .social-icons-div a,
+.quiz-form  .social-icons-div svg {
+  z-index: 3;
+}
+.quiz-form  p {
+  font: normal normal normal 36px/50px Nunito Sans;
+  color: #595959;
+  margin-bottom: 26px;
+}
+.quiz-form  .w-max-980{
+    max-width: 980px;
+    margin: auto;
+}
+.quiz-form  .back-btn {
+  display: inline-block;
+  position: relative;
+  left: 42px;
+  top: 20px;
+  margin: 10px;
+  cursor: pointer;
+  font: normal normal bold 18px/26px BrownStd;
+  color: #000000;
+}
+.quiz-form .multi-radio-btn-group .form-radio-container{
+  margin-bottom: 16px;
+}
+.quiz-form .radio-btn-group{
+  color: #000000;
+  padding: 12px 0;
+}
+@media screen and (max-width: 991px) {
+  /* quiz  */
+  .quiz-form  p {
+    font-size: 26px;
+    line-height: 40px;
+  }
+}
+@media  all and (max-width:768px) {
+  .organizational-quiz-from .heading-line{
+    width:183px; 
+    }
+    .individual-quiz-form .heading-line{
+      width:160px; 
+      }
+     .quiz-form .heading h2:after {
+        top: -15px;
+        left: 0px;
+        font: normal normal bold 30px/56px Nunito Sans;
+    }
+}
+@media screen and (max-width: 576px) {
+  /* quiz  */
+  .quiz-form  p {
+    font-size: 18px;
+    line-height: 25px;
+    font-weight: bold;
+    text-align: center;
+  }
+  .quiz-form  .back-btn {
+    display: none;
+  }
+  .quiz-form  .back-btn svg {
+    width: 20px;
+  }
+  .quiz-form  .social-icons-div {
+    display: none !important;
+  }
+  .quiz-form .multi-radio-btn-group .form-radio-container {
+    margin-bottom: 16px;
+    width: 100%;
+}
+}

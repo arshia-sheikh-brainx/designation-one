@@ -1,0 +1,185 @@
+#philosophy {
+  background-image: url(../images/philosophy-background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding: 40px 0 120px;
+}
+#philosophy  .heading h2:after {
+  top: -18px;
+  left:-7px;
+}
+#philosophy .heading-line{
+  width: 250px;
+}
+#philosophy .back-btn {
+  display: inline-block;
+  position: relative;
+  left: 42px;
+  top: 20px;
+  margin: 10px;
+  cursor: pointer;
+  font: normal normal bold 18px/26px BrownStd;
+  color: #000000;
+}
+#philosophy .philosophy-card-container {
+  height: 800px;
+  transform: translate(0, 18%);
+}
+
+#philosophy p {
+  text-align: left;
+  font: normal normal 600 16px/30px Nunito Sans;
+  color: var(--color-black);
+}
+#philosophy .bold {
+  font-weight: bold;
+}
+#philosophy .philosophy-card {
+  background: var(--color-white) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 60px var(--box-shadow-color);
+  border-radius: 40px;
+  padding: 35px;
+  display: block;
+  width: 380px;
+  position: absolute;
+}
+#philosophy .top-left {
+  top: 0;
+  left: 0;
+}
+#philosophy .bottom-left {
+  top: 56%;
+  left: 0;
+}
+#philosophy .mid-right {
+  right: 0;
+  top: 40%;
+  transform: translate(0, -40%);
+}
+#philosophy .top-left .count,
+#philosophy .bottom-left .count {
+  position: absolute;
+  top: -15px;
+  left: -14px;
+}
+#philosophy .mid-right .count {
+  position: absolute;
+  left: 50%;
+  top: -5%;
+  transform: translate(-50%, 0);
+}
+#philosophy .count {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font: normal normal bold 25px/44px Nunito Sans;
+  color: var(--color-white);
+  opacity: 1;
+  background: var(--menu-hover-color) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 5px 10px var(--box-shadow-color);
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+}
+#philosophy .blue-text {
+  font: normal normal bold 20px/27px Segoe UI;
+  letter-spacing: 0px;
+  color: #004d9f;
+}
+#philosophy .button-style {
+  margin-top: 20px;
+}
+#philosophy .button-style a {
+  text-align: center;
+  font: normal normal 600 16px/40px Nunito Sans;
+  color: var(--color-white);
+  background: var(--menu-hover-color) 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 20px var(--box-shadow-color);
+  padding: 6px 59px;
+  border-radius: 2.25rem;
+}
+@media screen and (max-width: 1200px) and (min-width: 992px) {
+  /* philosophy */
+  #philosophy .bottom-left {
+    top: 61%;
+  }
+  #philosophy .mid-right {
+    top: 43%;
+    transform: translate(10%, -40%);
+  }
+}
+
+@media screen and (max-width: 992px) {
+  #philosophy .philosophy-card-container {
+    transform: translate(0, 2%);
+    height: 650px;
+    margin-bottom: 4rem;
+  }
+  #philosophy .mid-right {
+    transform: translate(0, -10%);
+  }
+  #philosophy .bottom-left {
+    top: 73%;
+    left: 0;
+  }
+}
+@media screen and (max-width: 768px) {
+  #philosophy  .heading h2:after {
+    top: -15px;
+    left:0;
+  }
+  #philosophy .back-btn {
+    display: none;
+  }
+  #philosophy .philosophy-card-container {
+    height: 640px;
+    margin-bottom: 2rem;
+  }
+  /* .philosophy */
+  #philosophy .title {
+    font-size: 18px;
+    line-height: 25px;
+  }
+  #philosophy p {
+    font-size: 12px;
+    line-height: 20px;
+  }
+  #philosophy .philosophy-card {
+    font-size: 12px;
+    line-height: 20px;
+    width: 240px;
+    border-radius: 15px;
+    padding: 20px;
+  }
+  #philosophy .count {
+    font-size: 14px;
+    line-height: 26px;
+    width: 30px;
+    height: 30px;
+  }
+  #philosophy.mid-right .count {
+    left: unset;
+    right: 0;
+    transform: none;
+  }
+  #philosophy .button-style a {
+    font: normal normal 600 12px/18px Nunito Sans;
+    padding: 6px 24px;
+    margin-bottom: 2rem;
+  }
+  #philosophy .blue-text {
+    font-size: 14px;
+    line-height: 20px;
+  }
+    #philosophy .mid-right {
+      transform: translate(-32%, -10%);
+  }
+  #philosophy .heading-line {
+    width: 95px;
+}
+}
+@media all and (max-width:576px){
+  #philosophy .mid-right {
+    transform: translate(0%, -10%);
+}
+}

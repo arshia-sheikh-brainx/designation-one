@@ -1,0 +1,113 @@
+#faq {
+  background-image: url(../images/section-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#faq .heading h2:after {
+  top: -20px;
+  left:-7px;
+  font: normal normal bold 121px/259px Nunito Sans;
+}
+#faq .social-icons-div {
+  position: absolute;
+  right: 10px;
+  top: 60%;
+}
+#faq .social-icons-div a,
+#faq .social-icons-div svg {
+  z-index: 3;
+}
+#faq .container {
+  max-width: 1050px;
+}
+#faq .heading-line {
+  border: 1px solid var(--menu-hover-color);
+  width: 285px;
+}
+/* faqs section  */
+#faq .accordion-button:not(.collapsed) {
+  color: var(--color-white);
+  background-color: var(--menu-hover-color);
+}
+#faq .accordion-button:focus {
+  box-shadow: none;
+}
+#faq .accordion-button {
+  font: normal normal normal 24px/34px BrownStd;
+  color: var(--color-black);
+}
+#faq .accordion-button::after {
+  background-image: url("../images/plus.png");
+}
+#faq .accordion-button:not(.collapsed)::after {
+  background-image: url("../images/remove.png");
+  transform: none;
+  transform: translateY(10px);
+}
+#faq .accordion-item {
+  border: none;
+}
+#faq .read-more-btn {
+  text-align: right;
+}
+#faq .read-more-btn a {
+  color: var(--menu-hover-color);
+}
+#faq .accordion-header {
+  box-shadow: 0px 8px 6px var(--box-shadow-color) !important;
+  border-radius: 4px !important;
+}
+#faq .accordion-body {
+  font: normal normal normal 24px/30px Nunito Sans;
+  color: var(--color-black);
+  background: var(--color-white);
+}
+@media screen and (max-width: 1120px) {
+  #faq .social-icons-div {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 768px) {
+  #faq   .heading h2:after {
+    top: -15px;
+    left: 0px;
+    font: normal normal bold 30px/56px Nunito Sans;
+}
+  /* faqs  */
+  #faq .heading-line {
+    border: 1px solid #d8dce6;
+    background: #d8dce6;
+    width: 100px;
+    transform: translateY(-25px);
+  }
+  #faq .accordion-button,
+  #faq .accordion-button:focus {
+    font: normal normal normal 19px/25px BrownStd;
+  }
+  #faq .show .accordion-body,
+  #faq .accordion-body {
+    font: normal normal normal 16px/30px Nunito Sans;
+  }
+}
+@media screen and (max-width: 576px) {
+  /* faqs  */
+  #faq .read-more-btn {
+    text-align: left;
+    font-size: 14px;
+  }
+  #faq .accordion-button,
+  #faq .accordion-button:focus {
+    font-size: 14px;
+    line-height: 21px;
+  }
+  #faq .accordion-button::after {
+    width: 13.5px;
+    height: 13.5px;
+    background-size: contain;
+  }
+  #faq .show .accordion-body,
+  #faq .accordion-body {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}

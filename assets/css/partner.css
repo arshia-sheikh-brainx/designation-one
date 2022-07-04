@@ -1,0 +1,120 @@
+/* back button  */
+#partner .back-btn {
+  display: inline-block;
+  position: relative;
+  left: 50px;
+  margin-top: 50px;
+  cursor: pointer;
+  font: normal normal bold 18px/26px BrownStd;
+  color: #000000;
+}
+#partner {
+  background-image: url(../images/section-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+#partner .social-icons-div {
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+#partner .center-heading-line{
+  transform: translate(-50%, 0);
+  left: 50%;
+  position: relative;
+  width: 290px;
+}
+#partner p {
+  text-align: center;
+  font: normal normal normal 36px/50px Nunito Sans;
+  color: #595959;
+}
+#partner .card {
+  border: none;
+  border-radius: 40px;
+  padding: 0 31px;
+  width: fit-content;
+  margin: auto;
+}
+#partner .card-body {
+  font-size: 24px;
+  line-height: 36px;
+  font-family: Nunito Sans;
+  color: #333333;
+  text-align: center;
+}
+#partner .contact-heading {
+  font-weight: normal;
+  color: #333333;
+}
+#partner .contact-url {
+  font-weight: bold;
+  color: var(--menu-hover-color);
+}
+@media screen and (max-width: 991px) {
+  #partner p {
+    font-size: 26px;
+    line-height: 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  #partner .card {
+    padding: 1rem;
+  }
+  #partner p {
+    font-size: 21px;
+    line-height: 32px;
+  }
+  #partner .card-body {
+    font-size: 18px;
+    line-height: 30px;
+    padding: 0;
+  }
+  #partner .center-heading-line {
+    transform: translate(0%, -28px);
+    left: 0%;
+    width: 115px;
+}
+}
+@media screen and (max-width: 576px) {
+  #partner .center-heading h2 {
+    text-align: center;
+    justify-content: center;
+  }
+  #partner .center-heading h2:after {
+    left: 50%;
+    transform: translateX(-50%);
+  }
+  #partner .center-heading-line {
+      transform: translate(-50%, -28px);
+      left: 50%;
+      width: 115px;
+  
+  }
+  #partner p {
+    text-align: center;
+    font: normal normal bold 14px/25px Nunito Sans;
+    color: #595959;
+  }
+
+  #partner .card {
+    padding: 1rem 2rem;
+  }
+  #partner .card-body {
+    font: normal normal normal 12px/18px Poppins;
+    color: #343434;
+  }
+  #partner .contact-heading,
+  #partner .contact-url {
+    display: block;
+  }
+  /* back button  */
+  #partner .back-btn {
+    left: 10px;
+    margin-top: 16px;
+    font-size: 15px;
+  }
+  #partner .back-btn svg {
+    width: 20px;
+  }
+}
