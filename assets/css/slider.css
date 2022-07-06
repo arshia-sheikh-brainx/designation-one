@@ -1,0 +1,168 @@
+.team-section,
+.ambassador-section {
+  background-image: url(../images/section-bg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+.team-section .heading-line {
+  width: 340px;
+}
+.team-section .heading h2:after , .ambassador-section .heading h2:after{
+  top: -23px;
+}
+.ambassador-section .heading-line {
+  width: 300px;
+}
+.team-section .social-icons-div,
+.ambassador-section .social-icons-div {
+  position: absolute;
+  right: 10px;
+  top: calc(50% + 70px);
+  transform: translateY(-50%);
+}
+.team-section .social-icons-div a,
+.team-section .social-icons-div svg,
+.ambassador-section.social-icons-div a,
+.ambassador-section.social-icons-div svg {
+  z-index: 3;
+}
+.team-section .team-slider {
+  max-width: 1100px;
+  margin: auto;
+}
+.team-section .back-btn , .ambassador-section .back-btn {
+  display: inline-block;
+  position: relative;
+  left: 42px;
+  top: 20px;
+  margin: 10px;
+  cursor: pointer;
+  font: normal normal bold 18px/26px BrownStd;
+  color: #000000;
+}
+/* slider  */
+.team-section .card , .ambassador-section .card {
+  border-radius: 20px;
+  min-height: max-content;
+  margin: 100px 20px;
+}
+.team-section .card-body  , .ambassador-section .card-body{
+  padding: 90px 120px 40px;
+}
+.team-section .heading-border {
+  position: absolute;
+  width: 100%;
+  top: 60%;
+}
+
+.team-section .card .user-picture img  , .ambassador-section .card .user-picture img{
+  position: absolute !important;
+  background: #f8f9fa !important;
+  padding: 7px !important;
+  top: -50px;
+  transform: translateX(-50%);
+  left: 50%;
+  height: 110px;
+  width: 110px;
+}
+.team-section .card .user-content .user-name  , .ambassador-section .card .user-content .user-name{
+  font: normal normal 800 24px/28px Nunito Sans;
+  letter-spacing: 0px;
+  color: #004d9f;
+  text-align: center;
+  margin-top: 20px;
+}
+.team-section .description , .ambassador-section .description{
+  text-align: center;
+  font: normal normal normal 18px/30px Nunito Sans;
+  color: #000000;
+}
+.team-section .role  , .ambassador-section .role{
+  font: normal normal normal 16px/26px Nunito Sans;
+  text-align: center;
+  color: #000000;
+}
+.team-section .slick-arrow img , .ambassador-section .slick-arrow img {
+  width: 20px;
+}
+.team-section .slick-next:before,
+.team-section .slick-prev:before , .ambassador-section .slick-next:before,
+.ambassador-section .slick-prev:before {
+  display: none;
+}
+.team-section .slick-arrow , .ambassador-section .slick-arrow {
+  width: 50px;
+  height: 50px;
+  z-index: 3;
+}
+.team-section .slick-next.slick-arrow  , .ambassador-section .slick-next.slick-arrow{
+  background: #004d9f 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 60px #00000029;
+  border-radius: 4px;
+}
+.team-section button.slick-prev.slick-arrow , .ambassador-section button.slick-prev.slick-arrow {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 10px 60px #00000029;
+  border-radius: 4px;
+}
+.team-section .slick-next , .ambassador-section .slick-next{
+  right: -17px;
+}
+.team-section .slick-prev , .ambassador-section .slick-prev{
+  left: -17px;
+}
+@media screen and (max-width: 992px) {
+  .team-section  .card-body , .ambassador-section .card-body {
+    padding: 90px 40px 40px;
+  }
+}
+@media screen and (max-width: 768px) {
+  .team-section .heading h2:after , .ambassador-section .heading h2:after{
+    top: -15px;
+  }
+  .team-section .slick-arrow  , .ambassador-section .slick-arrow{
+    width: 40px;
+    height: 40px;
+  }
+  .team-section .slick-next , .ambassador-section .slick-next{
+    right: -15px;
+  }
+  .team-section .heading-line {
+    width: 130px;
+  }
+  .ambassador-section .heading-line {
+    width: 120px;
+  }
+  .team-section .card-body , .ambassador-section .card-body {
+    padding: 90px 31px 20px;
+  }
+
+  .team-section .description , .ambassador-section .description{
+    font-size: 12px;
+    line-height: 20px;
+  }
+  .team-section .card .user-content .user-name , .ambassador-section .card .user-content .user-name{
+    font-size: 14px;
+    line-height: 28px;
+  }
+  .team-section .role , .ambassador-section .role {
+    font-size: 12px;
+    line-height: 26px;
+  }
+  .team-section .back-btn , .ambassador-section .back-btn{
+    display: none;
+  }
+  .team-section .back-btn svg , .ambassador-section .back-btn svg {
+    width: 20px;
+  }
+  .team-section .social-icons-div , .ambassador-section .social-icons-div {
+    display: none !important;
+  }
+  .team-section .card , .ambassador-section .card {
+    border-radius: 4px;
+    margin: 50px 7px;
+    box-shadow: 0px 10px 4px #00000029 !important;
+    border-radius: 4px;
+  }
+}
