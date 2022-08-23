@@ -121,7 +121,12 @@
   .terms-and-condition  th{
     font-weight: bold;
   }
-  
+  .terms-and-condition ol {
+ padding-left: 5px;
+  }
+  .terms-and-condition ol ol{
+    padding-left: 20px;
+  }
   
   
   @media screen and (max-width: 992px) {
