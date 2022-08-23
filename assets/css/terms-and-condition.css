@@ -1,0 +1,213 @@
+.terms-and-condition {
+    background-image: url(../images/section-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  .terms-and-condition .heading h2 {
+    height: 100%;
+    display: flex;
+    align-items: end;
+    text-align: left;
+    font: normal normal bold 45px/63px Nunito Sans;
+    color: var(--menu-hover-color);
+  }
+  .terms-and-condition .heading-line {
+    width: 365px;
+  }
+  .terms-and-condition .heading h2:after {
+    top: -15px;
+  }
+  .terms-and-condition .social-icons-div {
+    position: absolute;
+    right: 10px;
+    top: 15%;
+    transform: translateY(-15%);
+  }
+  .terms-and-condition .social-icons-div a,
+  .terms-and-condition .social-icons-div svg {
+    z-index: 3;
+  }
+  
+  .terms-and-condition-container {
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+  .terms-and-condition h3 , .terms-and-condition h1 , .terms-and-condition h2{
+    font-size: 36px;
+    font-family: Nunito Sans;
+    font-weight: bold;
+    color: #595959;
+    line-height: 70px;
+  }
+  .terms-and-condition p  , .terms-and-condition li , .terms-and-condition li ol li{
+    font-size: 18px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    color: #000000;
+    line-height: 30px;
+  }
+  .terms-and-condition ul {
+    list-style-type: none;
+  }
+  .terms-and-condition ul li::before {
+    content: "\2022";
+    color: #004d9f;
+    font-weight: bold;
+    display: inline-block;
+    width: 1em;
+    margin-left: -1em;
+    font-size: 24px;
+  }
+  .terms-and-condition h4,  .terms-and-condition h5, .terms-and-condition h6 {
+    font: normal normal bold 20px/30px Nunito Sans;
+    color: #000;
+  }
+  .terms-and-condition ol li{
+    list-style-type: none;
+    padding: 7px 0;
+  }
+  .terms-and-condition ul li {
+    font-size: 18px;
+    font-family: Nunito Sans;
+    /* font-weight: 600; */
+    line-height: 30px;
+    color: #000000;
+  }
+  .terms-and-condition li ol li{
+    /* font-weight: bold; */
+  }
+  .terms-and-condition a {
+    text-decoration: underline;
+    font-size: 18px;
+    font-family: Nunito Sans;
+    font-weight: 600;
+    line-height: 30px;
+    color: #004d9f !important;
+    display: inline-block;
+  }
+  .terms-and-condition .language-selector-container {
+    display: flex;
+    justify-content: end;
+    align-items: end;
+    position: absolute;
+    margin-bottom: 32px;
+    top: 60%;
+  }
+  .terms-and-condition select.form-select.selected-language {
+    height: fit-content;
+    width: fit-content;
+    font: normal normal normal 14px/21px Poppins;
+    color: #525f7f;
+    border: 1px solid #004d9f;
+  }
+  /* privacy table  */
+  .terms-and-condition table , .terms-and-condition td , .terms-and-condition tr {
+    border: 1px solid #004D9F;
+    border-collapse: collapse;
+  }
+  .terms-and-condition  table {
+    background: #FFFFFF38 0% 0% no-repeat padding-box;
+    width: 100%;
+    overflow-x: scroll;
+  }
+  .terms-and-condition  th , .terms-and-condition td {
+    font: 16px/30px Nunito Sans;
+    letter-spacing: 0px;
+    color: #000000;
+    padding: 5px 20px  5px 30px;
+    font-weight: 600;
+  }
+  .terms-and-condition  th{
+    font-weight: bold;
+  }
+  
+  
+  
+  @media screen and (max-width: 992px) {
+    .terms-and-condition h3 , .terms-and-condition h1 , .terms-and-condition h2{
+      font-size: 30px;
+    }
+    .terms-and-condition p,
+    .terms-and-condition a {
+      font-size: 16px;
+    }
+    .terms-and-condition ul li  {
+      font-size: 16px;
+      font-family: Nunito Sans;
+      font-weight: 600;
+      line-height: 30px;
+      color: #000000;
+    }
+  }
+  @media screen and (max-width: 768px) {
+    .terms-and-condition h3 , .terms-and-condition h1 , .terms-and-condition h2{
+      font-size: 16px;
+      font-family: BrownStd;
+      font-weight: normal;
+      line-height: 22px;
+      color: #000000;
+    }
+    .terms-and-condition  .heading h2 {
+      align-items: center;
+      font: normal normal bold 18px/24px Nunito Sans;
+      text-align: left;
+      justify-content: flex-start;
+    }
+    .terms-and-condition p,
+    .terms-and-condition a,
+    .terms-and-condition ol li ,
+    .terms-and-condition li ol li{
+      font-size: 12px;
+      line-height: 20px;
+      font-weight: normal;
+    }
+    .terms-and-condition ul li {
+      font-size: 12px;
+      line-height: 20px;
+    }
+  
+    .terms-and-condition th, .terms-and-condition td{
+      font-size: 12px;
+      line-height: 20px;
+    }
+    .terms-and-condition h4,  .terms-and-condition h5, .terms-and-condition h6{
+      font-size: 14px;
+      line-height: 24px;
+    }
+    .terms-and-condition .heading-line {
+      width: 160px;
+    }
+    .terms-and-condition select.form-select.selected-language {
+      font: normal normal normal 11px/15px Poppins;
+    }
+    .terms-and-condition .language-selector-container {
+      top: 30%;
+  }
+  .terms-and-condition  table {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  }
+  @media screen and (max-width: 576px) {
+    .terms-and-condition {
+      background: #e9eef4;
+    }
+    /* headings  */
+    .terms-and-condition .heading {
+      height: 43px;
+      margin: 20px 0 0;
+    }
+    .terms-and-condition select.form-select.selected-language{
+        font-size: 11px;
+        line-height: 14px;
+    }
+    .terms-and-condition th, .terms-and-condition td {
+      padding: 5px 5px 5px 5px;
+  }
+  .terms-and-condition .heading h2 {
+    padding-left: 0;
+  }
+  
+  }
+  

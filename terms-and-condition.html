@@ -1,0 +1,555 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Home Page</title>
+  <!-- bootstrap css  -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" />
+  <!-- slick css  -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.css" integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick-theme.min.css" integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <!-- jquery -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+  <!-- stylesheet -->
+  <link rel="stylesheet" href="assets/css/global.css" />
+  <link rel="stylesheet" href="assets/css/terms-and-condition.css" />
+</head>
+
+<body>
+  <!-- header -->
+  <header class="header">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="navbar navbar-expand-lg navbar-light">
+            <div class="container-fluid flex-col p-0 p-lg-auto">
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <a class="navbar-brand logo m-auto mx-lg-none me-lg-3" href="#"><img class="img-fluid" src="assets/images/logo.png" alt="logo" /></a>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 align-items-lg-center">
+                  <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="/">Home</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="about.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      About Us
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                        <a class="dropdown-item" href="team.html">Team</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="ambassadors.html">Ambassadors</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="partners.html">Partners</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="membership.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Membership
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                        <a class="dropdown-item" href="individual-membership.html">Individual</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="non-profit-membership.html">Not for Profit Organization</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="corporate-membership.html">Corporate</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="news.html">Event/News</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="quiz.html">Quiz</a>
+                  </li>
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="privacy.html" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                      Resources
+                    </a>
+                    <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <li>
+                        <a class="dropdown-item active" href="board-room-glossary.html">Board Room Glossary</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="leadership-development.html">Leadership Development</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="professional-advisors.html">Professional Advisors</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="webinars.html">Webinars</a>
+                      </li>
+                      <li>
+                        <a class="dropdown-item" href="job-board.html">Job Board</a>
+                      </li>
+                    </ul>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="faqs.html">FAQ's</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="contact.html">Contact Us</a>
+                  </li>
+                </ul>
+                <div class="switch-button d-none d-lg-flex">
+                  <span class="active-btn-background"></span>
+                  <a class="switch-button-case left active-case">SignUp</a>
+                  <a class="switch-button-case right">SIGNIN</a>
+                </div>
+              </div>
+            </div>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!--  section  -->
+  <section class="terms-and-condition">
+    <div class="d-none d-md-flex flex-column social-icons-div">
+      <a class="add-background" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" id="Component_16_2" data-name="Component 16 – 2" width="40.002" height="40" viewBox="0 0 40.002 40">
+          <circle id="Ellipse_14288" data-name="Ellipse 14288" cx="20" cy="20" r="20" fill="#fff" />
+          <g id="Component_83_1" data-name="Component 83 – 1" transform="translate(0.002)">
+            <path id="Subtraction_10" data-name="Subtraction 10" d="M21379,10745a20,20,0,1,1,14.141-5.856A19.874,19.874,0,0,1,21379,10745Zm3.266-20.032c1.906,0,1.906,1.807,1.906,3.126v5.741h3.652l0-6.477c0-2.915-.531-5.612-4.387-5.612a3.872,3.872,0,0,0-3.465,1.9h-.053v-1.606h-3.512v11.794h3.656v-5.843C21380.07,10726.5,21380.332,10724.967,21382.268,10724.967Zm-11.811-2.927h0v11.794h3.662v-11.794Zm1.832-5.869a2.129,2.129,0,1,0,2.121,2.121A2.123,2.123,0,0,0,21372.289,10716.171Z" transform="translate(-21359.002 -10705)" fill="#004d9f" />
+          </g>
+        </svg>
+      </a>
+      <a class="move-add-background" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" id="Component_15_2" data-name="Component 15 – 2" width="39.996" height="40" viewBox="0 0 39.996 40">
+          <circle id="Ellipse_14286" data-name="Ellipse 14286" cx="19.998" cy="19.998" r="19.998" transform="translate(0 0.001)" fill="#fff" />
+          <path id="Subtraction_9" data-name="Subtraction 9" d="M20,40A20,20,0,0,1,5.857,5.856,20,20,0,0,1,34.137,34.14,19.865,19.865,0,0,1,20,40ZM20,8.411a11.628,11.628,0,0,0-9.94,5.721,11.27,11.27,0,0,0,0,11.732A11.576,11.576,0,0,0,31.584,20a11.457,11.457,0,0,0-.2-2.159.668.668,0,0,0-.665-.556H20a.672.672,0,0,0-.68.679v4.074a.672.672,0,0,0,.68.679h5.471a6.1,6.1,0,0,1-9.136,2.166,6.222,6.222,0,0,1-2.188-3.1,6.275,6.275,0,0,1,0-3.558,6.222,6.222,0,0,1,2.188-3.1,6.094,6.094,0,0,1,7.33-.007.67.67,0,0,0,.143.082c.022.009.043.017.066.024a.665.665,0,0,0,.2.03H24.1a.647.647,0,0,0,.418-.179l.024-.024,2.906-2.893a.7.7,0,0,0,.192-.467c0-.006,0-.012,0-.018s0-.012,0-.018a.711.711,0,0,0-.244-.5A11.521,11.521,0,0,0,20,8.411Z" transform="translate(0.002 0.002)" fill="#004d9f" />
+        </svg>
+      </a>
+      <a class="add-background" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" id="Component_14_1" data-name="Component 14 – 1" width="40" height="40" viewBox="0 0 40 40">
+          <circle id="Ellipse_59" data-name="Ellipse 59" cx="17" cy="17" r="17" transform="translate(3 3)" fill="#fff" />
+          <g id="Component_65_1" data-name="Component 65 – 1">
+            <path id="Subtraction_8" data-name="Subtraction 8" d="M20,40A20,20,0,0,1,5.858,5.858,20,20,0,0,1,34.142,34.142,19.868,19.868,0,0,1,20,40ZM17.053,19.438V31.251H22.46V19.438h3.569L26.5,15.29h-4.04V12.847a1.06,1.06,0,0,1,1.146-1.132h2.906V7.685L22.508,7.67a5.359,5.359,0,0,0-4.395,1.744A5.1,5.1,0,0,0,17.053,12.6v2.687H14.481v4.152Z" fill="#004d9f" />
+          </g>
+        </svg>
+      </a>
+    </div>
+    <div class="container custom-padding pb-3 pb-md-5">
+      <div class="row justify-content-center position-relative">
+        <div class="col-12">
+          <div class="heading">
+            <h2 data-text="TERMS & CONDITIONS">TERMS & CONDITIONS</h2>
+          </div>
+          <hr class="heading-line" />
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12  mx-auto">
+          <h3>1. DEFINITIONS</h3>
+          <ol>
+          <li>
+            1.1 In these Terms, the following expressions have the following
+            meanings:
+          </li>
+          <p>
+            <b>Event:</b> an event, such as a networking event, conference,
+            masterclass, mentoring or workshop;<br />
+            <b>Fee: </b> the sums payable for certain Services, including
+            Membership, attending an Event and, if applicable, certain Post a
+            Board Position service options;<br />
+            <b>Member: </b> an individual who has registered with
+            Designation.one on the website;<br />
+            <b> Post a Board Vacancy:</b> the service options provided to
+            member organizations in respect of a board vacancy <br />
+            <b> Registration Form:</b> a form to be completed to become a
+            member of Designation.one   <br />
+            <b> Services:</b> the services provided by us, including content
+            access, consultancy services, the Board Vacancy Board, Post a
+            Board Position Service and Events; <br />
+            <b>Terms: </b> these terms and conditions;<br />
+            <b>Vacancy:</b> the vacant position at the Member’s
+            organization;<br />
+            <b>Vacancy Board:</b> the list of vacancies on the
+            desisgnation.one website posted by organizations accessible to
+            paid for subscribers of designation.one;<br />
+            <b>Website:</b>  the website located at www.designation.one;<br />
+            <b> Designation.one we, our, us:</b>  Designation One UK LTD a
+            company registered in England and Wales, under company
+            registration number 13006989 and registered office at Jubilee
+            House, East Beach, Lytham St Annes, Lancashire, FY8 5FT.<br />
+            <b> You: </b> any user of the Website or a Service, including a
+            Member.
+          </p>
+
+          <li>
+            1.2 When we use the words "writing" or "written" in these Terms,
+            this will include email unless we stated otherwise.
+          </li>
+          <li>1.3 <b>Including</b> means including but not limited to.</li>
+          <li>
+            1.4 A reference to a statute or statutory provision is a reference
+            to it as it is in force for the time being, taking account of any
+            amendment, extension or re-enactment and includes any subordinate
+            legislation for the time being in force made under it.
+          </li>
+        </ol>
+          <h3>2. OUR CONTRACT WITH YOU</h3>
+          <ol>
+          <li>
+            2.1 These are the Terms on which you can access and use our website and our services.
+          </li>
+          <li>
+            2.2 You must register with Designation.one to attend an Event and/or to post a vacancy on the Vacancy Board.  You must pay a fee to become a member to access all services provided.
+          </li>
+          <li>2.3 Please ensure that you have read these Terms carefully and check that the details on the Registration Forms are complete and accurate before you submit them.  If you think that there is a mistake, please contact us.
+          </li>
+          <li>
+            2.4 These Terms, the <a href=""><b>Privacy Policy</b></a>  and any Registration Form constitute the whole agreement between us. If there is any conflict between these documents, the following order of precedence shall prevail: these Terms, our Privacy Policy, the Registration Form.
+          </li>
+          <li>
+            2.5 If you have any questions or if you have any complaints, please contact us. You can contact us by emailing us at <a  href="mailto:info@designation.one">info@designation.one</a>.
+          </li>
+        </ol>
+          <h3>3. CHANGES TO TERMS</h3>
+        <ol>
+          <li>
+            3.1  We may revise these Terms from time to time at our discretion for technical or legal reasons, or because the needs of our business have changed.
+          </li>
+        </ol>
+          <h3>4. ACCESSING THE WEBSITE</h3>
+        <ol>
+          <li>
+            4.1 We will use reasonable endeavours to ensure the website is always available to you.  However, there may be occasions when access to the website may be interrupted, including for scheduled maintenance or upgrades, for emergency repairs, or due to failure of telecommunications links and/or equipment.
+          </li>
+          <li>
+            4.2 You should treat your log-in details as confidential, and you must not share them with any third party. We have the right to disable any log-in details, at any time, if in our opinion you have failed to comply with any of the provisions of these Terms.
+          </li>
+          <li>4.3 You are responsible for making all arrangements necessary for you to have access to the website.   
+          </li>
+          <li>
+            4.4 We accept no responsibility for any products or services sold through adverts by third parties contained within the website. If you agree to purchase products and/or services from any third party who advertises on the website, you do so at your own risk. The advertiser, and not us, is responsible for such products and/or services and if you have any questions or complaints in relation to them, you should contact the advertiser.
+
+          </li>
+          <li>
+            4.5 The Website may contain links to websites or apps operated by third parties.  We do not have any influence or control over any such third-party websites or apps, and we are not responsible for and do not endorse any third-party websites or apps or their availability or content.
+          </li>
+        </ol>
+        <h3>5. UPLOADING MATERIAL TO THE WEBSITE
+        </h3>
+        <ol>
+          <li>
+            5.1 Whenever you make use of a feature that allows you to upload material to our website, including the Vacancy Board, creating profiles, or to contact other Members of Designation.one, you must comply with our <a href=""><b>Acceptable Use Policy</b></a>.   
+          </li>
+          <li>
+            5.2 Any material you upload to the Website will be considered non-confidential and non-proprietary, and we have the right to use, copy, distribute and disclose to third parties any such material for any purpose. We also have the right to disclose your identity to any third-party who is claiming that any material posted or uploaded by you breaches their intellectual property rights, or their right to privacy.
+          </li>
+          <li>5.3 We are not responsible, or liable to any third-party, for the content or accuracy of any materials posted by any other user of our website.
+
+          </li>
+          <li>
+            5.4 We do not monitor all postings to the Website, but we have the right to remove any material or posting you make on our website for any reason, including if in our opinion, such material does not comply with the content standards set out in our <a href=""><b>Acceptable Use Policy</b></a>.
+
+          </li>
+          <li>
+            5.5 You must not misuse our website by knowingly introducing viruses, trojans, worms, logic bombs or other material which is malicious or technologically harmful. You must not attempt to gain unauthorized access to our website, the server on which our website is stored, or any server, computer or database connected to our website. You must not attack our website via a denial-of-service attack or a distributed denial-of service attack. If you breach this provision, you will commit a criminal offence under the Computer Misuse Act 1990 (as amended). We will report any such breach to the relevant law enforcement authorities, and we will co-operate with those authorities by disclosing your identity to them. In the event of such a breach, your right to use our website will cease immediately.
+
+          </li>
+        </ol>
+        <h3>6. LINKING TO OUR WEBSITE
+        </h3>
+        <ol>
+          <li>
+            6.1 You may link to the home page of our website, provided you do so in a way that is fair and does not damage our reputation or take advantage of it, but you must not establish a link in such a way as to suggest any form of association, approval or endorsement on our part where none exists.
+          </li>
+          <li>
+            6.2 You must not establish a link from any website that is not owned by you.
+
+          </li>
+          <li>6.3 We reserve the right to withdraw linking permission without notice. The website from which you are linking must comply in all respects with the content standards set out in our <a href=""><b>Acceptable Use Policy</b></a>.
+
+          </li>
+        </ol>
+        <h3>7. FEE
+        </h3>
+        <ol>
+          <li>
+            7.1 The Fee may change at any time, but any changes will not affect services that have already been paid for.
+          </li>
+          <li>
+            7.2 Access to certain Services will take effect only when we have received the Fee due in full.   If you do not pay the Fee by the due date, we may claim costs and interests on such overdue sum in accordance with the Late Payments of Commercial Debts (Interest) Act 1998; or suspend your Membership, including your entitlement to enjoy the benefit of the Services, with immediate effect until you have paid any outstanding amounts.
+
+          </li>
+        </ol>
+        <h3>8. MEMBERSHIP
+        </h3>
+        <ol>
+          <li>
+            8.1 Full member access to the Services automatically renews monthly, and the fee is automatically debited from your nominated payment card on or around the new renewal date. We may increase the fee, but we will notify you in advance as set out in clause 8.2 below.
+   
+          </li>
+          <li>
+            8.2 If you wish to cancel your renewal at any time, you can do so during your Membership term and up to 30 days before your renewal date at www.designation.one/membership  or by emailing us at <a href="mailto: info@designation.one"><b> info@designation.one</b></a>.  Your failure to terminate and/or your continued use of your membership reaffirms that we are authorised to charge you the fee for that Membership. 
+          </li>
+          <li>8.3 If you cancel autorenewal of your membership, you may continue to use the services that are part of your Membership until the end of the then-current period of your membership. You will not be eligible for a pro-rated refund of any portion of the membership fee paid for the then-current membership period.  If you want to cancel your membership or delete your account completely, please email us at <a href="mailto: info@designation.one"><b> info@designation.one</b></a>  accordingly.
+          </li>
+          <li>
+            8.4 We may immediately terminate or suspend your account, and all or a portion of your membership, without notice if:
+            <ol>
+              <li>
+            (a) your payment of the fee is overdue (provided that we will use reasonable efforts to notify you of the overdue payment before we terminate or suspend);
+          </li>
+        <li>
+            (b) you provide false or inaccurate information;
+           </li>
+        <li>
+            (c) you violate these Terms or any other applicable terms; 
+          </li>
+        <li>
+            (d) you engage in conduct that is a violation of any applicable law (including, without limitation, copyright and intellectual property laws); or
+          </li>
+        <li>
+            (e) if you engage in conduct that is threatening, abusive or harassing to Designation.one ‘employees, agents, or other Designation.one users.
+          </li>
+      </ol>
+       
+
+          </li>
+          <li>
+            8.5 If we terminate or suspend your membership, your licence to use any products or content provided in connection with the membership is also terminated or suspended (as applicable). If your Membership is terminated, we have the right to immediately delete all data, files, and other information stored in or for your account without further notice to you. You must pay all charges up to and including the date of termination and no refund of all or part of the Fee is due.
+
+          </li>
+          <li>
+            8.6 Any agreement you have with your payment provider governs your use of your specified payment method.
+
+          </li>
+        </ol>
+        <h3>9. EVENTS
+        </h3>
+        <ol>
+          <li>
+            9.1 When attending an Event, you shall comply with all security, health and safety and all other instructions relating to the venue where the Event is being held and you shall not record or photograph all or part of the event without our consent.
+          </li>
+          <li>
+            9.2 You agree that for reasons outside of our control, the date and/or time of the event and/or the location of the event may need to be changed. In such circumstances, we shall notify you with the new date, time and/or location.  
+
+          </li>
+        </ol>
+        <h3>10. VACANCY BOARD
+
+        </h3>
+        <ol>
+          <li>
+            10.1 The Vacancy Board is provided for information purposes only.  We do not seek to introduce potential candidates to recruiters and/or hirers or vice versa, in respect of any specific vacancy or otherwise. We do not act as an employment agency and/or an employment business for the purposes of the Vacancy Board.
+          </li>
+          <li>
+            10.2 Designation.one is a digital platform matching the boards with the right people. Certain organizations seeking suitable candidates for roles (organizations) may post, and Individuals may apply for, roles using information gained on this platform. <br>
+            You expressly agree that we are not party to any contract entered into by any Organization or any Individual.
+           
+          </li>
+          <li>
+            10.3 We may contact members with information about postings on the Vacancy Board from time to time.  If you do not wish to receive such information, please contact us at  <a href="mailto: info@designation.one"><b> info@designation.one</b></a>.
+          </li>
+          <li>10.4 Where a vacancy is listed on our Vacancy Board, we will provide contact details for the recruiter or hirer who has issued the advertisement and you should contact the recruiter or hirer directly for any further information on the role.
+          </li>
+          <li>
+            10.5 From time to time we may agree to assist an organization seeking a candidate for a particular role.  In such circumstances, we shall contact our members who may be suitable for the role and ask if they would like us to pass their details on to the organization. We will provide a member’s contact details to the organization only if they agree that we may do so.
+
+          </li>
+          <li>
+           10.6 Any information provided by us is provided free of any representations by us as to the suitability of a candidate for a role or the suitability of a role for a particular candidate.
+
+          </li>
+          <li>
+            10.7 <b>Post a Board Position</b> 
+            
+            <ol>
+              <li>
+            10.7.1 Any registered member organization can post a vacant board position at any time. We may review the content you provide to us for the position.  We may ask you for further information about the position and your business. The service is free, and we encourage you to be as detailed as possible about the vacant position. If at any time you wish to amend details of the position, please notify us accordingly.
+          </li>
+        <li>
+          10.7.2 As part of the Post a Board Position, we contact members with information about positions that we think might interest them.  If a Member we have contacted agrees that they would like to be considered for the position we shall either encourage the member to contact the position poster, or we shall share member details as appropriate. 
+
+           </li>
+        <li>
+          10.7.3 While we shall act with reasonable skill and care in providing the Post a Board Position Service, Members accept that we cannot and do not warrant that we will find a suitable member for each position and/or that any Member referred will be suitable for a position.
+          </li>
+        <li>
+          10.7.4 On receipt of the contact details of another member, you shall comply with all applicable laws and regulations relating to the processing of personal data, including the Data Protection Act 2018 and the General Data Protection Regulation 2016.  Without prejudice to this obligation, you shall treat all personal data and other information relating to another Member as confidential and keep all such information secure, and not share such data with any third party, or use such data for any purpose except to consider the member’s suitability for the position.
+
+          </li>
+        <li>
+          10.7.5 Notwithstanding any other provision of these Terms, you shall satisfy yourself as to the suitability of any Member for a position. All normal, prudent checks should be carried out including identity checks, checking qualifications and experience.
+          </li>
+      </ol>
+          </li>
+          </ol>
+      <h3>11. INTELLECTUAL PROPERTY RIGHTS
+
+      </h3>
+      <ol>
+        <li>
+        11.1 We are the owner or the licensee of all intellectual property rights in the materials.   
+        </li>
+        <li>
+          11.2 We grant to you the right to use and review the materials for your own personal use.  
+        </li>
+        <li>   
+         11.3 You must not modify the materials in any way, and you must not use any illustrations, photographs, video or audio sequences or any graphics separately from any accompanying text. Our status (and that of any identified contributors) as the authors of Material must always be acknowledged.
+        </li>
+        <li>
+          11.4 If you wish to make any use of material other than that set out above, please address your request to <a href="mailto:info@designation.one">info@designation.one</a>.
+ 
+        </li>
+      </ol>
+      <h3>12. OUR LIABILITY TO YOU
+      </h3>
+      <ol>
+        <li>
+        12.1 You acknowledge and agree that the materials are provided for information only and do not constitute advice or recommendation by designation.one. We do not warrant or represent that any result or objective shall be achieved, be achievable or be attained whatsoever by use of the Website, including the Vacancy Board. We do not control the Role Information that is made available on the Platform. You may find the Role Information to be harmful, inaccurate, or deceptive. Your use of the Role Information and the Platform is at your sole risk.
+
+        </li>
+        <li>
+          12.2 To the maximum extent permitted by law (a) Designation.one disclaims all liability whatsoever, whether arising in contract, tort (including negligence) under statute or otherwise in relation to the website, the services and the materials; and (b) all implied warranties, terms and conditions relating to the website, the services and the materials (whether implied by statute, common law or otherwise), including any warranty, term or condition as to accuracy, completeness, reliability, satisfactory quality, performance, fitness for purpose, availability and non-infringement are excluded.   
+        </li>
+        <li>   
+         12.3 We shall have no liability in contract, tort (including negligence), under statute or otherwise, as a result of or in connection with the website, the services and/or the materials for any indirect or consequential loss or damage incurred by any user including but not limited to (a) loss of income or revenue; (b) loss of business; (c) loss of profits or contracts; (d) loss of anticipated savings; (e) loss of data; (f) loss of goodwill; and/or (g) wasted management or office time
+
+        </li>
+        <li>   
+          12.4 If, notwithstanding provision of this Section 12, we are liable to you whether in contract, tort (including negligence and breach of statutory duty) or otherwise, our maximum liability shall not exceed the fees paid by you during the previous 12 months for the Service that is the subject of the claim.
+         </li>
+         <li>   
+          12.5 We do not exclude or limit in any way our liability for (a) death or personal injury caused by our negligence; (b) fraud or fraudulent misrepresentation; and/or (c) any other loss that cannot lawfully be excluded.
+         </li>
+        <li>
+          12.6 Attorneys Fees.
+ 
+        </li>
+      </ol>
+      <h3>13. YOUR CANCELLATION RIGHTS
+
+      </h3>
+      <ol>
+        <li>
+        13.1 We do not have a refund policy for members except in the case of exceptional circumstances. However, we will consider any request for a refund of the fee for a member if you write to us, setting out the reasons why you believe you are entitled to a refund. Our aim is to always treat people fairly.
+
+        </li>
+        <li>
+          13.2 If you give us written notice under Clause 13.1, we may refund any fee paid (or part thereof) by you if, in our opinion and at our sole discretion, exceptional circumstances apply.
+        </li>
+      </ol>
+      <h3>14. INFORMATION ABOUT US AND HOW TO CONTACT US
+      </h3>
+      <ol>
+        <li>
+        14.1 If you wish to contact us in writing, or if any clause in these Terms requires you to give us notice in writing, you can send this to us by email to <a  href="mailto:info@designation.one">info@designation.one</a>.
+
+        </li>
+        <li>
+          14.2 If we need to contact you or give you notice in writing, we will do so by email, by hand, or by pre-paid post to the address you provide to us.
+
+        </li>
+      </ol>
+      <h3>15. OTHER IMPORTANT TERMS
+      </h3>
+      <ol>
+        <li>
+        15.1 We may transfer our rights and obligations under these Terms to another organization, and we will use reasonable endeavours to notify you in writing if this happens, but this will not affect your rights or our obligations under these Terms.
+
+        </li>
+        <li>
+          15.2 You may only transfer your rights or your obligations under these Terms to another person if we agree in writing.
+        </li>
+        <li>
+          15.3 This contract is between you and us. No other person shall have any rights to enforce any of its terms.
+        </li>
+        <li>
+          15.4 Each of the Clauses of these Terms operates separately. If any court or relevant authority decides that any of the Clauses are unlawful, the remaining Clauses will remain in full force and effect.
+        </li>
+        <li>
+          15.5 If we fail to insist that you perform any of your obligations under these Terms, or if we do not enforce our rights against you, or if we delay in doing so, that will not mean that we have waived our rights against you and will not mean that you do not have to comply with those obligations. If we do waive a default by you, we will only do so in writing, and that will not mean that we will automatically waive any later default by you.
+
+        </li>
+        <li>
+          15.6 These Terms are governed by English law. You agree to submit to the exclusive authority of the English courts.
+
+        </li>
+      </ol>
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- footer section  -->
+  <footer class="pt-5">
+    <div class="d-none d-lg-flex flex-column social-icons-div position-absolute">
+      <a class="add-background" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" id="Component_16_2" data-name="Component 16 – 2" width="40.002" height="40" viewBox="0 0 40.002 40">
+          <circle id="Ellipse_14288" data-name="Ellipse 14288" cx="20" cy="20" r="20" fill="#fff" />
+          <g id="Component_83_1" data-name="Component 83 – 1" transform="translate(0.002)">
+            <path id="Subtraction_10" data-name="Subtraction 10" d="M21379,10745a20,20,0,1,1,14.141-5.856A19.874,19.874,0,0,1,21379,10745Zm3.266-20.032c1.906,0,1.906,1.807,1.906,3.126v5.741h3.652l0-6.477c0-2.915-.531-5.612-4.387-5.612a3.872,3.872,0,0,0-3.465,1.9h-.053v-1.606h-3.512v11.794h3.656v-5.843C21380.07,10726.5,21380.332,10724.967,21382.268,10724.967Zm-11.811-2.927h0v11.794h3.662v-11.794Zm1.832-5.869a2.129,2.129,0,1,0,2.121,2.121A2.123,2.123,0,0,0,21372.289,10716.171Z" transform="translate(-21359.002 -10705)" fill="#004d9f" />
+          </g>
+        </svg>
+      </a>
+      <a class="move-add-background" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" id="Component_15_2" data-name="Component 15 – 2" width="39.996" height="40" viewBox="0 0 39.996 40">
+          <circle id="Ellipse_14286" data-name="Ellipse 14286" cx="19.998" cy="19.998" r="19.998" transform="translate(0 0.001)" fill="#fff" />
+          <path id="Subtraction_9" data-name="Subtraction 9" d="M20,40A20,20,0,0,1,5.857,5.856,20,20,0,0,1,34.137,34.14,19.865,19.865,0,0,1,20,40ZM20,8.411a11.628,11.628,0,0,0-9.94,5.721,11.27,11.27,0,0,0,0,11.732A11.576,11.576,0,0,0,31.584,20a11.457,11.457,0,0,0-.2-2.159.668.668,0,0,0-.665-.556H20a.672.672,0,0,0-.68.679v4.074a.672.672,0,0,0,.68.679h5.471a6.1,6.1,0,0,1-9.136,2.166,6.222,6.222,0,0,1-2.188-3.1,6.275,6.275,0,0,1,0-3.558,6.222,6.222,0,0,1,2.188-3.1,6.094,6.094,0,0,1,7.33-.007.67.67,0,0,0,.143.082c.022.009.043.017.066.024a.665.665,0,0,0,.2.03H24.1a.647.647,0,0,0,.418-.179l.024-.024,2.906-2.893a.7.7,0,0,0,.192-.467c0-.006,0-.012,0-.018s0-.012,0-.018a.711.711,0,0,0-.244-.5A11.521,11.521,0,0,0,20,8.411Z" transform="translate(0.002 0.002)" fill="#004d9f" />
+        </svg>
+      </a>
+      <a class="add-background" href="#">
+        <svg xmlns="http://www.w3.org/2000/svg" id="Component_14_1" data-name="Component 14 – 1" width="40" height="40" viewBox="0 0 40 40">
+          <circle id="Ellipse_59" data-name="Ellipse 59" cx="17" cy="17" r="17" transform="translate(3 3)" fill="#fff" />
+          <g id="Component_65_1" data-name="Component 65 – 1">
+            <path id="Subtraction_8" data-name="Subtraction 8" d="M20,40A20,20,0,0,1,5.858,5.858,20,20,0,0,1,34.142,34.142,19.868,19.868,0,0,1,20,40ZM17.053,19.438V31.251H22.46V19.438h3.569L26.5,15.29h-4.04V12.847a1.06,1.06,0,0,1,1.146-1.132h2.906V7.685L22.508,7.67a5.359,5.359,0,0,0-4.395,1.744A5.1,5.1,0,0,0,17.053,12.6v2.687H14.481v4.152Z" fill="#004d9f" />
+          </g>
+        </svg>
+      </a>
+    </div>
+    <div class="footer-container max-width-1075">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="footer-image-container">
+            <img src="assets/images/footer-logo.png" alt="logo" class="img-fluid" />
+          </div>
+          <div class="footer-email">Email: infor@designationone.com</div>
+        </div>
+        <div class="col-md-6">
+          <div class="footer-menu pt-3 pt-md-0">
+            <div class="footer-menu-heading">
+              <h3>Links</h3>
+            </div>
+            <ul class="menu-links">
+              <li><a href="privacy.html">Privacy & Cookies</a></li>
+              <li><a href="accessibility.html">Accessibility</a></li>
+              <li><a href="contact.html">Connect Boards & needs</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="news.html">Event/News</a></li>
+              <li><a href="about.html">About us</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <div class="d-flex justify-content-center align-items center copyright py-3 py-md-5">
+            © Copyright 2022 Designation.One
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <!-- slick slider  -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.8.1/slick.min.js" integrity="sha512-XtmMtDEcNz2j7ekrtHvOVR4iwwaD6o/FUJe6+Zq+HgcCsk3kj4uSQQR8weQ2QVj1o0Pk6PwYLohm206ZzNfubg==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <!-- bootstrap  -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+  <script src="assets/js/global.js"></script>
+  <script src="assets/js/privacy.js"></script>
+</body>
+
+</html>
